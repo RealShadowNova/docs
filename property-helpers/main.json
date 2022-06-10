@@ -1,0 +1,291 @@
+{
+  "id": 0,
+  "name": "property-helpers",
+  "classes": [],
+  "constants": [
+    {
+      "id": 12,
+      "name": "PROPERTY_NOT_FOUND",
+      "comment": {
+        "description": null,
+        "extendedDescription": null,
+        "tags": []
+      },
+      "source": {
+        "line": 3,
+        "file": "getProperty.ts",
+        "path": "lib"
+      },
+      "external": false,
+      "type": {
+        "kind": "query",
+        "query": {
+          "kind": "reference",
+          "id": 12,
+          "name": "PROPERTY_NOT_FOUND",
+          "packageName": null,
+          "typeArguments": []
+        }
+      },
+      "value": "..."
+    }
+  ],
+  "enums": [],
+  "functions": [
+    {
+      "id": 1,
+      "name": "deleteProperty",
+      "comment": {
+        "description": null,
+        "extendedDescription": null,
+        "tags": []
+      },
+      "source": {
+        "line": 12,
+        "file": "deleteProperty.ts",
+        "path": "lib"
+      },
+      "external": false,
+      "signatures": [
+        {
+          "id": 2,
+          "name": "deleteProperty",
+          "typeParameters": [
+            {
+              "id": 3,
+              "name": "T",
+              "type": null,
+              "default": null
+            }
+          ],
+          "parameters": [
+            {
+              "id": 4,
+              "name": "input",
+              "type": {
+                "kind": "intrinsic",
+                "type": "unknown"
+              }
+            },
+            {
+              "id": 5,
+              "name": "path",
+              "type": {
+                "kind": "array",
+                "type": {
+                  "kind": "intrinsic",
+                  "type": "string"
+                }
+              }
+            }
+          ],
+          "returnType": {
+            "kind": "reference",
+            "id": 3,
+            "name": "T",
+            "packageName": null,
+            "typeArguments": []
+          }
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "name": "getProperty",
+      "comment": {
+        "description": null,
+        "extendedDescription": null,
+        "tags": []
+      },
+      "source": {
+        "line": 13,
+        "file": "getProperty.ts",
+        "path": "lib"
+      },
+      "external": false,
+      "signatures": [
+        {
+          "id": 7,
+          "name": "getProperty",
+          "typeParameters": [
+            {
+              "id": 8,
+              "name": "T",
+              "type": null,
+              "default": {
+                "kind": "intrinsic",
+                "type": "unknown"
+              }
+            }
+          ],
+          "parameters": [
+            {
+              "id": 9,
+              "name": "input",
+              "type": {
+                "kind": "intrinsic",
+                "type": "unknown"
+              }
+            },
+            {
+              "id": 10,
+              "name": "path",
+              "type": {
+                "kind": "array",
+                "type": {
+                  "kind": "intrinsic",
+                  "type": "string"
+                }
+              }
+            },
+            {
+              "id": 11,
+              "name": "fallbackToInput",
+              "type": {
+                "kind": "intrinsic",
+                "type": "boolean"
+              }
+            }
+          ],
+          "returnType": {
+            "kind": "union",
+            "types": [
+              {
+                "kind": "reference",
+                "id": 8,
+                "name": "T",
+                "packageName": null,
+                "typeArguments": []
+              },
+              {
+                "kind": "query",
+                "query": {
+                  "kind": "reference",
+                  "id": 12,
+                  "name": "PROPERTY_NOT_FOUND",
+                  "packageName": null,
+                  "typeArguments": []
+                }
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": 13,
+      "name": "hasProperty",
+      "comment": {
+        "description": null,
+        "extendedDescription": null,
+        "tags": []
+      },
+      "source": {
+        "line": 10,
+        "file": "hasProperty.ts",
+        "path": "lib"
+      },
+      "external": false,
+      "signatures": [
+        {
+          "id": 14,
+          "name": "hasProperty",
+          "typeParameters": [],
+          "parameters": [
+            {
+              "id": 15,
+              "name": "input",
+              "type": {
+                "kind": "intrinsic",
+                "type": "unknown"
+              }
+            },
+            {
+              "id": 16,
+              "name": "path",
+              "type": {
+                "kind": "array",
+                "type": {
+                  "kind": "intrinsic",
+                  "type": "string"
+                }
+              }
+            }
+          ],
+          "returnType": {
+            "kind": "intrinsic",
+            "type": "boolean"
+          }
+        }
+      ]
+    },
+    {
+      "id": 17,
+      "name": "setProperty",
+      "comment": {
+        "description": null,
+        "extendedDescription": null,
+        "tags": []
+      },
+      "source": {
+        "line": 11,
+        "file": "setProperty.ts",
+        "path": "lib"
+      },
+      "external": false,
+      "signatures": [
+        {
+          "id": 18,
+          "name": "setProperty",
+          "typeParameters": [
+            {
+              "id": 19,
+              "name": "T",
+              "type": null,
+              "default": null
+            }
+          ],
+          "parameters": [
+            {
+              "id": 20,
+              "name": "input",
+              "type": {
+                "kind": "intrinsic",
+                "type": "unknown"
+              }
+            },
+            {
+              "id": 21,
+              "name": "path",
+              "type": {
+                "kind": "array",
+                "type": {
+                  "kind": "intrinsic",
+                  "type": "string"
+                }
+              }
+            },
+            {
+              "id": 22,
+              "name": "value",
+              "type": {
+                "kind": "intrinsic",
+                "type": "unknown"
+              }
+            }
+          ],
+          "returnType": {
+            "kind": "reference",
+            "id": 19,
+            "name": "T",
+            "packageName": null,
+            "typeArguments": []
+          }
+        }
+      ]
+    }
+  ],
+  "interfaces": [],
+  "namespaces": [],
+  "typeAliases": []
+}
