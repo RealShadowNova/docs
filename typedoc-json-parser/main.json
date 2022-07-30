@@ -1,9 +1,10 @@
 {
+  "typeDocJsonParserVersion": "2.1.0",
   "id": 0,
   "name": "typedoc-json-parser",
   "classes": [
     {
-      "id": 644,
+      "id": 646,
       "name": "ArrayTypeParser",
       "comment": {
         "description": "Parses data for an array type.",
@@ -26,14 +27,14 @@
       "implementsType": [
         {
           "kind": "reference",
-          "id": 966,
+          "id": 968,
           "name": "TypeParser",
           "packageName": null,
           "typeArguments": []
         }
       ],
       "construct": {
-        "id": 645,
+        "id": 647,
         "name": "constructor",
         "comment": {
           "description": null,
@@ -47,11 +48,11 @@
         },
         "parameters": [
           {
-            "id": 647,
+            "id": 649,
             "name": "type",
             "type": {
               "kind": "reference",
-              "id": 966,
+              "id": 968,
               "name": "TypeParser",
               "packageName": null,
               "typeArguments": []
@@ -61,7 +62,7 @@
       },
       "properties": [
         {
-          "id": 648,
+          "id": 650,
           "name": "kind",
           "comment": {
             "description": "The kind of type this parser is for.",
@@ -85,14 +86,14 @@
           "optional": false,
           "type": {
             "kind": "reference",
-            "id": 984,
+            "id": 986,
             "name": "Array",
             "packageName": null,
             "typeArguments": []
           }
         },
         {
-          "id": 649,
+          "id": 651,
           "name": "type",
           "comment": {
             "description": "The type of this array type.",
@@ -116,7 +117,7 @@
           "optional": false,
           "type": {
             "kind": "reference",
-            "id": 966,
+            "id": 968,
             "name": "TypeParser",
             "packageName": null,
             "typeArguments": []
@@ -125,7 +126,7 @@
       ],
       "methods": [
         {
-          "id": 650,
+          "id": 652,
           "name": "toJSON",
           "comment": {
             "description": null,
@@ -142,13 +143,13 @@
           "static": false,
           "signatures": [
             {
-              "id": 651,
+              "id": 653,
               "name": "toJSON",
               "typeParameters": [],
               "parameters": [],
               "returnType": {
                 "kind": "reference",
-                "id": 655,
+                "id": 657,
                 "name": "JSON",
                 "packageName": null,
                 "typeArguments": []
@@ -157,7 +158,7 @@
           ]
         },
         {
-          "id": 652,
+          "id": 654,
           "name": "toString",
           "comment": {
             "description": null,
@@ -174,7 +175,7 @@
           "static": false,
           "signatures": [
             {
-              "id": 653,
+              "id": 655,
               "name": "toString",
               "typeParameters": [],
               "parameters": [],
@@ -1268,7 +1269,7 @@
               },
               {
                 "kind": "reference",
-                "id": 966,
+                "id": 968,
                 "name": "TypeParser",
                 "packageName": null,
                 "typeArguments": []
@@ -1359,7 +1360,7 @@
             "kind": "array",
             "type": {
               "kind": "reference",
-              "id": 966,
+              "id": 968,
               "name": "TypeParser",
               "packageName": null,
               "typeArguments": []
@@ -2079,7 +2080,7 @@
               },
               {
                 "kind": "reference",
-                "id": 966,
+                "id": 968,
                 "name": "TypeParser",
                 "packageName": null,
                 "typeArguments": []
@@ -2665,7 +2666,7 @@
       ]
     },
     {
-      "id": 658,
+      "id": 660,
       "name": "ConditionalTypeParser",
       "comment": {
         "description": "Parses data for a conditional type.",
@@ -2688,14 +2689,14 @@
       "implementsType": [
         {
           "kind": "reference",
-          "id": 966,
+          "id": 968,
           "name": "TypeParser",
           "packageName": null,
           "typeArguments": []
         }
       ],
       "construct": {
-        "id": 659,
+        "id": 661,
         "name": "constructor",
         "comment": {
           "description": null,
@@ -2709,33 +2710,11 @@
         },
         "parameters": [
           {
-            "id": 661,
+            "id": 663,
             "name": "checkType",
             "type": {
               "kind": "reference",
-              "id": 966,
-              "name": "TypeParser",
-              "packageName": null,
-              "typeArguments": []
-            }
-          },
-          {
-            "id": 662,
-            "name": "extendsType",
-            "type": {
-              "kind": "reference",
-              "id": 966,
-              "name": "TypeParser",
-              "packageName": null,
-              "typeArguments": []
-            }
-          },
-          {
-            "id": 663,
-            "name": "trueType",
-            "type": {
-              "kind": "reference",
-              "id": 966,
+              "id": 968,
               "name": "TypeParser",
               "packageName": null,
               "typeArguments": []
@@ -2743,10 +2722,32 @@
           },
           {
             "id": 664,
+            "name": "extendsType",
+            "type": {
+              "kind": "reference",
+              "id": 968,
+              "name": "TypeParser",
+              "packageName": null,
+              "typeArguments": []
+            }
+          },
+          {
+            "id": 665,
+            "name": "trueType",
+            "type": {
+              "kind": "reference",
+              "id": 968,
+              "name": "TypeParser",
+              "packageName": null,
+              "typeArguments": []
+            }
+          },
+          {
+            "id": 666,
             "name": "falseType",
             "type": {
               "kind": "reference",
-              "id": 966,
+              "id": 968,
               "name": "TypeParser",
               "packageName": null,
               "typeArguments": []
@@ -2756,7 +2757,7 @@
       },
       "properties": [
         {
-          "id": 666,
+          "id": 668,
           "name": "checkType",
           "comment": {
             "description": "The check type of this conditional type.",
@@ -2780,14 +2781,14 @@
           "optional": false,
           "type": {
             "kind": "reference",
-            "id": 966,
+            "id": 968,
             "name": "TypeParser",
             "packageName": null,
             "typeArguments": []
           }
         },
         {
-          "id": 667,
+          "id": 669,
           "name": "extendsType",
           "comment": {
             "description": "The extends type of this conditional type.",
@@ -2811,14 +2812,14 @@
           "optional": false,
           "type": {
             "kind": "reference",
-            "id": 966,
+            "id": 968,
             "name": "TypeParser",
             "packageName": null,
             "typeArguments": []
           }
         },
         {
-          "id": 669,
+          "id": 671,
           "name": "falseType",
           "comment": {
             "description": "The type of this conditional type when the check type is false.",
@@ -2842,14 +2843,14 @@
           "optional": false,
           "type": {
             "kind": "reference",
-            "id": 966,
+            "id": 968,
             "name": "TypeParser",
             "packageName": null,
             "typeArguments": []
           }
         },
         {
-          "id": 665,
+          "id": 667,
           "name": "kind",
           "comment": {
             "description": "The kind of type this parser is for.",
@@ -2873,14 +2874,14 @@
           "optional": false,
           "type": {
             "kind": "reference",
-            "id": 985,
+            "id": 987,
             "name": "Conditional",
             "packageName": null,
             "typeArguments": []
           }
         },
         {
-          "id": 668,
+          "id": 670,
           "name": "trueType",
           "comment": {
             "description": "The type of this conditional type when the check type is true.",
@@ -2904,7 +2905,7 @@
           "optional": false,
           "type": {
             "kind": "reference",
-            "id": 966,
+            "id": 968,
             "name": "TypeParser",
             "packageName": null,
             "typeArguments": []
@@ -2913,7 +2914,7 @@
       ],
       "methods": [
         {
-          "id": 670,
+          "id": 672,
           "name": "toJSON",
           "comment": {
             "description": null,
@@ -2930,13 +2931,13 @@
           "static": false,
           "signatures": [
             {
-              "id": 671,
+              "id": 673,
               "name": "toJSON",
               "typeParameters": [],
               "parameters": [],
               "returnType": {
                 "kind": "reference",
-                "id": 675,
+                "id": 677,
                 "name": "JSON",
                 "packageName": null,
                 "typeArguments": []
@@ -2945,7 +2946,7 @@
           ]
         },
         {
-          "id": 672,
+          "id": 674,
           "name": "toString",
           "comment": {
             "description": null,
@@ -2962,7 +2963,7 @@
           "static": false,
           "signatures": [
             {
-              "id": 673,
+              "id": 675,
               "name": "toString",
               "typeParameters": [],
               "parameters": [],
@@ -3253,7 +3254,7 @@
           "optional": false,
           "type": {
             "kind": "reference",
-            "id": 966,
+            "id": 968,
             "name": "TypeParser",
             "packageName": null,
             "typeArguments": []
@@ -4699,7 +4700,7 @@
       ]
     },
     {
-      "id": 681,
+      "id": 683,
       "name": "IndexedAccessTypeParser",
       "comment": {
         "description": "Parses data for an indexed access type.",
@@ -4722,14 +4723,14 @@
       "implementsType": [
         {
           "kind": "reference",
-          "id": 966,
+          "id": 968,
           "name": "TypeParser",
           "packageName": null,
           "typeArguments": []
         }
       ],
       "construct": {
-        "id": 682,
+        "id": 684,
         "name": "constructor",
         "comment": {
           "description": null,
@@ -4743,22 +4744,22 @@
         },
         "parameters": [
           {
-            "id": 684,
+            "id": 686,
             "name": "objectType",
             "type": {
               "kind": "reference",
-              "id": 966,
+              "id": 968,
               "name": "TypeParser",
               "packageName": null,
               "typeArguments": []
             }
           },
           {
-            "id": 685,
+            "id": 687,
             "name": "indexType",
             "type": {
               "kind": "reference",
-              "id": 966,
+              "id": 968,
               "name": "TypeParser",
               "packageName": null,
               "typeArguments": []
@@ -4768,7 +4769,7 @@
       },
       "properties": [
         {
-          "id": 688,
+          "id": 690,
           "name": "indexType",
           "comment": {
             "description": "The index type of this indexed access type.",
@@ -4792,14 +4793,14 @@
           "optional": false,
           "type": {
             "kind": "reference",
-            "id": 966,
+            "id": 968,
             "name": "TypeParser",
             "packageName": null,
             "typeArguments": []
           }
         },
         {
-          "id": 686,
+          "id": 688,
           "name": "kind",
           "comment": {
             "description": "The kind of type this parser is for.",
@@ -4823,14 +4824,14 @@
           "optional": false,
           "type": {
             "kind": "reference",
-            "id": 986,
+            "id": 988,
             "name": "IndexedAccess",
             "packageName": null,
             "typeArguments": []
           }
         },
         {
-          "id": 687,
+          "id": 689,
           "name": "objectType",
           "comment": {
             "description": "The object type of this indexed access type.",
@@ -4854,7 +4855,7 @@
           "optional": false,
           "type": {
             "kind": "reference",
-            "id": 966,
+            "id": 968,
             "name": "TypeParser",
             "packageName": null,
             "typeArguments": []
@@ -4863,7 +4864,7 @@
       ],
       "methods": [
         {
-          "id": 689,
+          "id": 691,
           "name": "toJSON",
           "comment": {
             "description": null,
@@ -4880,13 +4881,13 @@
           "static": false,
           "signatures": [
             {
-              "id": 690,
+              "id": 692,
               "name": "toJSON",
               "typeParameters": [],
               "parameters": [],
               "returnType": {
                 "kind": "reference",
-                "id": 694,
+                "id": 696,
                 "name": "JSON",
                 "packageName": null,
                 "typeArguments": []
@@ -4895,7 +4896,7 @@
           ]
         },
         {
-          "id": 691,
+          "id": 693,
           "name": "toString",
           "comment": {
             "description": null,
@@ -4912,7 +4913,7 @@
           "static": false,
           "signatures": [
             {
-              "id": 692,
+              "id": 694,
               "name": "toString",
               "typeParameters": [],
               "parameters": [],
@@ -4926,7 +4927,7 @@
       ]
     },
     {
-      "id": 698,
+      "id": 700,
       "name": "InferredTypeParser",
       "comment": {
         "description": "Parses data for an inferred type.",
@@ -4949,14 +4950,14 @@
       "implementsType": [
         {
           "kind": "reference",
-          "id": 966,
+          "id": 968,
           "name": "TypeParser",
           "packageName": null,
           "typeArguments": []
         }
       ],
       "construct": {
-        "id": 699,
+        "id": 701,
         "name": "constructor",
         "comment": {
           "description": null,
@@ -4970,7 +4971,7 @@
         },
         "parameters": [
           {
-            "id": 701,
+            "id": 703,
             "name": "type",
             "type": {
               "kind": "intrinsic",
@@ -4981,7 +4982,7 @@
       },
       "properties": [
         {
-          "id": 702,
+          "id": 704,
           "name": "kind",
           "comment": {
             "description": "The kind of type this parser is for.",
@@ -5005,14 +5006,14 @@
           "optional": false,
           "type": {
             "kind": "reference",
-            "id": 987,
+            "id": 989,
             "name": "Inferred",
             "packageName": null,
             "typeArguments": []
           }
         },
         {
-          "id": 703,
+          "id": 705,
           "name": "type",
           "comment": {
             "description": "The type of this inferred type.",
@@ -5042,7 +5043,7 @@
       ],
       "methods": [
         {
-          "id": 704,
+          "id": 706,
           "name": "toJSON",
           "comment": {
             "description": null,
@@ -5059,13 +5060,13 @@
           "static": false,
           "signatures": [
             {
-              "id": 705,
+              "id": 707,
               "name": "toJSON",
               "typeParameters": [],
               "parameters": [],
               "returnType": {
                 "kind": "reference",
-                "id": 709,
+                "id": 711,
                 "name": "JSON",
                 "packageName": null,
                 "typeArguments": []
@@ -5074,7 +5075,7 @@
           ]
         },
         {
-          "id": 706,
+          "id": 708,
           "name": "toString",
           "comment": {
             "description": null,
@@ -5091,7 +5092,7 @@
           "static": false,
           "signatures": [
             {
-              "id": 707,
+              "id": 709,
               "name": "toString",
               "typeParameters": [],
               "parameters": [],
@@ -5815,7 +5816,7 @@
           "optional": false,
           "type": {
             "kind": "reference",
-            "id": 966,
+            "id": 968,
             "name": "TypeParser",
             "packageName": null,
             "typeArguments": []
@@ -5968,7 +5969,7 @@
       ]
     },
     {
-      "id": 712,
+      "id": 714,
       "name": "IntersectionTypeParser",
       "comment": {
         "description": "Parses data for an intersection type.",
@@ -5991,14 +5992,14 @@
       "implementsType": [
         {
           "kind": "reference",
-          "id": 966,
+          "id": 968,
           "name": "TypeParser",
           "packageName": null,
           "typeArguments": []
         }
       ],
       "construct": {
-        "id": 713,
+        "id": 715,
         "name": "constructor",
         "comment": {
           "description": null,
@@ -6012,13 +6013,13 @@
         },
         "parameters": [
           {
-            "id": 715,
+            "id": 717,
             "name": "types",
             "type": {
               "kind": "array",
               "type": {
                 "kind": "reference",
-                "id": 966,
+                "id": 968,
                 "name": "TypeParser",
                 "packageName": null,
                 "typeArguments": []
@@ -6029,7 +6030,7 @@
       },
       "properties": [
         {
-          "id": 716,
+          "id": 718,
           "name": "kind",
           "comment": {
             "description": "The kind of type this parser is for.",
@@ -6053,14 +6054,14 @@
           "optional": false,
           "type": {
             "kind": "reference",
-            "id": 988,
+            "id": 990,
             "name": "Intersection",
             "packageName": null,
             "typeArguments": []
           }
         },
         {
-          "id": 717,
+          "id": 719,
           "name": "types",
           "comment": {
             "description": "The types of this intersection type.",
@@ -6086,7 +6087,7 @@
             "kind": "array",
             "type": {
               "kind": "reference",
-              "id": 966,
+              "id": 968,
               "name": "TypeParser",
               "packageName": null,
               "typeArguments": []
@@ -6096,7 +6097,7 @@
       ],
       "methods": [
         {
-          "id": 718,
+          "id": 720,
           "name": "toJSON",
           "comment": {
             "description": null,
@@ -6113,13 +6114,13 @@
           "static": false,
           "signatures": [
             {
-              "id": 719,
+              "id": 721,
               "name": "toJSON",
               "typeParameters": [],
               "parameters": [],
               "returnType": {
                 "kind": "reference",
-                "id": 723,
+                "id": 725,
                 "name": "JSON",
                 "packageName": null,
                 "typeArguments": []
@@ -6128,7 +6129,7 @@
           ]
         },
         {
-          "id": 720,
+          "id": 722,
           "name": "toString",
           "comment": {
             "description": null,
@@ -6145,7 +6146,7 @@
           "static": false,
           "signatures": [
             {
-              "id": 721,
+              "id": 723,
               "name": "toString",
               "typeParameters": [],
               "parameters": [],
@@ -6159,7 +6160,7 @@
       ]
     },
     {
-      "id": 726,
+      "id": 728,
       "name": "IntrinsicTypeParser",
       "comment": {
         "description": "Parses data for an intrinsic type.",
@@ -6182,14 +6183,14 @@
       "implementsType": [
         {
           "kind": "reference",
-          "id": 966,
+          "id": 968,
           "name": "TypeParser",
           "packageName": null,
           "typeArguments": []
         }
       ],
       "construct": {
-        "id": 727,
+        "id": 729,
         "name": "constructor",
         "comment": {
           "description": null,
@@ -6203,7 +6204,7 @@
         },
         "parameters": [
           {
-            "id": 729,
+            "id": 731,
             "name": "type",
             "type": {
               "kind": "intrinsic",
@@ -6214,7 +6215,7 @@
       },
       "properties": [
         {
-          "id": 730,
+          "id": 732,
           "name": "kind",
           "comment": {
             "description": "The kind of type this parser is for.",
@@ -6238,14 +6239,14 @@
           "optional": false,
           "type": {
             "kind": "reference",
-            "id": 989,
+            "id": 991,
             "name": "Intrinsic",
             "packageName": null,
             "typeArguments": []
           }
         },
         {
-          "id": 731,
+          "id": 733,
           "name": "type",
           "comment": {
             "description": "The type of this intrinsic type.",
@@ -6275,7 +6276,7 @@
       ],
       "methods": [
         {
-          "id": 732,
+          "id": 734,
           "name": "toJSON",
           "comment": {
             "description": null,
@@ -6292,13 +6293,13 @@
           "static": false,
           "signatures": [
             {
-              "id": 733,
+              "id": 735,
               "name": "toJSON",
               "typeParameters": [],
               "parameters": [],
               "returnType": {
                 "kind": "reference",
-                "id": 737,
+                "id": 739,
                 "name": "JSON",
                 "packageName": null,
                 "typeArguments": []
@@ -6307,7 +6308,7 @@
           ]
         },
         {
-          "id": 734,
+          "id": 736,
           "name": "toString",
           "comment": {
             "description": null,
@@ -6324,7 +6325,7 @@
           "static": false,
           "signatures": [
             {
-              "id": 735,
+              "id": 737,
               "name": "toString",
               "typeParameters": [],
               "parameters": [],
@@ -6338,7 +6339,7 @@
       ]
     },
     {
-      "id": 740,
+      "id": 742,
       "name": "LiteralTypeParser",
       "comment": {
         "description": "Parses data for a literal type.",
@@ -6361,14 +6362,14 @@
       "implementsType": [
         {
           "kind": "reference",
-          "id": 966,
+          "id": 968,
           "name": "TypeParser",
           "packageName": null,
           "typeArguments": []
         }
       ],
       "construct": {
-        "id": 741,
+        "id": 743,
         "name": "constructor",
         "comment": {
           "description": null,
@@ -6382,7 +6383,7 @@
         },
         "parameters": [
           {
-            "id": 743,
+            "id": 745,
             "name": "value",
             "type": {
               "kind": "intrinsic",
@@ -6393,7 +6394,7 @@
       },
       "properties": [
         {
-          "id": 744,
+          "id": 746,
           "name": "kind",
           "comment": {
             "description": "The kind of type this parser is for.",
@@ -6417,14 +6418,14 @@
           "optional": false,
           "type": {
             "kind": "reference",
-            "id": 990,
+            "id": 992,
             "name": "Literal",
             "packageName": null,
             "typeArguments": []
           }
         },
         {
-          "id": 745,
+          "id": 747,
           "name": "value",
           "comment": {
             "description": "The value of this literal type.",
@@ -6454,7 +6455,7 @@
       ],
       "methods": [
         {
-          "id": 746,
+          "id": 748,
           "name": "toJSON",
           "comment": {
             "description": null,
@@ -6471,13 +6472,13 @@
           "static": false,
           "signatures": [
             {
-              "id": 747,
+              "id": 749,
               "name": "toJSON",
               "typeParameters": [],
               "parameters": [],
               "returnType": {
                 "kind": "reference",
-                "id": 751,
+                "id": 753,
                 "name": "JSON",
                 "packageName": null,
                 "typeArguments": []
@@ -6486,7 +6487,7 @@
           ]
         },
         {
-          "id": 748,
+          "id": 750,
           "name": "toString",
           "comment": {
             "description": null,
@@ -6503,7 +6504,7 @@
           "static": false,
           "signatures": [
             {
-              "id": 749,
+              "id": 751,
               "name": "toString",
               "typeParameters": [],
               "parameters": [],
@@ -6517,7 +6518,7 @@
       ]
     },
     {
-      "id": 754,
+      "id": 756,
       "name": "MappedTypeParser",
       "comment": {
         "description": "Parses data for a mapped type.",
@@ -6540,14 +6541,14 @@
       "implementsType": [
         {
           "kind": "reference",
-          "id": 966,
+          "id": 968,
           "name": "TypeParser",
           "packageName": null,
           "typeArguments": []
         }
       ],
       "construct": {
-        "id": 755,
+        "id": 757,
         "name": "constructor",
         "comment": {
           "description": null,
@@ -6561,7 +6562,7 @@
         },
         "parameters": [
           {
-            "id": 757,
+            "id": 759,
             "name": "parameter",
             "type": {
               "kind": "intrinsic",
@@ -6569,18 +6570,18 @@
             }
           },
           {
-            "id": 758,
+            "id": 760,
             "name": "parameterType",
             "type": {
               "kind": "reference",
-              "id": 966,
+              "id": 968,
               "name": "TypeParser",
               "packageName": null,
               "typeArguments": []
             }
           },
           {
-            "id": 759,
+            "id": 761,
             "name": "nameType",
             "type": {
               "kind": "union",
@@ -6591,7 +6592,7 @@
                 },
                 {
                   "kind": "reference",
-                  "id": 966,
+                  "id": 968,
                   "name": "TypeParser",
                   "packageName": null,
                   "typeArguments": []
@@ -6600,18 +6601,18 @@
             }
           },
           {
-            "id": 760,
+            "id": 762,
             "name": "templateType",
             "type": {
               "kind": "reference",
-              "id": 966,
+              "id": 968,
               "name": "TypeParser",
               "packageName": null,
               "typeArguments": []
             }
           },
           {
-            "id": 761,
+            "id": 763,
             "name": "readonly",
             "type": {
               "kind": "union",
@@ -6622,7 +6623,7 @@
                 },
                 {
                   "kind": "reference",
-                  "id": 783,
+                  "id": 785,
                   "name": "Modifier",
                   "packageName": null,
                   "typeArguments": []
@@ -6631,7 +6632,7 @@
             }
           },
           {
-            "id": 762,
+            "id": 764,
             "name": "optional",
             "type": {
               "kind": "union",
@@ -6642,7 +6643,7 @@
                 },
                 {
                   "kind": "reference",
-                  "id": 783,
+                  "id": 785,
                   "name": "Modifier",
                   "packageName": null,
                   "typeArguments": []
@@ -6654,7 +6655,7 @@
       },
       "properties": [
         {
-          "id": 763,
+          "id": 765,
           "name": "kind",
           "comment": {
             "description": "The kind of type this parser is for.",
@@ -6678,14 +6679,14 @@
           "optional": false,
           "type": {
             "kind": "reference",
-            "id": 991,
+            "id": 993,
             "name": "Mapped",
             "packageName": null,
             "typeArguments": []
           }
         },
         {
-          "id": 766,
+          "id": 768,
           "name": "nameType",
           "comment": {
             "description": "The name type of this mapped type.",
@@ -6716,7 +6717,7 @@
               },
               {
                 "kind": "reference",
-                "id": 966,
+                "id": 968,
                 "name": "TypeParser",
                 "packageName": null,
                 "typeArguments": []
@@ -6725,7 +6726,7 @@
           }
         },
         {
-          "id": 769,
+          "id": 771,
           "name": "optional",
           "comment": {
             "description": "The optional modifier of this mapped type.",
@@ -6756,7 +6757,7 @@
               },
               {
                 "kind": "reference",
-                "id": 783,
+                "id": 785,
                 "name": "Modifier",
                 "packageName": null,
                 "typeArguments": []
@@ -6765,7 +6766,7 @@
           }
         },
         {
-          "id": 764,
+          "id": 766,
           "name": "parameter",
           "comment": {
             "description": "The parameter name of this mapped type.",
@@ -6793,7 +6794,7 @@
           }
         },
         {
-          "id": 765,
+          "id": 767,
           "name": "parameterType",
           "comment": {
             "description": "The parameter type of this mapped type.",
@@ -6817,14 +6818,14 @@
           "optional": false,
           "type": {
             "kind": "reference",
-            "id": 966,
+            "id": 968,
             "name": "TypeParser",
             "packageName": null,
             "typeArguments": []
           }
         },
         {
-          "id": 768,
+          "id": 770,
           "name": "readonly",
           "comment": {
             "description": "The readonly modifier of this mapped type.",
@@ -6855,7 +6856,7 @@
               },
               {
                 "kind": "reference",
-                "id": 783,
+                "id": 785,
                 "name": "Modifier",
                 "packageName": null,
                 "typeArguments": []
@@ -6864,7 +6865,7 @@
           }
         },
         {
-          "id": 767,
+          "id": 769,
           "name": "templateType",
           "comment": {
             "description": "The template type of this mapped type.",
@@ -6888,7 +6889,7 @@
           "optional": false,
           "type": {
             "kind": "reference",
-            "id": 966,
+            "id": 968,
             "name": "TypeParser",
             "packageName": null,
             "typeArguments": []
@@ -6897,7 +6898,7 @@
       ],
       "methods": [
         {
-          "id": 770,
+          "id": 772,
           "name": "toJSON",
           "comment": {
             "description": null,
@@ -6914,13 +6915,13 @@
           "static": false,
           "signatures": [
             {
-              "id": 771,
+              "id": 773,
               "name": "toJSON",
               "typeParameters": [],
               "parameters": [],
               "returnType": {
                 "kind": "reference",
-                "id": 775,
+                "id": 777,
                 "name": "JSON",
                 "packageName": null,
                 "typeArguments": []
@@ -6929,7 +6930,7 @@
           ]
         },
         {
-          "id": 772,
+          "id": 774,
           "name": "toString",
           "comment": {
             "description": null,
@@ -6946,7 +6947,7 @@
           "static": false,
           "signatures": [
             {
-              "id": 773,
+              "id": 775,
               "name": "toString",
               "typeParameters": [],
               "parameters": [],
@@ -6960,7 +6961,7 @@
       ]
     },
     {
-      "id": 786,
+      "id": 788,
       "name": "NamedTupleMemberTypeParser",
       "comment": {
         "description": "Parses data for a named tuple member.",
@@ -6983,14 +6984,14 @@
       "implementsType": [
         {
           "kind": "reference",
-          "id": 966,
+          "id": 968,
           "name": "TypeParser",
           "packageName": null,
           "typeArguments": []
         }
       ],
       "construct": {
-        "id": 787,
+        "id": 789,
         "name": "constructor",
         "comment": {
           "description": null,
@@ -7004,7 +7005,7 @@
         },
         "parameters": [
           {
-            "id": 789,
+            "id": 791,
             "name": "name",
             "type": {
               "kind": "intrinsic",
@@ -7012,18 +7013,18 @@
             }
           },
           {
-            "id": 790,
+            "id": 792,
             "name": "type",
             "type": {
               "kind": "reference",
-              "id": 966,
+              "id": 968,
               "name": "TypeParser",
               "packageName": null,
               "typeArguments": []
             }
           },
           {
-            "id": 791,
+            "id": 793,
             "name": "optional",
             "type": {
               "kind": "intrinsic",
@@ -7034,7 +7035,7 @@
       },
       "properties": [
         {
-          "id": 792,
+          "id": 794,
           "name": "kind",
           "comment": {
             "description": "The name of this named tuple member.",
@@ -7058,14 +7059,14 @@
           "optional": false,
           "type": {
             "kind": "reference",
-            "id": 992,
+            "id": 994,
             "name": "NamedTupleMember",
             "packageName": null,
             "typeArguments": []
           }
         },
         {
-          "id": 793,
+          "id": 795,
           "name": "name",
           "comment": {
             "description": "The name of this named tuple member.",
@@ -7093,7 +7094,7 @@
           }
         },
         {
-          "id": 795,
+          "id": 797,
           "name": "optional",
           "comment": {
             "description": "Whether this named tuple member is optional.",
@@ -7121,7 +7122,7 @@
           }
         },
         {
-          "id": 794,
+          "id": 796,
           "name": "type",
           "comment": {
             "description": "The type of this named tuple member.",
@@ -7145,7 +7146,7 @@
           "optional": false,
           "type": {
             "kind": "reference",
-            "id": 966,
+            "id": 968,
             "name": "TypeParser",
             "packageName": null,
             "typeArguments": []
@@ -7154,7 +7155,7 @@
       ],
       "methods": [
         {
-          "id": 796,
+          "id": 798,
           "name": "toJSON",
           "comment": {
             "description": null,
@@ -7171,13 +7172,13 @@
           "static": false,
           "signatures": [
             {
-              "id": 797,
+              "id": 799,
               "name": "toJSON",
               "typeParameters": [],
               "parameters": [],
               "returnType": {
                 "kind": "reference",
-                "id": 801,
+                "id": 803,
                 "name": "JSON",
                 "packageName": null,
                 "typeArguments": []
@@ -7186,7 +7187,7 @@
           ]
         },
         {
-          "id": 798,
+          "id": 800,
           "name": "toString",
           "comment": {
             "description": null,
@@ -7203,7 +7204,7 @@
           "static": false,
           "signatures": [
             {
-              "id": 799,
+              "id": 801,
               "name": "toString",
               "typeParameters": [],
               "parameters": [],
@@ -7700,7 +7701,7 @@
             "kind": "array",
             "type": {
               "kind": "reference",
-              "id": 1035,
+              "id": 1037,
               "name": "TypeAliasParser",
               "packageName": null,
               "typeArguments": []
@@ -7854,7 +7855,7 @@
       ]
     },
     {
-      "id": 806,
+      "id": 808,
       "name": "OptionalTypeParser",
       "comment": {
         "description": "Parses data for an optional type.",
@@ -7877,14 +7878,14 @@
       "implementsType": [
         {
           "kind": "reference",
-          "id": 966,
+          "id": 968,
           "name": "TypeParser",
           "packageName": null,
           "typeArguments": []
         }
       ],
       "construct": {
-        "id": 807,
+        "id": 809,
         "name": "constructor",
         "comment": {
           "description": null,
@@ -7898,11 +7899,11 @@
         },
         "parameters": [
           {
-            "id": 809,
+            "id": 811,
             "name": "type",
             "type": {
               "kind": "reference",
-              "id": 966,
+              "id": 968,
               "name": "TypeParser",
               "packageName": null,
               "typeArguments": []
@@ -7912,7 +7913,7 @@
       },
       "properties": [
         {
-          "id": 810,
+          "id": 812,
           "name": "kind",
           "comment": {
             "description": "The kind of type this parser is for.",
@@ -7936,14 +7937,14 @@
           "optional": false,
           "type": {
             "kind": "reference",
-            "id": 993,
+            "id": 995,
             "name": "Optional",
             "packageName": null,
             "typeArguments": []
           }
         },
         {
-          "id": 811,
+          "id": 813,
           "name": "type",
           "comment": {
             "description": "The type of this optional type.",
@@ -7967,7 +7968,7 @@
           "optional": false,
           "type": {
             "kind": "reference",
-            "id": 966,
+            "id": 968,
             "name": "TypeParser",
             "packageName": null,
             "typeArguments": []
@@ -7976,7 +7977,7 @@
       ],
       "methods": [
         {
-          "id": 812,
+          "id": 814,
           "name": "toJSON",
           "comment": {
             "description": null,
@@ -7993,13 +7994,13 @@
           "static": false,
           "signatures": [
             {
-              "id": 813,
+              "id": 815,
               "name": "toJSON",
               "typeParameters": [],
               "parameters": [],
               "returnType": {
                 "kind": "reference",
-                "id": 817,
+                "id": 819,
                 "name": "JSON",
                 "packageName": null,
                 "typeArguments": []
@@ -8008,7 +8009,7 @@
           ]
         },
         {
-          "id": 814,
+          "id": 816,
           "name": "toString",
           "comment": {
             "description": null,
@@ -8025,7 +8026,7 @@
           "static": false,
           "signatures": [
             {
-              "id": 815,
+              "id": 817,
               "name": "toString",
               "typeParameters": [],
               "parameters": [],
@@ -8211,7 +8212,7 @@
           "optional": false,
           "type": {
             "kind": "reference",
-            "id": 966,
+            "id": 968,
             "name": "TypeParser",
             "packageName": null,
             "typeArguments": []
@@ -8364,7 +8365,7 @@
       ]
     },
     {
-      "id": 820,
+      "id": 822,
       "name": "PredicateTypeParser",
       "comment": {
         "description": "Parses data for a predicate type.",
@@ -8387,14 +8388,14 @@
       "implementsType": [
         {
           "kind": "reference",
-          "id": 966,
+          "id": 968,
           "name": "TypeParser",
           "packageName": null,
           "typeArguments": []
         }
       ],
       "construct": {
-        "id": 821,
+        "id": 823,
         "name": "constructor",
         "comment": {
           "description": null,
@@ -8408,7 +8409,7 @@
         },
         "parameters": [
           {
-            "id": 823,
+            "id": 825,
             "name": "asserts",
             "type": {
               "kind": "intrinsic",
@@ -8416,7 +8417,7 @@
             }
           },
           {
-            "id": 824,
+            "id": 826,
             "name": "name",
             "type": {
               "kind": "intrinsic",
@@ -8424,7 +8425,7 @@
             }
           },
           {
-            "id": 825,
+            "id": 827,
             "name": "type",
             "type": {
               "kind": "union",
@@ -8435,7 +8436,7 @@
                 },
                 {
                   "kind": "reference",
-                  "id": 966,
+                  "id": 968,
                   "name": "TypeParser",
                   "packageName": null,
                   "typeArguments": []
@@ -8447,7 +8448,7 @@
       },
       "properties": [
         {
-          "id": 827,
+          "id": 829,
           "name": "asserts",
           "comment": {
             "description": "Whether this predicate type asserts a value.",
@@ -8475,7 +8476,7 @@
           }
         },
         {
-          "id": 826,
+          "id": 828,
           "name": "kind",
           "comment": {
             "description": "The kind of type this parser is for.",
@@ -8499,14 +8500,14 @@
           "optional": false,
           "type": {
             "kind": "reference",
-            "id": 994,
+            "id": 996,
             "name": "Predicate",
             "packageName": null,
             "typeArguments": []
           }
         },
         {
-          "id": 828,
+          "id": 830,
           "name": "name",
           "comment": {
             "description": "The name of this predicate type.",
@@ -8534,7 +8535,7 @@
           }
         },
         {
-          "id": 829,
+          "id": 831,
           "name": "type",
           "comment": {
             "description": "The type of this predicate type.\n\nIf this \nasserts\n is \n`false`\n this will not be \n`null`",
@@ -8560,7 +8561,7 @@
               },
               {
                 "kind": "reference",
-                "id": 966,
+                "id": 968,
                 "name": "TypeParser",
                 "packageName": null,
                 "typeArguments": []
@@ -8571,7 +8572,7 @@
       ],
       "methods": [
         {
-          "id": 830,
+          "id": 832,
           "name": "toJSON",
           "comment": {
             "description": null,
@@ -8588,13 +8589,13 @@
           "static": false,
           "signatures": [
             {
-              "id": 831,
+              "id": 833,
               "name": "toJSON",
               "typeParameters": [],
               "parameters": [],
               "returnType": {
                 "kind": "reference",
-                "id": 835,
+                "id": 837,
                 "name": "JSON",
                 "packageName": null,
                 "typeArguments": []
@@ -8603,7 +8604,7 @@
           ]
         },
         {
-          "id": 832,
+          "id": 834,
           "name": "toString",
           "comment": {
             "description": null,
@@ -8620,7 +8621,7 @@
           "static": false,
           "signatures": [
             {
-              "id": 833,
+              "id": 835,
               "name": "toString",
               "typeParameters": [],
               "parameters": [],
@@ -8664,7 +8665,7 @@
           "modifierTags": []
         },
         "source": {
-          "line": 72,
+          "line": 78,
           "file": "ProjectParser.ts",
           "path": "lib/structures"
         },
@@ -8684,7 +8685,7 @@
                 },
                 {
                   "kind": "reference",
-                  "id": 634,
+                  "id": 635,
                   "name": "JSON",
                   "packageName": null,
                   "typeArguments": []
@@ -8696,44 +8697,10 @@
       },
       "properties": [
         {
-          "id": 624,
+          "id": 625,
           "name": "classes",
           "comment": {
             "description": "An array of class parsers for this project.",
-            "blockTags": [
-              {
-                "name": "since",
-                "text": "1.0.0"
-              }
-            ],
-            "modifierTags": []
-          },
-          "source": {
-            "line": 34,
-            "file": "ProjectParser.ts",
-            "path": "lib/structures"
-          },
-          "accessibility": "public",
-          "abstract": false,
-          "static": false,
-          "readonly": true,
-          "optional": false,
-          "type": {
-            "kind": "array",
-            "type": {
-              "kind": "reference",
-              "id": 78,
-              "name": "ClassParser",
-              "packageName": null,
-              "typeArguments": []
-            }
-          }
-        },
-        {
-          "id": 625,
-          "name": "constants",
-          "comment": {
-            "description": "An array of constant parsers for this project.",
             "blockTags": [
               {
                 "name": "since",
@@ -8756,8 +8723,8 @@
             "kind": "array",
             "type": {
               "kind": "reference",
-              "id": 183,
-              "name": "ConstantParser",
+              "id": 78,
+              "name": "ClassParser",
               "packageName": null,
               "typeArguments": []
             }
@@ -8765,9 +8732,9 @@
         },
         {
           "id": 626,
-          "name": "enums",
+          "name": "constants",
           "comment": {
-            "description": "An array of enum parsers for this project.",
+            "description": "An array of constant parsers for this project.",
             "blockTags": [
               {
                 "name": "since",
@@ -8790,8 +8757,8 @@
             "kind": "array",
             "type": {
               "kind": "reference",
-              "id": 223,
-              "name": "EnumParser",
+              "id": 183,
+              "name": "ConstantParser",
               "packageName": null,
               "typeArguments": []
             }
@@ -8799,9 +8766,9 @@
         },
         {
           "id": 627,
-          "name": "functions",
+          "name": "enums",
           "comment": {
-            "description": "An array of function parsers for this project.",
+            "description": "An array of enum parsers for this project.",
             "blockTags": [
               {
                 "name": "since",
@@ -8824,46 +8791,18 @@
             "kind": "array",
             "type": {
               "kind": "reference",
-              "id": 294,
-              "name": "FunctionParser",
+              "id": 223,
+              "name": "EnumParser",
               "packageName": null,
               "typeArguments": []
             }
           }
         },
         {
-          "id": 622,
-          "name": "id",
-          "comment": {
-            "description": "The identifier of this project. This is usually \n`0`",
-            "blockTags": [
-              {
-                "name": "since",
-                "text": "1.0.0"
-              }
-            ],
-            "modifierTags": []
-          },
-          "source": {
-            "line": 20,
-            "file": "ProjectParser.ts",
-            "path": "lib/structures"
-          },
-          "accessibility": "public",
-          "abstract": false,
-          "static": false,
-          "readonly": true,
-          "optional": false,
-          "type": {
-            "kind": "intrinsic",
-            "type": "number"
-          }
-        },
-        {
           "id": 628,
-          "name": "interfaces",
+          "name": "functions",
           "comment": {
-            "description": "An array of interface parsers for this project.",
+            "description": "An array of function parsers for this project.",
             "blockTags": [
               {
                 "name": "since",
@@ -8886,8 +8825,8 @@
             "kind": "array",
             "type": {
               "kind": "reference",
-              "id": 331,
-              "name": "InterfaceParser",
+              "id": 294,
+              "name": "FunctionParser",
               "packageName": null,
               "typeArguments": []
             }
@@ -8895,9 +8834,9 @@
         },
         {
           "id": 623,
-          "name": "name",
+          "name": "id",
           "comment": {
-            "description": "The name of your project.\n\nCorresponds to the \n`name`\n property in your TypeDoc configuration or the \n`name`\n property of your \n`package.json`\n file.",
+            "description": "The identifier of this project. This is usually \n`0`",
             "blockTags": [
               {
                 "name": "since",
@@ -8907,7 +8846,7 @@
             "modifierTags": []
           },
           "source": {
-            "line": 28,
+            "line": 26,
             "file": "ProjectParser.ts",
             "path": "lib/structures"
           },
@@ -8918,14 +8857,14 @@
           "optional": false,
           "type": {
             "kind": "intrinsic",
-            "type": "string"
+            "type": "number"
           }
         },
         {
           "id": 629,
-          "name": "namespaces",
+          "name": "interfaces",
           "comment": {
-            "description": "An array of namespace parsers for this project.",
+            "description": "An array of interface parsers for this project.",
             "blockTags": [
               {
                 "name": "since",
@@ -8948,18 +8887,46 @@
             "kind": "array",
             "type": {
               "kind": "reference",
-              "id": 563,
-              "name": "NamespaceParser",
+              "id": 331,
+              "name": "InterfaceParser",
               "packageName": null,
               "typeArguments": []
             }
           }
         },
         {
-          "id": 630,
-          "name": "typeAliases",
+          "id": 624,
+          "name": "name",
           "comment": {
-            "description": "An array of type alias parsers for this project.",
+            "description": "The name of your project.\n\nCorresponds to the \n`name`\n property in your TypeDoc configuration or the \n`name`\n property of your \n`package.json`\n file.",
+            "blockTags": [
+              {
+                "name": "since",
+                "text": "1.0.0"
+              }
+            ],
+            "modifierTags": []
+          },
+          "source": {
+            "line": 34,
+            "file": "ProjectParser.ts",
+            "path": "lib/structures"
+          },
+          "accessibility": "public",
+          "abstract": false,
+          "static": false,
+          "readonly": true,
+          "optional": false,
+          "type": {
+            "kind": "intrinsic",
+            "type": "string"
+          }
+        },
+        {
+          "id": 630,
+          "name": "namespaces",
+          "comment": {
+            "description": "An array of namespace parsers for this project.",
             "blockTags": [
               {
                 "name": "since",
@@ -8982,17 +8949,79 @@
             "kind": "array",
             "type": {
               "kind": "reference",
-              "id": 1035,
+              "id": 563,
+              "name": "NamespaceParser",
+              "packageName": null,
+              "typeArguments": []
+            }
+          }
+        },
+        {
+          "id": 631,
+          "name": "typeAliases",
+          "comment": {
+            "description": "An array of type alias parsers for this project.",
+            "blockTags": [
+              {
+                "name": "since",
+                "text": "1.0.0"
+              }
+            ],
+            "modifierTags": []
+          },
+          "source": {
+            "line": 76,
+            "file": "ProjectParser.ts",
+            "path": "lib/structures"
+          },
+          "accessibility": "public",
+          "abstract": false,
+          "static": false,
+          "readonly": true,
+          "optional": false,
+          "type": {
+            "kind": "array",
+            "type": {
+              "kind": "reference",
+              "id": 1037,
               "name": "TypeAliasParser",
               "packageName": null,
               "typeArguments": []
             }
           }
+        },
+        {
+          "id": 622,
+          "name": "typeDocJsonParserVersion",
+          "comment": {
+            "description": "The version of \n`typedoc-json-parser`\n used to generate this project.",
+            "blockTags": [
+              {
+                "name": "since",
+                "text": "1.0.0"
+              }
+            ],
+            "modifierTags": []
+          },
+          "source": {
+            "line": 20,
+            "file": "ProjectParser.ts",
+            "path": "lib/structures"
+          },
+          "accessibility": "public",
+          "abstract": false,
+          "static": false,
+          "readonly": true,
+          "optional": false,
+          "type": {
+            "kind": "intrinsic",
+            "type": "string"
+          }
         }
       ],
       "methods": [
         {
-          "id": 631,
+          "id": 632,
           "name": "toJSON",
           "comment": {
             "description": null,
@@ -9000,7 +9029,7 @@
             "modifierTags": []
           },
           "source": {
-            "line": 118,
+            "line": 125,
             "file": "ProjectParser.ts",
             "path": "lib/structures"
           },
@@ -9009,13 +9038,13 @@
           "static": false,
           "signatures": [
             {
-              "id": 632,
+              "id": 633,
               "name": "toJSON",
               "typeParameters": [],
               "parameters": [],
               "returnType": {
                 "kind": "reference",
-                "id": 634,
+                "id": 635,
                 "name": "JSON",
                 "packageName": null,
                 "typeArguments": []
@@ -9026,7 +9055,7 @@
       ]
     },
     {
-      "id": 840,
+      "id": 842,
       "name": "QueryTypeParser",
       "comment": {
         "description": "Parses data for a query type.",
@@ -9049,14 +9078,14 @@
       "implementsType": [
         {
           "kind": "reference",
-          "id": 966,
+          "id": 968,
           "name": "TypeParser",
           "packageName": null,
           "typeArguments": []
         }
       ],
       "construct": {
-        "id": 841,
+        "id": 843,
         "name": "constructor",
         "comment": {
           "description": null,
@@ -9070,11 +9099,11 @@
         },
         "parameters": [
           {
-            "id": 843,
+            "id": 845,
             "name": "query",
             "type": {
               "kind": "reference",
-              "id": 854,
+              "id": 856,
               "name": "ReferenceTypeParser",
               "packageName": null,
               "typeArguments": []
@@ -9084,7 +9113,7 @@
       },
       "properties": [
         {
-          "id": 844,
+          "id": 846,
           "name": "kind",
           "comment": {
             "description": "The kind of type this parser is for.",
@@ -9108,14 +9137,14 @@
           "optional": false,
           "type": {
             "kind": "reference",
-            "id": 995,
+            "id": 997,
             "name": "Query",
             "packageName": null,
             "typeArguments": []
           }
         },
         {
-          "id": 845,
+          "id": 847,
           "name": "query",
           "comment": {
             "description": "The query of this query type.",
@@ -9139,7 +9168,7 @@
           "optional": false,
           "type": {
             "kind": "reference",
-            "id": 854,
+            "id": 856,
             "name": "ReferenceTypeParser",
             "packageName": null,
             "typeArguments": []
@@ -9148,7 +9177,7 @@
       ],
       "methods": [
         {
-          "id": 846,
+          "id": 848,
           "name": "toJSON",
           "comment": {
             "description": null,
@@ -9165,13 +9194,13 @@
           "static": false,
           "signatures": [
             {
-              "id": 847,
+              "id": 849,
               "name": "toJSON",
               "typeParameters": [],
               "parameters": [],
               "returnType": {
                 "kind": "reference",
-                "id": 851,
+                "id": 853,
                 "name": "JSON",
                 "packageName": null,
                 "typeArguments": []
@@ -9180,7 +9209,7 @@
           ]
         },
         {
-          "id": 848,
+          "id": 850,
           "name": "toString",
           "comment": {
             "description": null,
@@ -9197,7 +9226,7 @@
           "static": false,
           "signatures": [
             {
-              "id": 849,
+              "id": 851,
               "name": "toString",
               "typeParameters": [],
               "parameters": [],
@@ -9211,7 +9240,7 @@
       ]
     },
     {
-      "id": 854,
+      "id": 856,
       "name": "ReferenceTypeParser",
       "comment": {
         "description": "Parses data for a reference type.",
@@ -9234,14 +9263,14 @@
       "implementsType": [
         {
           "kind": "reference",
-          "id": 966,
+          "id": 968,
           "name": "TypeParser",
           "packageName": null,
           "typeArguments": []
         }
       ],
       "construct": {
-        "id": 855,
+        "id": 857,
         "name": "constructor",
         "comment": {
           "description": null,
@@ -9255,7 +9284,7 @@
         },
         "parameters": [
           {
-            "id": 857,
+            "id": 859,
             "name": "id",
             "type": {
               "kind": "union",
@@ -9272,7 +9301,7 @@
             }
           },
           {
-            "id": 858,
+            "id": 860,
             "name": "name",
             "type": {
               "kind": "intrinsic",
@@ -9280,7 +9309,7 @@
             }
           },
           {
-            "id": 859,
+            "id": 861,
             "name": "packageName",
             "type": {
               "kind": "union",
@@ -9297,13 +9326,13 @@
             }
           },
           {
-            "id": 860,
+            "id": 862,
             "name": "typeArguments",
             "type": {
               "kind": "array",
               "type": {
                 "kind": "reference",
-                "id": 966,
+                "id": 968,
                 "name": "TypeParser",
                 "packageName": null,
                 "typeArguments": []
@@ -9314,7 +9343,7 @@
       },
       "properties": [
         {
-          "id": 862,
+          "id": 864,
           "name": "id",
           "comment": {
             "description": "The id of this reference type.",
@@ -9351,7 +9380,7 @@
           }
         },
         {
-          "id": 861,
+          "id": 863,
           "name": "kind",
           "comment": {
             "description": "The kind of type this parser is for.",
@@ -9375,14 +9404,14 @@
           "optional": false,
           "type": {
             "kind": "reference",
-            "id": 996,
+            "id": 998,
             "name": "Reference",
             "packageName": null,
             "typeArguments": []
           }
         },
         {
-          "id": 863,
+          "id": 865,
           "name": "name",
           "comment": {
             "description": "The name of this reference type.",
@@ -9410,7 +9439,7 @@
           }
         },
         {
-          "id": 864,
+          "id": 866,
           "name": "packageName",
           "comment": {
             "description": "The package name of this reference type.",
@@ -9447,7 +9476,7 @@
           }
         },
         {
-          "id": 865,
+          "id": 867,
           "name": "typeArguments",
           "comment": {
             "description": "The type arguments of this reference type.",
@@ -9473,7 +9502,7 @@
             "kind": "array",
             "type": {
               "kind": "reference",
-              "id": 966,
+              "id": 968,
               "name": "TypeParser",
               "packageName": null,
               "typeArguments": []
@@ -9483,7 +9512,7 @@
       ],
       "methods": [
         {
-          "id": 866,
+          "id": 868,
           "name": "isPackage",
           "comment": {
             "description": null,
@@ -9500,7 +9529,7 @@
           "static": false,
           "signatures": [
             {
-              "id": 867,
+              "id": 869,
               "name": "isPackage",
               "typeParameters": [],
               "parameters": [],
@@ -9512,7 +9541,7 @@
           ]
         },
         {
-          "id": 868,
+          "id": 870,
           "name": "toJSON",
           "comment": {
             "description": null,
@@ -9529,13 +9558,13 @@
           "static": false,
           "signatures": [
             {
-              "id": 869,
+              "id": 871,
               "name": "toJSON",
               "typeParameters": [],
               "parameters": [],
               "returnType": {
                 "kind": "reference",
-                "id": 873,
+                "id": 875,
                 "name": "JSON",
                 "packageName": null,
                 "typeArguments": []
@@ -9544,7 +9573,7 @@
           ]
         },
         {
-          "id": 870,
+          "id": 872,
           "name": "toString",
           "comment": {
             "description": null,
@@ -9561,7 +9590,7 @@
           "static": false,
           "signatures": [
             {
-              "id": 871,
+              "id": 873,
               "name": "toString",
               "typeParameters": [],
               "parameters": [],
@@ -9575,7 +9604,7 @@
       ]
     },
     {
-      "id": 879,
+      "id": 881,
       "name": "ReflectionTypeParser",
       "comment": {
         "description": "Parses data for a reflection type.",
@@ -9598,14 +9627,14 @@
       "implementsType": [
         {
           "kind": "reference",
-          "id": 966,
+          "id": 968,
           "name": "TypeParser",
           "packageName": null,
           "typeArguments": []
         }
       ],
       "construct": {
-        "id": 880,
+        "id": 882,
         "name": "constructor",
         "comment": {
           "description": null,
@@ -9619,7 +9648,7 @@
         },
         "parameters": [
           {
-            "id": 882,
+            "id": 884,
             "name": "reflection",
             "type": {
               "kind": "union",
@@ -9642,7 +9671,7 @@
       },
       "properties": [
         {
-          "id": 883,
+          "id": 885,
           "name": "kind",
           "comment": {
             "description": "The kind of type this parser is for.",
@@ -9666,14 +9695,14 @@
           "optional": false,
           "type": {
             "kind": "reference",
-            "id": 997,
+            "id": 999,
             "name": "Reflection",
             "packageName": null,
             "typeArguments": []
           }
         },
         {
-          "id": 884,
+          "id": 886,
           "name": "reflection",
           "comment": {
             "description": "The reflection of this reflection type.",
@@ -9715,7 +9744,7 @@
       ],
       "methods": [
         {
-          "id": 885,
+          "id": 887,
           "name": "toJSON",
           "comment": {
             "description": null,
@@ -9732,13 +9761,13 @@
           "static": false,
           "signatures": [
             {
-              "id": 886,
+              "id": 888,
               "name": "toJSON",
               "typeParameters": [],
               "parameters": [],
               "returnType": {
                 "kind": "reference",
-                "id": 890,
+                "id": 892,
                 "name": "JSON",
                 "packageName": null,
                 "typeArguments": []
@@ -9747,7 +9776,7 @@
           ]
         },
         {
-          "id": 887,
+          "id": 889,
           "name": "toString",
           "comment": {
             "description": null,
@@ -9764,7 +9793,7 @@
           "static": false,
           "signatures": [
             {
-              "id": 888,
+              "id": 890,
               "name": "toString",
               "typeParameters": [],
               "parameters": [],
@@ -9778,7 +9807,7 @@
       ]
     },
     {
-      "id": 893,
+      "id": 895,
       "name": "RestTypeParser",
       "comment": {
         "description": "Parses data for a rest type.",
@@ -9801,14 +9830,14 @@
       "implementsType": [
         {
           "kind": "reference",
-          "id": 966,
+          "id": 968,
           "name": "TypeParser",
           "packageName": null,
           "typeArguments": []
         }
       ],
       "construct": {
-        "id": 894,
+        "id": 896,
         "name": "constructor",
         "comment": {
           "description": null,
@@ -9822,11 +9851,11 @@
         },
         "parameters": [
           {
-            "id": 896,
+            "id": 898,
             "name": "type",
             "type": {
               "kind": "reference",
-              "id": 966,
+              "id": 968,
               "name": "TypeParser",
               "packageName": null,
               "typeArguments": []
@@ -9836,7 +9865,7 @@
       },
       "properties": [
         {
-          "id": 897,
+          "id": 899,
           "name": "kind",
           "comment": {
             "description": "The kind of type this parser is for.",
@@ -9860,14 +9889,14 @@
           "optional": false,
           "type": {
             "kind": "reference",
-            "id": 998,
+            "id": 1000,
             "name": "Rest",
             "packageName": null,
             "typeArguments": []
           }
         },
         {
-          "id": 898,
+          "id": 900,
           "name": "type",
           "comment": {
             "description": "The type of this rest type.",
@@ -9891,7 +9920,7 @@
           "optional": false,
           "type": {
             "kind": "reference",
-            "id": 966,
+            "id": 968,
             "name": "TypeParser",
             "packageName": null,
             "typeArguments": []
@@ -9900,7 +9929,7 @@
       ],
       "methods": [
         {
-          "id": 899,
+          "id": 901,
           "name": "toJSON",
           "comment": {
             "description": null,
@@ -9917,13 +9946,13 @@
           "static": false,
           "signatures": [
             {
-              "id": 900,
+              "id": 902,
               "name": "toJSON",
               "typeParameters": [],
               "parameters": [],
               "returnType": {
                 "kind": "reference",
-                "id": 904,
+                "id": 906,
                 "name": "JSON",
                 "packageName": null,
                 "typeArguments": []
@@ -9932,7 +9961,7 @@
           ]
         },
         {
-          "id": 901,
+          "id": 903,
           "name": "toString",
           "comment": {
             "description": null,
@@ -9949,7 +9978,7 @@
           "static": false,
           "signatures": [
             {
-              "id": 902,
+              "id": 904,
               "name": "toString",
               "typeParameters": [],
               "parameters": [],
@@ -10169,7 +10198,7 @@
           "optional": false,
           "type": {
             "kind": "reference",
-            "id": 966,
+            "id": 968,
             "name": "TypeParser",
             "packageName": null,
             "typeArguments": []
@@ -10678,7 +10707,7 @@
       ]
     },
     {
-      "id": 907,
+      "id": 909,
       "name": "TemplateLiteralTypeParser",
       "comment": {
         "description": "Parses data for a template literal type.",
@@ -10701,14 +10730,14 @@
       "implementsType": [
         {
           "kind": "reference",
-          "id": 966,
+          "id": 968,
           "name": "TypeParser",
           "packageName": null,
           "typeArguments": []
         }
       ],
       "construct": {
-        "id": 908,
+        "id": 910,
         "name": "constructor",
         "comment": {
           "description": null,
@@ -10722,7 +10751,7 @@
         },
         "parameters": [
           {
-            "id": 910,
+            "id": 912,
             "name": "head",
             "type": {
               "kind": "intrinsic",
@@ -10730,13 +10759,13 @@
             }
           },
           {
-            "id": 911,
+            "id": 913,
             "name": "tail",
             "type": {
               "kind": "array",
               "type": {
                 "kind": "reference",
-                "id": 924,
+                "id": 926,
                 "name": "Tail",
                 "packageName": null,
                 "typeArguments": []
@@ -10747,7 +10776,7 @@
       },
       "properties": [
         {
-          "id": 913,
+          "id": 915,
           "name": "head",
           "comment": {
             "description": "The head of this template literal type.",
@@ -10775,7 +10804,7 @@
           }
         },
         {
-          "id": 912,
+          "id": 914,
           "name": "kind",
           "comment": {
             "description": "The kind of type this parser is for.",
@@ -10799,14 +10828,14 @@
           "optional": false,
           "type": {
             "kind": "reference",
-            "id": 999,
+            "id": 1001,
             "name": "TemplateLiteral",
             "packageName": null,
             "typeArguments": []
           }
         },
         {
-          "id": 914,
+          "id": 916,
           "name": "tail",
           "comment": {
             "description": "The tail of this template literal type.",
@@ -10832,7 +10861,7 @@
             "kind": "array",
             "type": {
               "kind": "reference",
-              "id": 924,
+              "id": 926,
               "name": "Tail",
               "packageName": null,
               "typeArguments": []
@@ -10842,7 +10871,7 @@
       ],
       "methods": [
         {
-          "id": 915,
+          "id": 917,
           "name": "toJSON",
           "comment": {
             "description": null,
@@ -10859,13 +10888,13 @@
           "static": false,
           "signatures": [
             {
-              "id": 916,
+              "id": 918,
               "name": "toJSON",
               "typeParameters": [],
               "parameters": [],
               "returnType": {
                 "kind": "reference",
-                "id": 920,
+                "id": 922,
                 "name": "JSON",
                 "packageName": null,
                 "typeArguments": []
@@ -10874,7 +10903,7 @@
           ]
         },
         {
-          "id": 917,
+          "id": 919,
           "name": "toString",
           "comment": {
             "description": null,
@@ -10891,7 +10920,7 @@
           "static": false,
           "signatures": [
             {
-              "id": 918,
+              "id": 920,
               "name": "toString",
               "typeParameters": [],
               "parameters": [],
@@ -10905,7 +10934,7 @@
       ]
     },
     {
-      "id": 931,
+      "id": 933,
       "name": "TupleTypeParser",
       "comment": {
         "description": "Parses data for a tuple type.",
@@ -10928,14 +10957,14 @@
       "implementsType": [
         {
           "kind": "reference",
-          "id": 966,
+          "id": 968,
           "name": "TypeParser",
           "packageName": null,
           "typeArguments": []
         }
       ],
       "construct": {
-        "id": 932,
+        "id": 934,
         "name": "constructor",
         "comment": {
           "description": null,
@@ -10949,13 +10978,13 @@
         },
         "parameters": [
           {
-            "id": 934,
+            "id": 936,
             "name": "types",
             "type": {
               "kind": "array",
               "type": {
                 "kind": "reference",
-                "id": 966,
+                "id": 968,
                 "name": "TypeParser",
                 "packageName": null,
                 "typeArguments": []
@@ -10966,7 +10995,7 @@
       },
       "properties": [
         {
-          "id": 935,
+          "id": 937,
           "name": "kind",
           "comment": {
             "description": "The kind of type this parser is for.",
@@ -10990,14 +11019,14 @@
           "optional": false,
           "type": {
             "kind": "reference",
-            "id": 1000,
+            "id": 1002,
             "name": "Tuple",
             "packageName": null,
             "typeArguments": []
           }
         },
         {
-          "id": 936,
+          "id": 938,
           "name": "types",
           "comment": {
             "description": "The types of this tuple type.",
@@ -11023,7 +11052,7 @@
             "kind": "array",
             "type": {
               "kind": "reference",
-              "id": 966,
+              "id": 968,
               "name": "TypeParser",
               "packageName": null,
               "typeArguments": []
@@ -11033,7 +11062,7 @@
       ],
       "methods": [
         {
-          "id": 937,
+          "id": 939,
           "name": "toJSON",
           "comment": {
             "description": null,
@@ -11050,13 +11079,13 @@
           "static": false,
           "signatures": [
             {
-              "id": 938,
+              "id": 940,
               "name": "toJSON",
               "typeParameters": [],
               "parameters": [],
               "returnType": {
                 "kind": "reference",
-                "id": 942,
+                "id": 944,
                 "name": "JSON",
                 "packageName": null,
                 "typeArguments": []
@@ -11065,7 +11094,7 @@
           ]
         },
         {
-          "id": 939,
+          "id": 941,
           "name": "toString",
           "comment": {
             "description": null,
@@ -11082,7 +11111,7 @@
           "static": false,
           "signatures": [
             {
-              "id": 940,
+              "id": 942,
               "name": "toString",
               "typeParameters": [],
               "parameters": [],
@@ -11096,7 +11125,7 @@
       ]
     },
     {
-      "id": 1035,
+      "id": 1037,
       "name": "TypeAliasParser",
       "comment": {
         "description": "Parses data from a type alias reflection.",
@@ -11124,7 +11153,7 @@
       },
       "implementsType": [],
       "construct": {
-        "id": 1044,
+        "id": 1046,
         "name": "constructor",
         "comment": {
           "description": null,
@@ -11138,18 +11167,18 @@
         },
         "parameters": [
           {
-            "id": 1046,
+            "id": 1048,
             "name": "data",
             "type": {
               "kind": "reference",
-              "id": 1059,
+              "id": 1061,
               "name": "Data",
               "packageName": null,
               "typeArguments": []
             }
           },
           {
-            "id": 1047,
+            "id": 1049,
             "name": "project",
             "type": {
               "kind": "reference",
@@ -11163,7 +11192,7 @@
       },
       "properties": [
         {
-          "id": 1056,
+          "id": 1058,
           "name": "comment",
           "comment": {
             "description": "The comment parser for this parser.",
@@ -11194,7 +11223,7 @@
           }
         },
         {
-          "id": 1048,
+          "id": 1050,
           "name": "external",
           "comment": {
             "description": "Whether this type alias is external.",
@@ -11222,7 +11251,7 @@
           }
         },
         {
-          "id": 1054,
+          "id": 1056,
           "name": "id",
           "comment": {
             "description": "The identifier of this parser.",
@@ -11250,7 +11279,7 @@
           }
         },
         {
-          "id": 1055,
+          "id": 1057,
           "name": "name",
           "comment": {
             "description": "The name of this parser.",
@@ -11278,7 +11307,7 @@
           }
         },
         {
-          "id": 1053,
+          "id": 1055,
           "name": "project",
           "comment": {
             "description": "The project parser this belongs to.",
@@ -11309,7 +11338,7 @@
           }
         },
         {
-          "id": 1057,
+          "id": 1059,
           "name": "source",
           "comment": {
             "description": "The source parser for this parser.",
@@ -11349,7 +11378,7 @@
           }
         },
         {
-          "id": 1050,
+          "id": 1052,
           "name": "type",
           "comment": {
             "description": "The type of this type alias.",
@@ -11373,14 +11402,14 @@
           "optional": false,
           "type": {
             "kind": "reference",
-            "id": 966,
+            "id": 968,
             "name": "TypeParser",
             "packageName": null,
             "typeArguments": []
           }
         },
         {
-          "id": 1049,
+          "id": 1051,
           "name": "typeParameters",
           "comment": {
             "description": "The type parameters of this type alias.",
@@ -11416,7 +11445,7 @@
       ],
       "methods": [
         {
-          "id": 1051,
+          "id": 1053,
           "name": "toJSON",
           "comment": {
             "description": null,
@@ -11433,13 +11462,13 @@
           "static": false,
           "signatures": [
             {
-              "id": 1052,
+              "id": 1054,
               "name": "toJSON",
               "typeParameters": [],
               "parameters": [],
               "returnType": {
                 "kind": "reference",
-                "id": 1067,
+                "id": 1069,
                 "name": "JSON",
                 "packageName": null,
                 "typeArguments": []
@@ -11448,7 +11477,7 @@
           ]
         },
         {
-          "id": 1040,
+          "id": 1042,
           "name": "generateFromJSON",
           "comment": {
             "description": null,
@@ -11465,23 +11494,23 @@
           "static": true,
           "signatures": [
             {
-              "id": 1041,
+              "id": 1043,
               "name": "generateFromJSON",
               "typeParameters": [],
               "parameters": [
                 {
-                  "id": 1042,
+                  "id": 1044,
                   "name": "json",
                   "type": {
                     "kind": "reference",
-                    "id": 1067,
+                    "id": 1069,
                     "name": "JSON",
                     "packageName": null,
                     "typeArguments": []
                   }
                 },
                 {
-                  "id": 1043,
+                  "id": 1045,
                   "name": "project",
                   "type": {
                     "kind": "reference",
@@ -11494,7 +11523,7 @@
               ],
               "returnType": {
                 "kind": "reference",
-                "id": 1035,
+                "id": 1037,
                 "name": "TypeAliasParser",
                 "packageName": null,
                 "typeArguments": []
@@ -11503,7 +11532,7 @@
           ]
         },
         {
-          "id": 1036,
+          "id": 1038,
           "name": "generateFromTypeDoc",
           "comment": {
             "description": null,
@@ -11520,12 +11549,12 @@
           "static": true,
           "signatures": [
             {
-              "id": 1037,
+              "id": 1039,
               "name": "generateFromTypeDoc",
               "typeParameters": [],
               "parameters": [
                 {
-                  "id": 1038,
+                  "id": 1040,
                   "name": "reflection",
                   "type": {
                     "kind": "reference",
@@ -11536,7 +11565,7 @@
                   }
                 },
                 {
-                  "id": 1039,
+                  "id": 1041,
                   "name": "project",
                   "type": {
                     "kind": "reference",
@@ -11549,7 +11578,7 @@
               ],
               "returnType": {
                 "kind": "reference",
-                "id": 1035,
+                "id": 1037,
                 "name": "TypeAliasParser",
                 "packageName": null,
                 "typeArguments": []
@@ -11560,7 +11589,7 @@
       ]
     },
     {
-      "id": 945,
+      "id": 947,
       "name": "TypeOperatorTypeParser",
       "comment": {
         "description": "Parses data for a type operator type.",
@@ -11583,14 +11612,14 @@
       "implementsType": [
         {
           "kind": "reference",
-          "id": 966,
+          "id": 968,
           "name": "TypeParser",
           "packageName": null,
           "typeArguments": []
         }
       ],
       "construct": {
-        "id": 946,
+        "id": 948,
         "name": "constructor",
         "comment": {
           "description": null,
@@ -11604,22 +11633,22 @@
         },
         "parameters": [
           {
-            "id": 948,
+            "id": 950,
             "name": "operator",
             "type": {
               "kind": "reference",
-              "id": 962,
+              "id": 964,
               "name": "Operator",
               "packageName": null,
               "typeArguments": []
             }
           },
           {
-            "id": 949,
+            "id": 951,
             "name": "type",
             "type": {
               "kind": "reference",
-              "id": 966,
+              "id": 968,
               "name": "TypeParser",
               "packageName": null,
               "typeArguments": []
@@ -11629,7 +11658,7 @@
       },
       "properties": [
         {
-          "id": 950,
+          "id": 952,
           "name": "kind",
           "comment": {
             "description": "The kind of type this parser is for.",
@@ -11653,14 +11682,14 @@
           "optional": false,
           "type": {
             "kind": "reference",
-            "id": 1001,
+            "id": 1003,
             "name": "TypeOperator",
             "packageName": null,
             "typeArguments": []
           }
         },
         {
-          "id": 951,
+          "id": 953,
           "name": "operator",
           "comment": {
             "description": "The operator of this type operator type.",
@@ -11684,14 +11713,14 @@
           "optional": false,
           "type": {
             "kind": "reference",
-            "id": 962,
+            "id": 964,
             "name": "Operator",
             "packageName": null,
             "typeArguments": []
           }
         },
         {
-          "id": 952,
+          "id": 954,
           "name": "type",
           "comment": {
             "description": "The type of this type operator type.",
@@ -11715,7 +11744,7 @@
           "optional": false,
           "type": {
             "kind": "reference",
-            "id": 966,
+            "id": 968,
             "name": "TypeParser",
             "packageName": null,
             "typeArguments": []
@@ -11724,7 +11753,7 @@
       ],
       "methods": [
         {
-          "id": 953,
+          "id": 955,
           "name": "toJSON",
           "comment": {
             "description": null,
@@ -11741,13 +11770,13 @@
           "static": false,
           "signatures": [
             {
-              "id": 954,
+              "id": 956,
               "name": "toJSON",
               "typeParameters": [],
               "parameters": [],
               "returnType": {
                 "kind": "reference",
-                "id": 958,
+                "id": 960,
                 "name": "JSON",
                 "packageName": null,
                 "typeArguments": []
@@ -11756,7 +11785,7 @@
           ]
         },
         {
-          "id": 955,
+          "id": 957,
           "name": "toString",
           "comment": {
             "description": null,
@@ -11773,7 +11802,7 @@
           "static": false,
           "signatures": [
             {
-              "id": 956,
+              "id": 958,
               "name": "toString",
               "typeParameters": [],
               "parameters": [],
@@ -11879,7 +11908,7 @@
               },
               {
                 "kind": "reference",
-                "id": 966,
+                "id": 968,
                 "name": "TypeParser",
                 "packageName": null,
                 "typeArguments": []
@@ -12006,7 +12035,7 @@
               },
               {
                 "kind": "reference",
-                "id": 966,
+                "id": 968,
                 "name": "TypeParser",
                 "packageName": null,
                 "typeArguments": []
@@ -12161,7 +12190,7 @@
       ]
     },
     {
-      "id": 1007,
+      "id": 1009,
       "name": "UnionTypeParser",
       "comment": {
         "description": "Parses data for a union type.",
@@ -12184,14 +12213,14 @@
       "implementsType": [
         {
           "kind": "reference",
-          "id": 966,
+          "id": 968,
           "name": "TypeParser",
           "packageName": null,
           "typeArguments": []
         }
       ],
       "construct": {
-        "id": 1008,
+        "id": 1010,
         "name": "constructor",
         "comment": {
           "description": null,
@@ -12205,13 +12234,13 @@
         },
         "parameters": [
           {
-            "id": 1010,
+            "id": 1012,
             "name": "types",
             "type": {
               "kind": "array",
               "type": {
                 "kind": "reference",
-                "id": 966,
+                "id": 968,
                 "name": "TypeParser",
                 "packageName": null,
                 "typeArguments": []
@@ -12222,7 +12251,7 @@
       },
       "properties": [
         {
-          "id": 1011,
+          "id": 1013,
           "name": "kind",
           "comment": {
             "description": "The kind of type this parser is for.",
@@ -12246,14 +12275,14 @@
           "optional": false,
           "type": {
             "kind": "reference",
-            "id": 1002,
+            "id": 1004,
             "name": "Union",
             "packageName": null,
             "typeArguments": []
           }
         },
         {
-          "id": 1012,
+          "id": 1014,
           "name": "types",
           "comment": {
             "description": "The types of this union type.",
@@ -12279,7 +12308,7 @@
             "kind": "array",
             "type": {
               "kind": "reference",
-              "id": 966,
+              "id": 968,
               "name": "TypeParser",
               "packageName": null,
               "typeArguments": []
@@ -12289,7 +12318,7 @@
       ],
       "methods": [
         {
-          "id": 1013,
+          "id": 1015,
           "name": "toJSON",
           "comment": {
             "description": null,
@@ -12306,13 +12335,13 @@
           "static": false,
           "signatures": [
             {
-              "id": 1014,
+              "id": 1016,
               "name": "toJSON",
               "typeParameters": [],
               "parameters": [],
               "returnType": {
                 "kind": "reference",
-                "id": 1018,
+                "id": 1020,
                 "name": "JSON",
                 "packageName": null,
                 "typeArguments": []
@@ -12321,7 +12350,7 @@
           ]
         },
         {
-          "id": 1015,
+          "id": 1017,
           "name": "toString",
           "comment": {
             "description": null,
@@ -12338,7 +12367,7 @@
           "static": false,
           "signatures": [
             {
-              "id": 1016,
+              "id": 1018,
               "name": "toString",
               "typeParameters": [],
               "parameters": [],
@@ -12352,7 +12381,7 @@
       ]
     },
     {
-      "id": 1021,
+      "id": 1023,
       "name": "UnknownTypeParser",
       "comment": {
         "description": "Parses data for an unknown type.",
@@ -12375,14 +12404,14 @@
       "implementsType": [
         {
           "kind": "reference",
-          "id": 966,
+          "id": 968,
           "name": "TypeParser",
           "packageName": null,
           "typeArguments": []
         }
       ],
       "construct": {
-        "id": 1022,
+        "id": 1024,
         "name": "constructor",
         "comment": {
           "description": null,
@@ -12396,7 +12425,7 @@
         },
         "parameters": [
           {
-            "id": 1024,
+            "id": 1026,
             "name": "name",
             "type": {
               "kind": "intrinsic",
@@ -12407,7 +12436,7 @@
       },
       "properties": [
         {
-          "id": 1025,
+          "id": 1027,
           "name": "kind",
           "comment": {
             "description": "The kind of type this parser is for.",
@@ -12431,14 +12460,14 @@
           "optional": false,
           "type": {
             "kind": "reference",
-            "id": 1003,
+            "id": 1005,
             "name": "Unknown",
             "packageName": null,
             "typeArguments": []
           }
         },
         {
-          "id": 1026,
+          "id": 1028,
           "name": "name",
           "comment": {
             "description": "The name of this unknown type.",
@@ -12468,7 +12497,7 @@
       ],
       "methods": [
         {
-          "id": 1027,
+          "id": 1029,
           "name": "toJSON",
           "comment": {
             "description": null,
@@ -12485,13 +12514,13 @@
           "static": false,
           "signatures": [
             {
-              "id": 1028,
+              "id": 1030,
               "name": "toJSON",
               "typeParameters": [],
               "parameters": [],
               "returnType": {
                 "kind": "reference",
-                "id": 1032,
+                "id": 1034,
                 "name": "JSON",
                 "packageName": null,
                 "typeArguments": []
@@ -12500,7 +12529,7 @@
           ]
         },
         {
-          "id": 1029,
+          "id": 1031,
           "name": "toString",
           "comment": {
             "description": null,
@@ -12517,7 +12546,7 @@
           "static": false,
           "signatures": [
             {
-              "id": 1030,
+              "id": 1032,
               "name": "toString",
               "typeParameters": [],
               "parameters": [],
@@ -12534,7 +12563,7 @@
   "constants": [],
   "enums": [
     {
-      "id": 1075,
+      "id": 1077,
       "name": "ReflectionKind",
       "comment": {
         "description": null,
@@ -12549,7 +12578,7 @@
       "external": false,
       "properties": [
         {
-          "id": 1094,
+          "id": 1096,
           "name": "Accessor",
           "comment": {
             "description": null,
@@ -12564,7 +12593,7 @@
           "value": "262144"
         },
         {
-          "id": 1088,
+          "id": 1090,
           "name": "CallSignature",
           "comment": {
             "description": null,
@@ -12579,7 +12608,7 @@
           "value": "4096"
         },
         {
-          "id": 1083,
+          "id": 1085,
           "name": "Class",
           "comment": {
             "description": null,
@@ -12594,7 +12623,7 @@
           "value": "128"
         },
         {
-          "id": 1085,
+          "id": 1087,
           "name": "Constructor",
           "comment": {
             "description": null,
@@ -12609,7 +12638,7 @@
           "value": "512"
         },
         {
-          "id": 1090,
+          "id": 1092,
           "name": "ConstructorSignature",
           "comment": {
             "description": null,
@@ -12624,7 +12653,7 @@
           "value": "16384"
         },
         {
-          "id": 1079,
+          "id": 1081,
           "name": "Enum",
           "comment": {
             "description": null,
@@ -12639,7 +12668,7 @@
           "value": "8"
         },
         {
-          "id": 1080,
+          "id": 1082,
           "name": "EnumMember",
           "comment": {
             "description": null,
@@ -12654,7 +12683,7 @@
           "value": "16"
         },
         {
-          "id": 1099,
+          "id": 1101,
           "name": "Event",
           "comment": {
             "description": null,
@@ -12669,7 +12698,7 @@
           "value": "8388608"
         },
         {
-          "id": 1082,
+          "id": 1084,
           "name": "Function",
           "comment": {
             "description": null,
@@ -12684,7 +12713,7 @@
           "value": "64"
         },
         {
-          "id": 1095,
+          "id": 1097,
           "name": "GetSignature",
           "comment": {
             "description": null,
@@ -12699,7 +12728,7 @@
           "value": "524288"
         },
         {
-          "id": 1089,
+          "id": 1091,
           "name": "IndexSignature",
           "comment": {
             "description": null,
@@ -12714,7 +12743,7 @@
           "value": "8192"
         },
         {
-          "id": 1084,
+          "id": 1086,
           "name": "Interface",
           "comment": {
             "description": null,
@@ -12729,7 +12758,7 @@
           "value": "256"
         },
         {
-          "id": 1087,
+          "id": 1089,
           "name": "Method",
           "comment": {
             "description": null,
@@ -12744,7 +12773,7 @@
           "value": "2048"
         },
         {
-          "id": 1077,
+          "id": 1079,
           "name": "Module",
           "comment": {
             "description": null,
@@ -12759,7 +12788,7 @@
           "value": "2"
         },
         {
-          "id": 1078,
+          "id": 1080,
           "name": "Namespace",
           "comment": {
             "description": null,
@@ -12774,7 +12803,7 @@
           "value": "4"
         },
         {
-          "id": 1097,
+          "id": 1099,
           "name": "ObjectLiteral",
           "comment": {
             "description": null,
@@ -12789,7 +12818,7 @@
           "value": "2097152"
         },
         {
-          "id": 1091,
+          "id": 1093,
           "name": "Parameter",
           "comment": {
             "description": null,
@@ -12804,7 +12833,7 @@
           "value": "32768"
         },
         {
-          "id": 1076,
+          "id": 1078,
           "name": "Project",
           "comment": {
             "description": null,
@@ -12819,7 +12848,7 @@
           "value": "1"
         },
         {
-          "id": 1086,
+          "id": 1088,
           "name": "Property",
           "comment": {
             "description": null,
@@ -12834,7 +12863,7 @@
           "value": "1024"
         },
         {
-          "id": 1100,
+          "id": 1102,
           "name": "Reference",
           "comment": {
             "description": null,
@@ -12849,7 +12878,7 @@
           "value": "16777216"
         },
         {
-          "id": 1096,
+          "id": 1098,
           "name": "SetSignature",
           "comment": {
             "description": null,
@@ -12864,7 +12893,7 @@
           "value": "1048576"
         },
         {
-          "id": 1098,
+          "id": 1100,
           "name": "TypeAlias",
           "comment": {
             "description": null,
@@ -12879,7 +12908,7 @@
           "value": "4194304"
         },
         {
-          "id": 1092,
+          "id": 1094,
           "name": "TypeLiteral",
           "comment": {
             "description": null,
@@ -12894,7 +12923,7 @@
           "value": "65536"
         },
         {
-          "id": 1093,
+          "id": 1095,
           "name": "TypeParameter",
           "comment": {
             "description": null,
@@ -12909,7 +12938,7 @@
           "value": "131072"
         },
         {
-          "id": 1081,
+          "id": 1083,
           "name": "Variable",
           "comment": {
             "description": null,
@@ -12929,7 +12958,7 @@
   "functions": [],
   "interfaces": [
     {
-      "id": 966,
+      "id": 968,
       "name": "TypeParser",
       "comment": {
         "description": "The base interface for all type parsers.",
@@ -12949,7 +12978,7 @@
       "external": false,
       "properties": [
         {
-          "id": 967,
+          "id": 969,
           "name": "kind",
           "comment": {
             "description": "The kind of type this parser is for.",
@@ -12969,7 +12998,7 @@
           "readonly": false,
           "type": {
             "kind": "reference",
-            "id": 983,
+            "id": 985,
             "name": "Kind",
             "packageName": null,
             "typeArguments": []
@@ -12980,7 +13009,7 @@
   ],
   "namespaces": [
     {
-      "id": 654,
+      "id": 656,
       "name": "ArrayTypeParser",
       "comment": {
         "description": null,
@@ -12999,7 +13028,7 @@
       "functions": [],
       "interfaces": [
         {
-          "id": 655,
+          "id": 657,
           "name": "JSON",
           "comment": {
             "description": "The base interface for the JSON compatible format of type parsers.",
@@ -13019,7 +13048,7 @@
           "external": false,
           "properties": [
             {
-              "id": 656,
+              "id": 658,
               "name": "kind",
               "comment": {
                 "description": null,
@@ -13034,14 +13063,14 @@
               "readonly": false,
               "type": {
                 "kind": "reference",
-                "id": 984,
+                "id": 986,
                 "name": "Array",
                 "packageName": null,
                 "typeArguments": []
               }
             },
             {
-              "id": 657,
+              "id": 659,
               "name": "type",
               "comment": {
                 "description": "The type of this array in a JSON compatible format.",
@@ -13061,7 +13090,7 @@
               "readonly": false,
               "type": {
                 "kind": "reference",
-                "id": 1005,
+                "id": 1007,
                 "name": "JSON",
                 "packageName": null,
                 "typeArguments": []
@@ -14109,7 +14138,7 @@
                   },
                   {
                     "kind": "reference",
-                    "id": 966,
+                    "id": 968,
                     "name": "TypeParser",
                     "packageName": null,
                     "typeArguments": []
@@ -14188,7 +14217,7 @@
                 "kind": "array",
                 "type": {
                   "kind": "reference",
-                  "id": 966,
+                  "id": 968,
                   "name": "TypeParser",
                   "packageName": null,
                   "typeArguments": []
@@ -14438,7 +14467,7 @@
                   },
                   {
                     "kind": "reference",
-                    "id": 1005,
+                    "id": 1007,
                     "name": "JSON",
                     "packageName": null,
                     "typeArguments": []
@@ -14517,7 +14546,7 @@
                 "kind": "array",
                 "type": {
                   "kind": "reference",
-                  "id": 1005,
+                  "id": 1007,
                   "name": "JSON",
                   "packageName": null,
                   "typeArguments": []
@@ -14946,7 +14975,7 @@
                   },
                   {
                     "kind": "reference",
-                    "id": 966,
+                    "id": 968,
                     "name": "TypeParser",
                     "packageName": null,
                     "typeArguments": []
@@ -15233,7 +15262,7 @@
                   },
                   {
                     "kind": "reference",
-                    "id": 1005,
+                    "id": 1007,
                     "name": "JSON",
                     "packageName": null,
                     "typeArguments": []
@@ -15555,7 +15584,7 @@
       "typeAliases": []
     },
     {
-      "id": 674,
+      "id": 676,
       "name": "ConditionalTypeParser",
       "comment": {
         "description": null,
@@ -15574,7 +15603,7 @@
       "functions": [],
       "interfaces": [
         {
-          "id": 675,
+          "id": 677,
           "name": "JSON",
           "comment": {
             "description": "The base interface for the JSON compatible format of type parsers.",
@@ -15594,7 +15623,7 @@
           "external": false,
           "properties": [
             {
-              "id": 677,
+              "id": 679,
               "name": "checkType",
               "comment": {
                 "description": "The check type of this conditional type in a JSON compatible format.",
@@ -15614,14 +15643,14 @@
               "readonly": false,
               "type": {
                 "kind": "reference",
-                "id": 1005,
+                "id": 1007,
                 "name": "JSON",
                 "packageName": null,
                 "typeArguments": []
               }
             },
             {
-              "id": 678,
+              "id": 680,
               "name": "extendsType",
               "comment": {
                 "description": "The extends type of this conditional type in a JSON compatible format.",
@@ -15641,14 +15670,14 @@
               "readonly": false,
               "type": {
                 "kind": "reference",
-                "id": 1005,
+                "id": 1007,
                 "name": "JSON",
                 "packageName": null,
                 "typeArguments": []
               }
             },
             {
-              "id": 680,
+              "id": 682,
               "name": "falseType",
               "comment": {
                 "description": "The type of this conditional type when the check type is false in a JSON compatible format.",
@@ -15663,14 +15692,14 @@
               "readonly": false,
               "type": {
                 "kind": "reference",
-                "id": 1005,
+                "id": 1007,
                 "name": "JSON",
                 "packageName": null,
                 "typeArguments": []
               }
             },
             {
-              "id": 676,
+              "id": 678,
               "name": "kind",
               "comment": {
                 "description": null,
@@ -15685,14 +15714,14 @@
               "readonly": false,
               "type": {
                 "kind": "reference",
-                "id": 985,
+                "id": 987,
                 "name": "Conditional",
                 "packageName": null,
                 "typeArguments": []
               }
             },
             {
-              "id": 679,
+              "id": 681,
               "name": "trueType",
               "comment": {
                 "description": "The type of this conditional type when the check type is true in a JSON compatible format.",
@@ -15712,7 +15741,7 @@
               "readonly": false,
               "type": {
                 "kind": "reference",
-                "id": 1005,
+                "id": 1007,
                 "name": "JSON",
                 "packageName": null,
                 "typeArguments": []
@@ -15914,7 +15943,7 @@
               "readonly": false,
               "type": {
                 "kind": "reference",
-                "id": 966,
+                "id": 968,
                 "name": "TypeParser",
                 "packageName": null,
                 "typeArguments": []
@@ -16117,7 +16146,7 @@
               "readonly": false,
               "type": {
                 "kind": "reference",
-                "id": 1005,
+                "id": 1007,
                 "name": "JSON",
                 "packageName": null,
                 "typeArguments": []
@@ -17250,7 +17279,7 @@
       "typeAliases": []
     },
     {
-      "id": 693,
+      "id": 695,
       "name": "IndexedAccessTypeParser",
       "comment": {
         "description": null,
@@ -17269,7 +17298,7 @@
       "functions": [],
       "interfaces": [
         {
-          "id": 694,
+          "id": 696,
           "name": "JSON",
           "comment": {
             "description": "The base interface for the JSON compatible format of type parsers.",
@@ -17289,7 +17318,7 @@
           "external": false,
           "properties": [
             {
-              "id": 697,
+              "id": 699,
               "name": "indexType",
               "comment": {
                 "description": "The index type of this indexed access type in a JSON compatible format.",
@@ -17309,14 +17338,14 @@
               "readonly": false,
               "type": {
                 "kind": "reference",
-                "id": 1005,
+                "id": 1007,
                 "name": "JSON",
                 "packageName": null,
                 "typeArguments": []
               }
             },
             {
-              "id": 695,
+              "id": 697,
               "name": "kind",
               "comment": {
                 "description": null,
@@ -17331,14 +17360,14 @@
               "readonly": false,
               "type": {
                 "kind": "reference",
-                "id": 986,
+                "id": 988,
                 "name": "IndexedAccess",
                 "packageName": null,
                 "typeArguments": []
               }
             },
             {
-              "id": 696,
+              "id": 698,
               "name": "objectType",
               "comment": {
                 "description": "The object type of this indexed access type in a JSON compatible format.",
@@ -17358,7 +17387,7 @@
               "readonly": false,
               "type": {
                 "kind": "reference",
-                "id": 1005,
+                "id": 1007,
                 "name": "JSON",
                 "packageName": null,
                 "typeArguments": []
@@ -17371,7 +17400,7 @@
       "typeAliases": []
     },
     {
-      "id": 708,
+      "id": 710,
       "name": "InferredTypeParser",
       "comment": {
         "description": null,
@@ -17390,7 +17419,7 @@
       "functions": [],
       "interfaces": [
         {
-          "id": 709,
+          "id": 711,
           "name": "JSON",
           "comment": {
             "description": "The base interface for the JSON compatible format of type parsers.",
@@ -17410,7 +17439,7 @@
           "external": false,
           "properties": [
             {
-              "id": 710,
+              "id": 712,
               "name": "kind",
               "comment": {
                 "description": null,
@@ -17425,14 +17454,14 @@
               "readonly": false,
               "type": {
                 "kind": "reference",
-                "id": 987,
+                "id": 989,
                 "name": "Inferred",
                 "packageName": null,
                 "typeArguments": []
               }
             },
             {
-              "id": 711,
+              "id": 713,
               "name": "type",
               "comment": {
                 "description": "The type of this inferred type.",
@@ -18038,7 +18067,7 @@
               "readonly": false,
               "type": {
                 "kind": "reference",
-                "id": 966,
+                "id": 968,
                 "name": "TypeParser",
                 "packageName": null,
                 "typeArguments": []
@@ -18217,7 +18246,7 @@
               "readonly": false,
               "type": {
                 "kind": "reference",
-                "id": 1005,
+                "id": 1007,
                 "name": "JSON",
                 "packageName": null,
                 "typeArguments": []
@@ -18230,7 +18259,7 @@
       "typeAliases": []
     },
     {
-      "id": 722,
+      "id": 724,
       "name": "IntersectionTypeParser",
       "comment": {
         "description": null,
@@ -18249,7 +18278,7 @@
       "functions": [],
       "interfaces": [
         {
-          "id": 723,
+          "id": 725,
           "name": "JSON",
           "comment": {
             "description": "The base interface for the JSON compatible format of type parsers.",
@@ -18269,7 +18298,7 @@
           "external": false,
           "properties": [
             {
-              "id": 724,
+              "id": 726,
               "name": "kind",
               "comment": {
                 "description": null,
@@ -18284,14 +18313,14 @@
               "readonly": false,
               "type": {
                 "kind": "reference",
-                "id": 988,
+                "id": 990,
                 "name": "Intersection",
                 "packageName": null,
                 "typeArguments": []
               }
             },
             {
-              "id": 725,
+              "id": 727,
               "name": "types",
               "comment": {
                 "description": "The types of this intersection type in a JSON compatible format.",
@@ -18313,7 +18342,7 @@
                 "kind": "array",
                 "type": {
                   "kind": "reference",
-                  "id": 1005,
+                  "id": 1007,
                   "name": "JSON",
                   "packageName": null,
                   "typeArguments": []
@@ -18327,7 +18356,7 @@
       "typeAliases": []
     },
     {
-      "id": 736,
+      "id": 738,
       "name": "IntrinsicTypeParser",
       "comment": {
         "description": null,
@@ -18346,7 +18375,7 @@
       "functions": [],
       "interfaces": [
         {
-          "id": 737,
+          "id": 739,
           "name": "JSON",
           "comment": {
             "description": "The base interface for the JSON compatible format of type parsers.",
@@ -18366,7 +18395,7 @@
           "external": false,
           "properties": [
             {
-              "id": 738,
+              "id": 740,
               "name": "kind",
               "comment": {
                 "description": null,
@@ -18381,14 +18410,14 @@
               "readonly": false,
               "type": {
                 "kind": "reference",
-                "id": 989,
+                "id": 991,
                 "name": "Intrinsic",
                 "packageName": null,
                 "typeArguments": []
               }
             },
             {
-              "id": 739,
+              "id": 741,
               "name": "type",
               "comment": {
                 "description": "The type of this intrinsic type.",
@@ -18418,7 +18447,7 @@
       "typeAliases": []
     },
     {
-      "id": 750,
+      "id": 752,
       "name": "LiteralTypeParser",
       "comment": {
         "description": null,
@@ -18437,7 +18466,7 @@
       "functions": [],
       "interfaces": [
         {
-          "id": 751,
+          "id": 753,
           "name": "JSON",
           "comment": {
             "description": "The base interface for the JSON compatible format of type parsers.",
@@ -18457,7 +18486,7 @@
           "external": false,
           "properties": [
             {
-              "id": 752,
+              "id": 754,
               "name": "kind",
               "comment": {
                 "description": null,
@@ -18472,14 +18501,14 @@
               "readonly": false,
               "type": {
                 "kind": "reference",
-                "id": 990,
+                "id": 992,
                 "name": "Literal",
                 "packageName": null,
                 "typeArguments": []
               }
             },
             {
-              "id": 753,
+              "id": 755,
               "name": "value",
               "comment": {
                 "description": "The value of this literal type.",
@@ -18509,7 +18538,7 @@
       "typeAliases": []
     },
     {
-      "id": 774,
+      "id": 776,
       "name": "MappedTypeParser",
       "comment": {
         "description": null,
@@ -18526,7 +18555,7 @@
       "constants": [],
       "enums": [
         {
-          "id": 783,
+          "id": 785,
           "name": "Modifier",
           "comment": {
             "description": "The modifier for a mapped type.",
@@ -18541,7 +18570,7 @@
           "external": false,
           "properties": [
             {
-              "id": 784,
+              "id": 786,
               "name": "Add",
               "comment": {
                 "description": null,
@@ -18556,7 +18585,7 @@
               "value": "+"
             },
             {
-              "id": 785,
+              "id": 787,
               "name": "Remove",
               "comment": {
                 "description": null,
@@ -18576,7 +18605,7 @@
       "functions": [],
       "interfaces": [
         {
-          "id": 775,
+          "id": 777,
           "name": "JSON",
           "comment": {
             "description": "The base interface for the JSON compatible format of type parsers.",
@@ -18596,7 +18625,7 @@
           "external": false,
           "properties": [
             {
-              "id": 776,
+              "id": 778,
               "name": "kind",
               "comment": {
                 "description": null,
@@ -18611,14 +18640,14 @@
               "readonly": false,
               "type": {
                 "kind": "reference",
-                "id": 991,
+                "id": 993,
                 "name": "Mapped",
                 "packageName": null,
                 "typeArguments": []
               }
             },
             {
-              "id": 779,
+              "id": 781,
               "name": "nameType",
               "comment": {
                 "description": "The name type of this mapped type in a JSON compatible format.",
@@ -18645,7 +18674,7 @@
                   },
                   {
                     "kind": "reference",
-                    "id": 1005,
+                    "id": 1007,
                     "name": "JSON",
                     "packageName": null,
                     "typeArguments": []
@@ -18654,7 +18683,7 @@
               }
             },
             {
-              "id": 782,
+              "id": 784,
               "name": "optional",
               "comment": {
                 "description": "The optional modifier of this mapped type.",
@@ -18681,7 +18710,7 @@
                   },
                   {
                     "kind": "reference",
-                    "id": 783,
+                    "id": 785,
                     "name": "Modifier",
                     "packageName": null,
                     "typeArguments": []
@@ -18690,7 +18719,7 @@
               }
             },
             {
-              "id": 777,
+              "id": 779,
               "name": "parameter",
               "comment": {
                 "description": "The parameter name of this mapped type.",
@@ -18714,7 +18743,7 @@
               }
             },
             {
-              "id": 778,
+              "id": 780,
               "name": "parameterType",
               "comment": {
                 "description": "The parameter type of this mapped type in a JSON compatible format.",
@@ -18734,14 +18763,14 @@
               "readonly": false,
               "type": {
                 "kind": "reference",
-                "id": 1005,
+                "id": 1007,
                 "name": "JSON",
                 "packageName": null,
                 "typeArguments": []
               }
             },
             {
-              "id": 781,
+              "id": 783,
               "name": "readonly",
               "comment": {
                 "description": "The readonly modifier of this mapped type.",
@@ -18768,7 +18797,7 @@
                   },
                   {
                     "kind": "reference",
-                    "id": 783,
+                    "id": 785,
                     "name": "Modifier",
                     "packageName": null,
                     "typeArguments": []
@@ -18777,7 +18806,7 @@
               }
             },
             {
-              "id": 780,
+              "id": 782,
               "name": "templateType",
               "comment": {
                 "description": "The template type of this mapped type in a JSON compatible format.",
@@ -18797,7 +18826,7 @@
               "readonly": false,
               "type": {
                 "kind": "reference",
-                "id": 1005,
+                "id": 1007,
                 "name": "JSON",
                 "packageName": null,
                 "typeArguments": []
@@ -18810,7 +18839,7 @@
       "typeAliases": []
     },
     {
-      "id": 800,
+      "id": 802,
       "name": "NamedTupleMemberTypeParser",
       "comment": {
         "description": null,
@@ -18829,7 +18858,7 @@
       "functions": [],
       "interfaces": [
         {
-          "id": 801,
+          "id": 803,
           "name": "JSON",
           "comment": {
             "description": "The base interface for the JSON compatible format of type parsers.",
@@ -18849,7 +18878,7 @@
           "external": false,
           "properties": [
             {
-              "id": 802,
+              "id": 804,
               "name": "kind",
               "comment": {
                 "description": null,
@@ -18864,14 +18893,14 @@
               "readonly": false,
               "type": {
                 "kind": "reference",
-                "id": 992,
+                "id": 994,
                 "name": "NamedTupleMember",
                 "packageName": null,
                 "typeArguments": []
               }
             },
             {
-              "id": 803,
+              "id": 805,
               "name": "name",
               "comment": {
                 "description": "The name of this named tuple member.",
@@ -18895,7 +18924,7 @@
               }
             },
             {
-              "id": 805,
+              "id": 807,
               "name": "optional",
               "comment": {
                 "description": "Whether this named tuple member is optional.",
@@ -18919,7 +18948,7 @@
               }
             },
             {
-              "id": 804,
+              "id": 806,
               "name": "type",
               "comment": {
                 "description": "The type of this named tuple member in a JSON compatible format.",
@@ -18939,7 +18968,7 @@
               "readonly": false,
               "type": {
                 "kind": "reference",
-                "id": 1005,
+                "id": 1007,
                 "name": "JSON",
                 "packageName": null,
                 "typeArguments": []
@@ -19323,7 +19352,7 @@
                 "kind": "array",
                 "type": {
                   "kind": "reference",
-                  "id": 1035,
+                  "id": 1037,
                   "name": "TypeAliasParser",
                   "packageName": null,
                   "typeArguments": []
@@ -19685,7 +19714,7 @@
                 "kind": "array",
                 "type": {
                   "kind": "reference",
-                  "id": 1067,
+                  "id": 1069,
                   "name": "JSON",
                   "packageName": null,
                   "typeArguments": []
@@ -19699,7 +19728,7 @@
       "typeAliases": []
     },
     {
-      "id": 816,
+      "id": 818,
       "name": "OptionalTypeParser",
       "comment": {
         "description": null,
@@ -19718,7 +19747,7 @@
       "functions": [],
       "interfaces": [
         {
-          "id": 817,
+          "id": 819,
           "name": "JSON",
           "comment": {
             "description": "The base interface for the JSON compatible format of type parsers.",
@@ -19738,7 +19767,7 @@
           "external": false,
           "properties": [
             {
-              "id": 818,
+              "id": 820,
               "name": "kind",
               "comment": {
                 "description": null,
@@ -19753,14 +19782,14 @@
               "readonly": false,
               "type": {
                 "kind": "reference",
-                "id": 993,
+                "id": 995,
                 "name": "Optional",
                 "packageName": null,
                 "typeArguments": []
               }
             },
             {
-              "id": 819,
+              "id": 821,
               "name": "type",
               "comment": {
                 "description": "The type of this optional type in a JSON compatible format.",
@@ -19780,7 +19809,7 @@
               "readonly": false,
               "type": {
                 "kind": "reference",
-                "id": 1005,
+                "id": 1007,
                 "name": "JSON",
                 "packageName": null,
                 "typeArguments": []
@@ -19895,7 +19924,7 @@
               "readonly": false,
               "type": {
                 "kind": "reference",
-                "id": 966,
+                "id": 968,
                 "name": "TypeParser",
                 "packageName": null,
                 "typeArguments": []
@@ -19987,7 +20016,7 @@
               "readonly": false,
               "type": {
                 "kind": "reference",
-                "id": 1005,
+                "id": 1007,
                 "name": "JSON",
                 "packageName": null,
                 "typeArguments": []
@@ -20000,7 +20029,7 @@
       "typeAliases": []
     },
     {
-      "id": 834,
+      "id": 836,
       "name": "PredicateTypeParser",
       "comment": {
         "description": null,
@@ -20019,7 +20048,7 @@
       "functions": [],
       "interfaces": [
         {
-          "id": 835,
+          "id": 837,
           "name": "JSON",
           "comment": {
             "description": "The base interface for the JSON compatible format of type parsers.",
@@ -20039,7 +20068,7 @@
           "external": false,
           "properties": [
             {
-              "id": 837,
+              "id": 839,
               "name": "asserts",
               "comment": {
                 "description": "Whether this predicate type asserts a value.",
@@ -20063,7 +20092,7 @@
               }
             },
             {
-              "id": 836,
+              "id": 838,
               "name": "kind",
               "comment": {
                 "description": null,
@@ -20078,14 +20107,14 @@
               "readonly": false,
               "type": {
                 "kind": "reference",
-                "id": 994,
+                "id": 996,
                 "name": "Predicate",
                 "packageName": null,
                 "typeArguments": []
               }
             },
             {
-              "id": 838,
+              "id": 840,
               "name": "name",
               "comment": {
                 "description": "The name of this predicate type.",
@@ -20109,7 +20138,7 @@
               }
             },
             {
-              "id": 839,
+              "id": 841,
               "name": "type",
               "comment": {
                 "description": "The type of this predicate type in a JSON compatible format.\n\nIf this \nasserts\n is \n`false`\n this will not be \n`null`",
@@ -20131,7 +20160,7 @@
                   },
                   {
                     "kind": "reference",
-                    "id": 1005,
+                    "id": 1007,
                     "name": "JSON",
                     "packageName": null,
                     "typeArguments": []
@@ -20146,7 +20175,7 @@
       "typeAliases": []
     },
     {
-      "id": 633,
+      "id": 634,
       "name": "ProjectParser",
       "comment": {
         "description": null,
@@ -20165,7 +20194,7 @@
       "functions": [],
       "interfaces": [
         {
-          "id": 634,
+          "id": 635,
           "name": "JSON",
           "comment": {
             "description": null,
@@ -20173,14 +20202,14 @@
             "modifierTags": []
           },
           "source": {
-            "line": 134,
+            "line": 142,
             "file": "ProjectParser.ts",
             "path": "lib/structures"
           },
           "external": false,
           "properties": [
             {
-              "id": 637,
+              "id": 639,
               "name": "classes",
               "comment": {
                 "description": "An array of class JSON compatible objects for this project in a JSON compatible format.",
@@ -20193,7 +20222,7 @@
                 "modifierTags": []
               },
               "source": {
-                "line": 153,
+                "line": 167,
                 "file": "ProjectParser.ts",
                 "path": "lib/structures"
               },
@@ -20210,7 +20239,7 @@
               }
             },
             {
-              "id": 638,
+              "id": 640,
               "name": "constants",
               "comment": {
                 "description": "An array of constant JSON compatible objects for this project in a JSON compatible format.",
@@ -20223,7 +20252,7 @@
                 "modifierTags": []
               },
               "source": {
-                "line": 159,
+                "line": 173,
                 "file": "ProjectParser.ts",
                 "path": "lib/structures"
               },
@@ -20240,7 +20269,7 @@
               }
             },
             {
-              "id": 639,
+              "id": 641,
               "name": "enums",
               "comment": {
                 "description": "An array of enum JSON compatible objects for this project in a JSON compatible format.",
@@ -20253,7 +20282,7 @@
                 "modifierTags": []
               },
               "source": {
-                "line": 165,
+                "line": 179,
                 "file": "ProjectParser.ts",
                 "path": "lib/structures"
               },
@@ -20270,7 +20299,7 @@
               }
             },
             {
-              "id": 640,
+              "id": 642,
               "name": "functions",
               "comment": {
                 "description": "An array of function JSON compatible objects for this project in a JSON compatible format.",
@@ -20283,7 +20312,7 @@
                 "modifierTags": []
               },
               "source": {
-                "line": 171,
+                "line": 185,
                 "file": "ProjectParser.ts",
                 "path": "lib/structures"
               },
@@ -20300,7 +20329,7 @@
               }
             },
             {
-              "id": 635,
+              "id": 637,
               "name": "id",
               "comment": {
                 "description": "The identifier of this project. This is usually \n`0`",
@@ -20313,7 +20342,7 @@
                 "modifierTags": []
               },
               "source": {
-                "line": 139,
+                "line": 153,
                 "file": "ProjectParser.ts",
                 "path": "lib/structures"
               },
@@ -20324,7 +20353,7 @@
               }
             },
             {
-              "id": 641,
+              "id": 643,
               "name": "interfaces",
               "comment": {
                 "description": "An array of interface JSON compatible objects for this project in a JSON compatible format.",
@@ -20337,7 +20366,7 @@
                 "modifierTags": []
               },
               "source": {
-                "line": 177,
+                "line": 191,
                 "file": "ProjectParser.ts",
                 "path": "lib/structures"
               },
@@ -20354,7 +20383,7 @@
               }
             },
             {
-              "id": 636,
+              "id": 638,
               "name": "name",
               "comment": {
                 "description": "The name of your project.\n\nCorresponds to the \n`name`\n property in your TypeDoc configuration or the \n`name`\n property of your \n`package.json`\n file.",
@@ -20367,7 +20396,7 @@
                 "modifierTags": []
               },
               "source": {
-                "line": 147,
+                "line": 161,
                 "file": "ProjectParser.ts",
                 "path": "lib/structures"
               },
@@ -20378,7 +20407,7 @@
               }
             },
             {
-              "id": 642,
+              "id": 644,
               "name": "namespaces",
               "comment": {
                 "description": "An array of namespace JSON compatible objects for this project in a JSON compatible format.",
@@ -20391,7 +20420,7 @@
                 "modifierTags": []
               },
               "source": {
-                "line": 183,
+                "line": 197,
                 "file": "ProjectParser.ts",
                 "path": "lib/structures"
               },
@@ -20408,7 +20437,7 @@
               }
             },
             {
-              "id": 643,
+              "id": 645,
               "name": "typeAliases",
               "comment": {
                 "description": "An array of type alias JSON compatible objects for this project in a JSON compatible format.",
@@ -20421,7 +20450,7 @@
                 "modifierTags": []
               },
               "source": {
-                "line": 189,
+                "line": 203,
                 "file": "ProjectParser.ts",
                 "path": "lib/structures"
               },
@@ -20430,11 +20459,35 @@
                 "kind": "array",
                 "type": {
                   "kind": "reference",
-                  "id": 1067,
+                  "id": 1069,
                   "name": "JSON",
                   "packageName": null,
                   "typeArguments": []
                 }
+              }
+            },
+            {
+              "id": 636,
+              "name": "typeDocJsonParserVersion",
+              "comment": {
+                "description": "The version of \n`typedoc-json-parser`\n that generated this JSON object.",
+                "blockTags": [
+                  {
+                    "name": "since",
+                    "text": "2.1.0"
+                  }
+                ],
+                "modifierTags": []
+              },
+              "source": {
+                "line": 147,
+                "file": "ProjectParser.ts",
+                "path": "lib/structures"
+              },
+              "readonly": false,
+              "type": {
+                "kind": "intrinsic",
+                "type": "string"
               }
             }
           ]
@@ -20444,7 +20497,7 @@
       "typeAliases": []
     },
     {
-      "id": 850,
+      "id": 852,
       "name": "QueryTypeParser",
       "comment": {
         "description": null,
@@ -20463,7 +20516,7 @@
       "functions": [],
       "interfaces": [
         {
-          "id": 851,
+          "id": 853,
           "name": "JSON",
           "comment": {
             "description": "The base interface for the JSON compatible format of type parsers.",
@@ -20483,7 +20536,7 @@
           "external": false,
           "properties": [
             {
-              "id": 852,
+              "id": 854,
               "name": "kind",
               "comment": {
                 "description": null,
@@ -20498,14 +20551,14 @@
               "readonly": false,
               "type": {
                 "kind": "reference",
-                "id": 995,
+                "id": 997,
                 "name": "Query",
                 "packageName": null,
                 "typeArguments": []
               }
             },
             {
-              "id": 853,
+              "id": 855,
               "name": "query",
               "comment": {
                 "description": "The query of this query type.",
@@ -20525,7 +20578,7 @@
               "readonly": false,
               "type": {
                 "kind": "reference",
-                "id": 873,
+                "id": 875,
                 "name": "JSON",
                 "packageName": null,
                 "typeArguments": []
@@ -20538,7 +20591,7 @@
       "typeAliases": []
     },
     {
-      "id": 872,
+      "id": 874,
       "name": "ReferenceTypeParser",
       "comment": {
         "description": null,
@@ -20557,7 +20610,7 @@
       "functions": [],
       "interfaces": [
         {
-          "id": 873,
+          "id": 875,
           "name": "JSON",
           "comment": {
             "description": "The base interface for the JSON compatible format of type parsers.",
@@ -20577,7 +20630,7 @@
           "external": false,
           "properties": [
             {
-              "id": 875,
+              "id": 877,
               "name": "id",
               "comment": {
                 "description": "The id of this reference type.",
@@ -20610,7 +20663,7 @@
               }
             },
             {
-              "id": 874,
+              "id": 876,
               "name": "kind",
               "comment": {
                 "description": null,
@@ -20625,14 +20678,14 @@
               "readonly": false,
               "type": {
                 "kind": "reference",
-                "id": 996,
+                "id": 998,
                 "name": "Reference",
                 "packageName": null,
                 "typeArguments": []
               }
             },
             {
-              "id": 876,
+              "id": 878,
               "name": "name",
               "comment": {
                 "description": "The name of this reference type.",
@@ -20656,7 +20709,7 @@
               }
             },
             {
-              "id": 877,
+              "id": 879,
               "name": "packageName",
               "comment": {
                 "description": "The package name of this reference type.",
@@ -20689,7 +20742,7 @@
               }
             },
             {
-              "id": 878,
+              "id": 880,
               "name": "typeArguments",
               "comment": {
                 "description": "The type arguments of this reference type in a JSON compatible format.",
@@ -20706,7 +20759,7 @@
                 "kind": "array",
                 "type": {
                   "kind": "reference",
-                  "id": 1005,
+                  "id": 1007,
                   "name": "JSON",
                   "packageName": null,
                   "typeArguments": []
@@ -20720,7 +20773,7 @@
       "typeAliases": []
     },
     {
-      "id": 889,
+      "id": 891,
       "name": "ReflectionTypeParser",
       "comment": {
         "description": null,
@@ -20739,7 +20792,7 @@
       "functions": [],
       "interfaces": [
         {
-          "id": 890,
+          "id": 892,
           "name": "JSON",
           "comment": {
             "description": "The base interface for the JSON compatible format of type parsers.",
@@ -20759,7 +20812,7 @@
           "external": false,
           "properties": [
             {
-              "id": 891,
+              "id": 893,
               "name": "kind",
               "comment": {
                 "description": null,
@@ -20774,14 +20827,14 @@
               "readonly": false,
               "type": {
                 "kind": "reference",
-                "id": 997,
+                "id": 999,
                 "name": "Reflection",
                 "packageName": null,
                 "typeArguments": []
               }
             },
             {
-              "id": 892,
+              "id": 894,
               "name": "reflection",
               "comment": {
                 "description": "The reflection of this reflection type.",
@@ -20823,7 +20876,7 @@
       "typeAliases": []
     },
     {
-      "id": 903,
+      "id": 905,
       "name": "RestTypeParser",
       "comment": {
         "description": null,
@@ -20842,7 +20895,7 @@
       "functions": [],
       "interfaces": [
         {
-          "id": 904,
+          "id": 906,
           "name": "JSON",
           "comment": {
             "description": "The base interface for the JSON compatible format of type parsers.",
@@ -20862,7 +20915,7 @@
           "external": false,
           "properties": [
             {
-              "id": 905,
+              "id": 907,
               "name": "kind",
               "comment": {
                 "description": null,
@@ -20877,14 +20930,14 @@
               "readonly": false,
               "type": {
                 "kind": "reference",
-                "id": 998,
+                "id": 1000,
                 "name": "Rest",
                 "packageName": null,
                 "typeArguments": []
               }
             },
             {
-              "id": 906,
+              "id": 908,
               "name": "type",
               "comment": {
                 "description": "The type of this rest type in a JSON compatible format.",
@@ -20904,7 +20957,7 @@
               "readonly": false,
               "type": {
                 "kind": "reference",
-                "id": 1005,
+                "id": 1007,
                 "name": "JSON",
                 "packageName": null,
                 "typeArguments": []
@@ -21049,7 +21102,7 @@
               "readonly": false,
               "type": {
                 "kind": "reference",
-                "id": 966,
+                "id": 968,
                 "name": "TypeParser",
                 "packageName": null,
                 "typeArguments": []
@@ -21201,7 +21254,7 @@
               "readonly": false,
               "type": {
                 "kind": "reference",
-                "id": 1005,
+                "id": 1007,
                 "name": "JSON",
                 "packageName": null,
                 "typeArguments": []
@@ -21445,7 +21498,7 @@
       "typeAliases": []
     },
     {
-      "id": 919,
+      "id": 921,
       "name": "TemplateLiteralTypeParser",
       "comment": {
         "description": null,
@@ -21464,7 +21517,7 @@
       "functions": [],
       "interfaces": [
         {
-          "id": 920,
+          "id": 922,
           "name": "JSON",
           "comment": {
             "description": "The base interface for the JSON compatible format of type parsers.",
@@ -21484,7 +21537,7 @@
           "external": false,
           "properties": [
             {
-              "id": 922,
+              "id": 924,
               "name": "head",
               "comment": {
                 "description": "The head of this template literal type.",
@@ -21508,7 +21561,7 @@
               }
             },
             {
-              "id": 921,
+              "id": 923,
               "name": "kind",
               "comment": {
                 "description": null,
@@ -21523,14 +21576,14 @@
               "readonly": false,
               "type": {
                 "kind": "reference",
-                "id": 999,
+                "id": 1001,
                 "name": "TemplateLiteral",
                 "packageName": null,
                 "typeArguments": []
               }
             },
             {
-              "id": 923,
+              "id": 925,
               "name": "tail",
               "comment": {
                 "description": "The tail of this template literal type.",
@@ -21552,7 +21605,7 @@
                 "kind": "array",
                 "type": {
                   "kind": "reference",
-                  "id": 928,
+                  "id": 930,
                   "name": "JSON",
                   "packageName": null,
                   "typeArguments": []
@@ -21562,7 +21615,7 @@
           ]
         },
         {
-          "id": 924,
+          "id": 926,
           "name": "Tail",
           "comment": {
             "description": null,
@@ -21577,7 +21630,7 @@
           "external": false,
           "properties": [
             {
-              "id": 926,
+              "id": 928,
               "name": "text",
               "comment": {
                 "description": "The text of this template literal tail type.",
@@ -21601,7 +21654,7 @@
               }
             },
             {
-              "id": 925,
+              "id": 927,
               "name": "type",
               "comment": {
                 "description": "The type of this template literal tail type.",
@@ -21621,7 +21674,7 @@
               "readonly": false,
               "type": {
                 "kind": "reference",
-                "id": 966,
+                "id": 968,
                 "name": "TypeParser",
                 "packageName": null,
                 "typeArguments": []
@@ -21632,7 +21685,7 @@
       ],
       "namespaces": [
         {
-          "id": 927,
+          "id": 929,
           "name": "Tail",
           "comment": {
             "description": null,
@@ -21651,7 +21704,7 @@
           "functions": [],
           "interfaces": [
             {
-              "id": 928,
+              "id": 930,
               "name": "JSON",
               "comment": {
                 "description": null,
@@ -21666,7 +21719,7 @@
               "external": false,
               "properties": [
                 {
-                  "id": 930,
+                  "id": 932,
                   "name": "text",
                   "comment": {
                     "description": "The text of this template literal tail type.",
@@ -21690,7 +21743,7 @@
                   }
                 },
                 {
-                  "id": 929,
+                  "id": 931,
                   "name": "type",
                   "comment": {
                     "description": "The type of this template literal tail type in a JSON compatible format.",
@@ -21710,7 +21763,7 @@
                   "readonly": false,
                   "type": {
                     "kind": "reference",
-                    "id": 1005,
+                    "id": 1007,
                     "name": "JSON",
                     "packageName": null,
                     "typeArguments": []
@@ -21726,7 +21779,7 @@
       "typeAliases": []
     },
     {
-      "id": 941,
+      "id": 943,
       "name": "TupleTypeParser",
       "comment": {
         "description": null,
@@ -21745,7 +21798,7 @@
       "functions": [],
       "interfaces": [
         {
-          "id": 942,
+          "id": 944,
           "name": "JSON",
           "comment": {
             "description": "The base interface for the JSON compatible format of type parsers.",
@@ -21765,7 +21818,7 @@
           "external": false,
           "properties": [
             {
-              "id": 943,
+              "id": 945,
               "name": "kind",
               "comment": {
                 "description": null,
@@ -21780,14 +21833,14 @@
               "readonly": false,
               "type": {
                 "kind": "reference",
-                "id": 1000,
+                "id": 1002,
                 "name": "Tuple",
                 "packageName": null,
                 "typeArguments": []
               }
             },
             {
-              "id": 944,
+              "id": 946,
               "name": "types",
               "comment": {
                 "description": "The types of this tuple type in a JSON compatible format.",
@@ -21809,7 +21862,7 @@
                 "kind": "array",
                 "type": {
                   "kind": "reference",
-                  "id": 1005,
+                  "id": 1007,
                   "name": "JSON",
                   "packageName": null,
                   "typeArguments": []
@@ -21823,7 +21876,7 @@
       "typeAliases": []
     },
     {
-      "id": 1058,
+      "id": 1060,
       "name": "TypeAliasParser",
       "comment": {
         "description": null,
@@ -21842,7 +21895,7 @@
       "functions": [],
       "interfaces": [
         {
-          "id": 1059,
+          "id": 1061,
           "name": "Data",
           "comment": {
             "description": null,
@@ -21857,7 +21910,7 @@
           "external": false,
           "properties": [
             {
-              "id": 1065,
+              "id": 1067,
               "name": "comment",
               "comment": {
                 "description": "The comment parser for this parser.",
@@ -21884,7 +21937,7 @@
               }
             },
             {
-              "id": 1060,
+              "id": 1062,
               "name": "external",
               "comment": {
                 "description": "Whether this type alias is external.",
@@ -21908,7 +21961,7 @@
               }
             },
             {
-              "id": 1063,
+              "id": 1065,
               "name": "id",
               "comment": {
                 "description": "The identifier for this parser.",
@@ -21932,7 +21985,7 @@
               }
             },
             {
-              "id": 1064,
+              "id": 1066,
               "name": "name",
               "comment": {
                 "description": "The name for this parser.",
@@ -21956,7 +22009,7 @@
               }
             },
             {
-              "id": 1066,
+              "id": 1068,
               "name": "source",
               "comment": {
                 "description": "The source parser for this parser.",
@@ -21992,7 +22045,7 @@
               }
             },
             {
-              "id": 1062,
+              "id": 1064,
               "name": "type",
               "comment": {
                 "description": "The type of this type alias.",
@@ -22012,14 +22065,14 @@
               "readonly": false,
               "type": {
                 "kind": "reference",
-                "id": 966,
+                "id": 968,
                 "name": "TypeParser",
                 "packageName": null,
                 "typeArguments": []
               }
             },
             {
-              "id": 1061,
+              "id": 1063,
               "name": "typeParameters",
               "comment": {
                 "description": "The type parameters of this type alias.",
@@ -22051,7 +22104,7 @@
           ]
         },
         {
-          "id": 1067,
+          "id": 1069,
           "name": "JSON",
           "comment": {
             "description": null,
@@ -22066,7 +22119,7 @@
           "external": false,
           "properties": [
             {
-              "id": 1073,
+              "id": 1075,
               "name": "comment",
               "comment": {
                 "description": "The comment parser for this parser in a JSON compatible format.",
@@ -22093,7 +22146,7 @@
               }
             },
             {
-              "id": 1068,
+              "id": 1070,
               "name": "external",
               "comment": {
                 "description": "Whether this type alias is external.",
@@ -22117,7 +22170,7 @@
               }
             },
             {
-              "id": 1071,
+              "id": 1073,
               "name": "id",
               "comment": {
                 "description": "The identifier for this parser.",
@@ -22141,7 +22194,7 @@
               }
             },
             {
-              "id": 1072,
+              "id": 1074,
               "name": "name",
               "comment": {
                 "description": "The name for this parser.",
@@ -22165,7 +22218,7 @@
               }
             },
             {
-              "id": 1074,
+              "id": 1076,
               "name": "source",
               "comment": {
                 "description": "The source parser for this parser in a JSON compatible format.",
@@ -22201,7 +22254,7 @@
               }
             },
             {
-              "id": 1070,
+              "id": 1072,
               "name": "type",
               "comment": {
                 "description": "The type of this type alias in a JSON compatible format.",
@@ -22216,14 +22269,14 @@
               "readonly": false,
               "type": {
                 "kind": "reference",
-                "id": 1005,
+                "id": 1007,
                 "name": "JSON",
                 "packageName": null,
                 "typeArguments": []
               }
             },
             {
-              "id": 1069,
+              "id": 1071,
               "name": "typeParameters",
               "comment": {
                 "description": "The type parameters of this type alias in a JSON compatible format.",
@@ -22259,7 +22312,7 @@
       "typeAliases": []
     },
     {
-      "id": 957,
+      "id": 959,
       "name": "TypeOperatorTypeParser",
       "comment": {
         "description": null,
@@ -22276,7 +22329,7 @@
       "constants": [],
       "enums": [
         {
-          "id": 962,
+          "id": 964,
           "name": "Operator",
           "comment": {
             "description": "The operators of a type operator type.",
@@ -22291,7 +22344,7 @@
           "external": false,
           "properties": [
             {
-              "id": 963,
+              "id": 965,
               "name": "KeyOf",
               "comment": {
                 "description": null,
@@ -22306,7 +22359,7 @@
               "value": "keyof"
             },
             {
-              "id": 965,
+              "id": 967,
               "name": "Readonly",
               "comment": {
                 "description": null,
@@ -22321,7 +22374,7 @@
               "value": "readonly"
             },
             {
-              "id": 964,
+              "id": 966,
               "name": "Unique",
               "comment": {
                 "description": null,
@@ -22341,7 +22394,7 @@
       "functions": [],
       "interfaces": [
         {
-          "id": 958,
+          "id": 960,
           "name": "JSON",
           "comment": {
             "description": "The base interface for the JSON compatible format of type parsers.",
@@ -22361,7 +22414,7 @@
           "external": false,
           "properties": [
             {
-              "id": 959,
+              "id": 961,
               "name": "kind",
               "comment": {
                 "description": null,
@@ -22376,14 +22429,14 @@
               "readonly": false,
               "type": {
                 "kind": "reference",
-                "id": 1001,
+                "id": 1003,
                 "name": "TypeOperator",
                 "packageName": null,
                 "typeArguments": []
               }
             },
             {
-              "id": 960,
+              "id": 962,
               "name": "operator",
               "comment": {
                 "description": "The operator of this type operator type.",
@@ -22403,14 +22456,14 @@
               "readonly": false,
               "type": {
                 "kind": "reference",
-                "id": 962,
+                "id": 964,
                 "name": "Operator",
                 "packageName": null,
                 "typeArguments": []
               }
             },
             {
-              "id": 961,
+              "id": 963,
               "name": "type",
               "comment": {
                 "description": "The type of this type operator type in a JSON compatible format.",
@@ -22430,7 +22483,7 @@
               "readonly": false,
               "type": {
                 "kind": "reference",
-                "id": 1005,
+                "id": 1007,
                 "name": "JSON",
                 "packageName": null,
                 "typeArguments": []
@@ -22504,7 +22557,7 @@
                   },
                   {
                     "kind": "reference",
-                    "id": 966,
+                    "id": 968,
                     "name": "TypeParser",
                     "packageName": null,
                     "typeArguments": []
@@ -22588,7 +22641,7 @@
                   },
                   {
                     "kind": "reference",
-                    "id": 966,
+                    "id": 968,
                     "name": "TypeParser",
                     "packageName": null,
                     "typeArguments": []
@@ -22641,7 +22694,7 @@
                   },
                   {
                     "kind": "reference",
-                    "id": 1005,
+                    "id": 1007,
                     "name": "JSON",
                     "packageName": null,
                     "typeArguments": []
@@ -22725,7 +22778,7 @@
                   },
                   {
                     "kind": "reference",
-                    "id": 1005,
+                    "id": 1007,
                     "name": "JSON",
                     "packageName": null,
                     "typeArguments": []
@@ -22740,7 +22793,7 @@
       "typeAliases": []
     },
     {
-      "id": 972,
+      "id": 974,
       "name": "TypeParser",
       "comment": {
         "description": null,
@@ -22756,7 +22809,7 @@
       "classes": [],
       "constants": [
         {
-          "id": 1004,
+          "id": 1006,
           "name": "BindingPowers",
           "comment": {
             "description": "The binding powers of the type parsers.",
@@ -22782,7 +22835,7 @@
             "typeArguments": [
               {
                 "kind": "reference",
-                "id": 983,
+                "id": 985,
                 "name": "Kind",
                 "packageName": null,
                 "typeArguments": []
@@ -22798,7 +22851,7 @@
       ],
       "enums": [
         {
-          "id": 983,
+          "id": 985,
           "name": "Kind",
           "comment": {
             "description": "The kind of type parser.",
@@ -22818,7 +22871,7 @@
           "external": false,
           "properties": [
             {
-              "id": 984,
+              "id": 986,
               "name": "Array",
               "comment": {
                 "description": null,
@@ -22833,7 +22886,7 @@
               "value": "array"
             },
             {
-              "id": 985,
+              "id": 987,
               "name": "Conditional",
               "comment": {
                 "description": null,
@@ -22848,7 +22901,7 @@
               "value": "conditional"
             },
             {
-              "id": 986,
+              "id": 988,
               "name": "IndexedAccess",
               "comment": {
                 "description": null,
@@ -22863,7 +22916,7 @@
               "value": "indexedAccess"
             },
             {
-              "id": 987,
+              "id": 989,
               "name": "Inferred",
               "comment": {
                 "description": null,
@@ -22878,7 +22931,7 @@
               "value": "inferred"
             },
             {
-              "id": 988,
+              "id": 990,
               "name": "Intersection",
               "comment": {
                 "description": null,
@@ -22893,7 +22946,7 @@
               "value": "intersection"
             },
             {
-              "id": 989,
+              "id": 991,
               "name": "Intrinsic",
               "comment": {
                 "description": null,
@@ -22908,7 +22961,7 @@
               "value": "intrinsic"
             },
             {
-              "id": 990,
+              "id": 992,
               "name": "Literal",
               "comment": {
                 "description": null,
@@ -22923,7 +22976,7 @@
               "value": "literal"
             },
             {
-              "id": 991,
+              "id": 993,
               "name": "Mapped",
               "comment": {
                 "description": null,
@@ -22938,7 +22991,7 @@
               "value": "mapped"
             },
             {
-              "id": 992,
+              "id": 994,
               "name": "NamedTupleMember",
               "comment": {
                 "description": null,
@@ -22953,7 +23006,7 @@
               "value": "namedTupleMember"
             },
             {
-              "id": 993,
+              "id": 995,
               "name": "Optional",
               "comment": {
                 "description": null,
@@ -22968,7 +23021,7 @@
               "value": "optional"
             },
             {
-              "id": 994,
+              "id": 996,
               "name": "Predicate",
               "comment": {
                 "description": null,
@@ -22983,7 +23036,7 @@
               "value": "predicate"
             },
             {
-              "id": 995,
+              "id": 997,
               "name": "Query",
               "comment": {
                 "description": null,
@@ -22998,7 +23051,7 @@
               "value": "query"
             },
             {
-              "id": 996,
+              "id": 998,
               "name": "Reference",
               "comment": {
                 "description": null,
@@ -23013,7 +23066,7 @@
               "value": "reference"
             },
             {
-              "id": 997,
+              "id": 999,
               "name": "Reflection",
               "comment": {
                 "description": null,
@@ -23028,7 +23081,7 @@
               "value": "reflection"
             },
             {
-              "id": 998,
+              "id": 1000,
               "name": "Rest",
               "comment": {
                 "description": null,
@@ -23043,7 +23096,7 @@
               "value": "rest"
             },
             {
-              "id": 999,
+              "id": 1001,
               "name": "TemplateLiteral",
               "comment": {
                 "description": null,
@@ -23058,7 +23111,7 @@
               "value": "templateLiteral"
             },
             {
-              "id": 1000,
+              "id": 1002,
               "name": "Tuple",
               "comment": {
                 "description": null,
@@ -23073,7 +23126,7 @@
               "value": "tuple"
             },
             {
-              "id": 1001,
+              "id": 1003,
               "name": "TypeOperator",
               "comment": {
                 "description": null,
@@ -23088,7 +23141,7 @@
               "value": "typeOperator"
             },
             {
-              "id": 1002,
+              "id": 1004,
               "name": "Union",
               "comment": {
                 "description": null,
@@ -23103,7 +23156,7 @@
               "value": "union"
             },
             {
-              "id": 1003,
+              "id": 1005,
               "name": "Unknown",
               "comment": {
                 "description": null,
@@ -23122,7 +23175,7 @@
       ],
       "functions": [
         {
-          "id": 976,
+          "id": 978,
           "name": "generateFromJSON",
           "comment": {
             "description": null,
@@ -23137,16 +23190,16 @@
           "external": false,
           "signatures": [
             {
-              "id": 977,
+              "id": 979,
               "name": "generateFromJSON",
               "typeParameters": [],
               "parameters": [
                 {
-                  "id": 978,
+                  "id": 980,
                   "name": "json",
                   "type": {
                     "kind": "reference",
-                    "id": 1005,
+                    "id": 1007,
                     "name": "JSON",
                     "packageName": null,
                     "typeArguments": []
@@ -23155,7 +23208,7 @@
               ],
               "returnType": {
                 "kind": "reference",
-                "id": 966,
+                "id": 968,
                 "name": "TypeParser",
                 "packageName": null,
                 "typeArguments": []
@@ -23164,7 +23217,7 @@
           ]
         },
         {
-          "id": 973,
+          "id": 975,
           "name": "generateFromTypeDoc",
           "comment": {
             "description": null,
@@ -23179,12 +23232,12 @@
           "external": false,
           "signatures": [
             {
-              "id": 974,
+              "id": 976,
               "name": "generateFromTypeDoc",
               "typeParameters": [],
               "parameters": [
                 {
-                  "id": 975,
+                  "id": 977,
                   "name": "type",
                   "type": {
                     "kind": "reference",
@@ -23197,7 +23250,7 @@
               ],
               "returnType": {
                 "kind": "reference",
-                "id": 966,
+                "id": 968,
                 "name": "TypeParser",
                 "packageName": null,
                 "typeArguments": []
@@ -23206,7 +23259,7 @@
           ]
         },
         {
-          "id": 979,
+          "id": 981,
           "name": "wrap",
           "comment": {
             "description": null,
@@ -23221,23 +23274,23 @@
           "external": false,
           "signatures": [
             {
-              "id": 980,
+              "id": 982,
               "name": "wrap",
               "typeParameters": [],
               "parameters": [
                 {
-                  "id": 981,
+                  "id": 983,
                   "name": "type",
                   "type": {
                     "kind": "reference",
-                    "id": 966,
+                    "id": 968,
                     "name": "TypeParser",
                     "packageName": null,
                     "typeArguments": []
                   }
                 },
                 {
-                  "id": 982,
+                  "id": 984,
                   "name": "binding",
                   "type": {
                     "kind": "intrinsic",
@@ -23255,7 +23308,7 @@
       ],
       "interfaces": [
         {
-          "id": 1005,
+          "id": 1007,
           "name": "JSON",
           "comment": {
             "description": "The base interface for the JSON compatible format of type parsers.",
@@ -23275,7 +23328,7 @@
           "external": false,
           "properties": [
             {
-              "id": 1006,
+              "id": 1008,
               "name": "kind",
               "comment": {
                 "description": null,
@@ -23290,7 +23343,7 @@
               "readonly": false,
               "type": {
                 "kind": "reference",
-                "id": 983,
+                "id": 985,
                 "name": "Kind",
                 "packageName": null,
                 "typeArguments": []
@@ -23303,7 +23356,7 @@
       "typeAliases": []
     },
     {
-      "id": 1017,
+      "id": 1019,
       "name": "UnionTypeParser",
       "comment": {
         "description": null,
@@ -23322,7 +23375,7 @@
       "functions": [],
       "interfaces": [
         {
-          "id": 1018,
+          "id": 1020,
           "name": "JSON",
           "comment": {
             "description": "The base interface for the JSON compatible format of type parsers.",
@@ -23342,7 +23395,7 @@
           "external": false,
           "properties": [
             {
-              "id": 1019,
+              "id": 1021,
               "name": "kind",
               "comment": {
                 "description": null,
@@ -23357,14 +23410,14 @@
               "readonly": false,
               "type": {
                 "kind": "reference",
-                "id": 1002,
+                "id": 1004,
                 "name": "Union",
                 "packageName": null,
                 "typeArguments": []
               }
             },
             {
-              "id": 1020,
+              "id": 1022,
               "name": "types",
               "comment": {
                 "description": "The types of this union type in a JSON compatible format.",
@@ -23386,7 +23439,7 @@
                 "kind": "array",
                 "type": {
                   "kind": "reference",
-                  "id": 1005,
+                  "id": 1007,
                   "name": "JSON",
                   "packageName": null,
                   "typeArguments": []
@@ -23400,7 +23453,7 @@
       "typeAliases": []
     },
     {
-      "id": 1031,
+      "id": 1033,
       "name": "UnknownTypeParser",
       "comment": {
         "description": null,
@@ -23419,7 +23472,7 @@
       "functions": [],
       "interfaces": [
         {
-          "id": 1032,
+          "id": 1034,
           "name": "JSON",
           "comment": {
             "description": "The base interface for the JSON compatible format of type parsers.",
@@ -23439,7 +23492,7 @@
           "external": false,
           "properties": [
             {
-              "id": 1033,
+              "id": 1035,
               "name": "kind",
               "comment": {
                 "description": null,
@@ -23454,14 +23507,14 @@
               "readonly": false,
               "type": {
                 "kind": "reference",
-                "id": 1003,
+                "id": 1005,
                 "name": "Unknown",
                 "packageName": null,
                 "typeArguments": []
               }
             },
             {
-              "id": 1034,
+              "id": 1036,
               "name": "name",
               "comment": {
                 "description": "The name of this unknown type.",
