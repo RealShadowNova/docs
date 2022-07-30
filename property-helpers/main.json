@@ -1,6 +1,8 @@
 {
+  "typeDocJsonParserVersion": "2.2.0",
   "id": 0,
   "name": "property-helpers",
+  "version": "1.1.0",
   "classes": [],
   "constants": [
     {
@@ -8,8 +10,8 @@
       "name": "PROPERTY_NOT_FOUND",
       "comment": {
         "description": null,
-        "extendedDescription": null,
-        "tags": []
+        "blockTags": [],
+        "modifierTags": []
       },
       "source": {
         "line": 3,
@@ -37,8 +39,8 @@
       "name": "deleteProperty",
       "comment": {
         "description": null,
-        "extendedDescription": null,
-        "tags": []
+        "blockTags": [],
+        "modifierTags": []
       },
       "source": {
         "line": 12,
@@ -94,8 +96,8 @@
       "name": "getProperty",
       "comment": {
         "description": null,
-        "extendedDescription": null,
-        "tags": []
+        "blockTags": [],
+        "modifierTags": []
       },
       "source": {
         "line": 13,
@@ -177,8 +179,8 @@
       "name": "hasProperty",
       "comment": {
         "description": null,
-        "extendedDescription": null,
-        "tags": []
+        "blockTags": [],
+        "modifierTags": []
       },
       "source": {
         "line": 10,
@@ -224,8 +226,8 @@
       "name": "setProperty",
       "comment": {
         "description": null,
-        "extendedDescription": null,
-        "tags": []
+        "blockTags": [],
+        "modifierTags": []
       },
       "source": {
         "line": 11,
