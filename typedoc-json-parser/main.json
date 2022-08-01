@@ -1,8 +1,8 @@
 {
-  "typeDocJsonParserVersion": "2.3.1",
+  "typeDocJsonParserVersion": "2.3.2",
   "id": 0,
   "name": "typedoc-json-parser",
-  "version": null,
+  "version": "2.3.2",
   "classes": [
     {
       "id": 652,
@@ -9821,7 +9821,7 @@
             "modifierTags": []
           },
           "source": {
-            "line": 134,
+            "line": 135,
             "file": "ProjectParser.ts",
             "path": "lib/structures"
           },
@@ -21437,7 +21437,7 @@
             "modifierTags": []
           },
           "source": {
-            "line": 152,
+            "line": 153,
             "file": "ProjectParser.ts",
             "path": "lib/structures"
           },
@@ -21457,7 +21457,7 @@
                 "modifierTags": []
               },
               "source": {
-                "line": 185,
+                "line": 186,
                 "file": "ProjectParser.ts",
                 "path": "lib/structures"
               },
@@ -21487,7 +21487,7 @@
                 "modifierTags": []
               },
               "source": {
-                "line": 191,
+                "line": 192,
                 "file": "ProjectParser.ts",
                 "path": "lib/structures"
               },
@@ -21517,7 +21517,7 @@
                 "modifierTags": []
               },
               "source": {
-                "line": 197,
+                "line": 198,
                 "file": "ProjectParser.ts",
                 "path": "lib/structures"
               },
@@ -21547,7 +21547,7 @@
                 "modifierTags": []
               },
               "source": {
-                "line": 203,
+                "line": 204,
                 "file": "ProjectParser.ts",
                 "path": "lib/structures"
               },
@@ -21577,7 +21577,7 @@
                 "modifierTags": []
               },
               "source": {
-                "line": 163,
+                "line": 164,
                 "file": "ProjectParser.ts",
                 "path": "lib/structures"
               },
@@ -21601,7 +21601,7 @@
                 "modifierTags": []
               },
               "source": {
-                "line": 209,
+                "line": 210,
                 "file": "ProjectParser.ts",
                 "path": "lib/structures"
               },
@@ -21631,7 +21631,7 @@
                 "modifierTags": []
               },
               "source": {
-                "line": 171,
+                "line": 172,
                 "file": "ProjectParser.ts",
                 "path": "lib/structures"
               },
@@ -21655,7 +21655,7 @@
                 "modifierTags": []
               },
               "source": {
-                "line": 215,
+                "line": 216,
                 "file": "ProjectParser.ts",
                 "path": "lib/structures"
               },
@@ -21685,7 +21685,7 @@
                 "modifierTags": []
               },
               "source": {
-                "line": 221,
+                "line": 222,
                 "file": "ProjectParser.ts",
                 "path": "lib/structures"
               },
@@ -21715,7 +21715,7 @@
                 "modifierTags": []
               },
               "source": {
-                "line": 157,
+                "line": 158,
                 "file": "ProjectParser.ts",
                 "path": "lib/structures"
               },
@@ -21739,7 +21739,7 @@
                 "modifierTags": []
               },
               "source": {
-                "line": 179,
+                "line": 180,
                 "file": "ProjectParser.ts",
                 "path": "lib/structures"
               },
