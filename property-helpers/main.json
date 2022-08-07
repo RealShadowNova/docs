@@ -1,8 +1,8 @@
 {
-  "typeDocJsonParserVersion": "2.2.1",
+  "typeDocJsonParserVersion": "2.3.2",
   "id": 0,
   "name": "property-helpers",
-  "version": null,
+  "version": "1.1.0",
   "classes": [],
   "constants": [
     {
@@ -52,6 +52,20 @@
         {
           "id": 2,
           "name": "deleteProperty",
+          "comment": {
+            "description": "A helper function to delete a property from an object or array at a path.",
+            "blockTags": [
+              {
+                "name": "since",
+                "text": "1.0.0"
+              },
+              {
+                "name": "returns",
+                "text": "The input object or array."
+              }
+            ],
+            "modifierTags": []
+          },
           "typeParameters": [
             {
               "id": 3,
@@ -109,6 +123,20 @@
         {
           "id": 7,
           "name": "getProperty",
+          "comment": {
+            "description": "A helper function to get a property from an object or array at a path.",
+            "blockTags": [
+              {
+                "name": "since",
+                "text": "1.0.0"
+              },
+              {
+                "name": "returns",
+                "text": "The property at the path or \nPROPERTY_NOT_FOUND\n if the property does not exist."
+              }
+            ],
+            "modifierTags": []
+          },
           "typeParameters": [
             {
               "id": 8,
@@ -192,6 +220,20 @@
         {
           "id": 14,
           "name": "hasProperty",
+          "comment": {
+            "description": "A helper function to check if an object or array has a property at a path.",
+            "blockTags": [
+              {
+                "name": "since",
+                "text": "1.0.0"
+              },
+              {
+                "name": "returns",
+                "text": "Whether the property at the path exists."
+              }
+            ],
+            "modifierTags": []
+          },
           "typeParameters": [],
           "parameters": [
             {
@@ -239,6 +281,20 @@
         {
           "id": 18,
           "name": "setProperty",
+          "comment": {
+            "description": "A helper function to set a property on an object or array at a path.",
+            "blockTags": [
+              {
+                "name": "since",
+                "text": "1.0.0"
+              },
+              {
+                "name": "returns",
+                "text": "The input object or array."
+              }
+            ],
+            "modifierTags": []
+          },
           "typeParameters": [
             {
               "id": 19,
