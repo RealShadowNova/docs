@@ -1686,7 +1686,7 @@
             "modifierTags": []
           },
           "source": {
-            "line": 142,
+            "line": 143,
             "file": "ClassParser.ts",
             "path": "lib/structures/class-parser"
           },
@@ -2426,7 +2426,7 @@
           "modifierTags": []
         },
         "source": {
-          "line": 56,
+          "line": 32,
           "file": "CommentParser.ts",
           "path": "lib/structures/misc"
         },
@@ -2598,7 +2598,7 @@
             "modifierTags": []
           },
           "source": {
-            "line": 52,
+            "line": 62,
             "file": "CommentParser.ts",
             "path": "lib/structures/misc"
           },
@@ -2626,7 +2626,7 @@
             "modifierTags": []
           },
           "source": {
-            "line": 44,
+            "line": 54,
             "file": "CommentParser.ts",
             "path": "lib/structures/misc"
           },
@@ -2660,7 +2660,7 @@
             "modifierTags": []
           },
           "source": {
-            "line": 36,
+            "line": 46,
             "file": "CommentParser.ts",
             "path": "lib/structures/misc"
           },
@@ -8381,7 +8381,7 @@
             "modifierTags": []
           },
           "source": {
-            "line": 149,
+            "line": 153,
             "file": "NamespaceParser.ts",
             "path": "lib/structures"
           },
@@ -9821,7 +9821,7 @@
             "modifierTags": []
           },
           "source": {
-            "line": 135,
+            "line": 139,
             "file": "ProjectParser.ts",
             "path": "lib/structures"
           },
@@ -15196,7 +15196,7 @@
             "modifierTags": []
           },
           "source": {
-            "line": 257,
+            "line": 258,
             "file": "ClassParser.ts",
             "path": "lib/structures/class-parser"
           },
@@ -15211,7 +15211,7 @@
                 "modifierTags": []
               },
               "source": {
-                "line": 262,
+                "line": 263,
                 "file": "ClassParser.ts",
                 "path": "lib/structures/class-parser"
               },
@@ -15226,7 +15226,7 @@
                 "modifierTags": []
               },
               "source": {
-                "line": 260,
+                "line": 261,
                 "file": "ClassParser.ts",
                 "path": "lib/structures/class-parser"
               },
@@ -15241,7 +15241,7 @@
                 "modifierTags": []
               },
               "source": {
-                "line": 258,
+                "line": 259,
                 "file": "ClassParser.ts",
                 "path": "lib/structures/class-parser"
               },
@@ -15261,7 +15261,7 @@
             "modifierTags": []
           },
           "source": {
-            "line": 165,
+            "line": 166,
             "file": "ClassParser.ts",
             "path": "lib/structures/class-parser"
           },
@@ -15281,7 +15281,7 @@
                 "modifierTags": []
               },
               "source": {
-                "line": 176,
+                "line": 177,
                 "file": "ClassParser.ts",
                 "path": "lib/structures/class-parser"
               },
@@ -15332,7 +15332,7 @@
                 "modifierTags": []
               },
               "source": {
-                "line": 194,
+                "line": 195,
                 "file": "ClassParser.ts",
                 "path": "lib/structures/class-parser"
               },
@@ -15359,7 +15359,7 @@
                 "modifierTags": []
               },
               "source": {
-                "line": 182,
+                "line": 183,
                 "file": "ClassParser.ts",
                 "path": "lib/structures/class-parser"
               },
@@ -15395,7 +15395,7 @@
                 "modifierTags": []
               },
               "source": {
-                "line": 170,
+                "line": 171,
                 "file": "ClassParser.ts",
                 "path": "lib/structures/class-parser"
               },
@@ -15443,7 +15443,7 @@
                 "modifierTags": []
               },
               "source": {
-                "line": 188,
+                "line": 189,
                 "file": "ClassParser.ts",
                 "path": "lib/structures/class-parser"
               },
@@ -15473,7 +15473,7 @@
                 "modifierTags": []
               },
               "source": {
-                "line": 206,
+                "line": 207,
                 "file": "ClassParser.ts",
                 "path": "lib/structures/class-parser"
               },
@@ -15527,7 +15527,7 @@
                 "modifierTags": []
               },
               "source": {
-                "line": 200,
+                "line": 201,
                 "file": "ClassParser.ts",
                 "path": "lib/structures/class-parser"
               },
@@ -15590,7 +15590,7 @@
             "modifierTags": []
           },
           "source": {
-            "line": 209,
+            "line": 210,
             "file": "ClassParser.ts",
             "path": "lib/structures/class-parser"
           },
@@ -15610,7 +15610,7 @@
                 "modifierTags": []
               },
               "source": {
-                "line": 220,
+                "line": 221,
                 "file": "ClassParser.ts",
                 "path": "lib/structures/class-parser"
               },
@@ -15661,7 +15661,7 @@
                 "modifierTags": []
               },
               "source": {
-                "line": 238,
+                "line": 239,
                 "file": "ClassParser.ts",
                 "path": "lib/structures/class-parser"
               },
@@ -15688,7 +15688,7 @@
                 "modifierTags": []
               },
               "source": {
-                "line": 226,
+                "line": 227,
                 "file": "ClassParser.ts",
                 "path": "lib/structures/class-parser"
               },
@@ -15724,7 +15724,7 @@
                 "modifierTags": []
               },
               "source": {
-                "line": 214,
+                "line": 215,
                 "file": "ClassParser.ts",
                 "path": "lib/structures/class-parser"
               },
@@ -15772,7 +15772,7 @@
                 "modifierTags": []
               },
               "source": {
-                "line": 232,
+                "line": 233,
                 "file": "ClassParser.ts",
                 "path": "lib/structures/class-parser"
               },
@@ -15802,7 +15802,7 @@
                 "modifierTags": []
               },
               "source": {
-                "line": 250,
+                "line": 251,
                 "file": "ClassParser.ts",
                 "path": "lib/structures/class-parser"
               },
@@ -15856,7 +15856,7 @@
                 "modifierTags": []
               },
               "source": {
-                "line": 244,
+                "line": 245,
                 "file": "ClassParser.ts",
                 "path": "lib/structures/class-parser"
               },
@@ -19798,7 +19798,7 @@
             "modifierTags": []
           },
           "source": {
-            "line": 141,
+            "line": 142,
             "file": "MappedTypeParser.ts",
             "path": "lib/structures/type-parsers"
           },
@@ -19813,7 +19813,7 @@
                 "modifierTags": []
               },
               "source": {
-                "line": 142,
+                "line": 143,
                 "file": "MappedTypeParser.ts",
                 "path": "lib/structures/type-parsers"
               },
@@ -19828,7 +19828,7 @@
                 "modifierTags": []
               },
               "source": {
-                "line": 144,
+                "line": 145,
                 "file": "MappedTypeParser.ts",
                 "path": "lib/structures/type-parsers"
               },
@@ -19853,7 +19853,7 @@
             "modifierTags": []
           },
           "source": {
-            "line": 98,
+            "line": 99,
             "file": "MappedTypeParser.ts",
             "path": "lib/structures/type-parsers"
           },
@@ -19868,7 +19868,7 @@
                 "modifierTags": []
               },
               "source": {
-                "line": 99,
+                "line": 100,
                 "file": "MappedTypeParser.ts",
                 "path": "lib/structures/type-parsers"
               },
@@ -19895,7 +19895,7 @@
                 "modifierTags": []
               },
               "source": {
-                "line": 117,
+                "line": 118,
                 "file": "MappedTypeParser.ts",
                 "path": "lib/structures/type-parsers"
               },
@@ -19931,7 +19931,7 @@
                 "modifierTags": []
               },
               "source": {
-                "line": 135,
+                "line": 136,
                 "file": "MappedTypeParser.ts",
                 "path": "lib/structures/type-parsers"
               },
@@ -19967,7 +19967,7 @@
                 "modifierTags": []
               },
               "source": {
-                "line": 105,
+                "line": 106,
                 "file": "MappedTypeParser.ts",
                 "path": "lib/structures/type-parsers"
               },
@@ -19991,7 +19991,7 @@
                 "modifierTags": []
               },
               "source": {
-                "line": 111,
+                "line": 112,
                 "file": "MappedTypeParser.ts",
                 "path": "lib/structures/type-parsers"
               },
@@ -20018,7 +20018,7 @@
                 "modifierTags": []
               },
               "source": {
-                "line": 129,
+                "line": 130,
                 "file": "MappedTypeParser.ts",
                 "path": "lib/structures/type-parsers"
               },
@@ -20054,7 +20054,7 @@
                 "modifierTags": []
               },
               "source": {
-                "line": 123,
+                "line": 124,
                 "file": "MappedTypeParser.ts",
                 "path": "lib/structures/type-parsers"
               },
@@ -20243,7 +20243,7 @@
             "modifierTags": []
           },
           "source": {
-            "line": 173,
+            "line": 177,
             "file": "NamespaceParser.ts",
             "path": "lib/structures"
           },
@@ -20263,7 +20263,7 @@
                 "modifierTags": []
               },
               "source": {
-                "line": 184,
+                "line": 188,
                 "file": "NamespaceParser.ts",
                 "path": "lib/structures"
               },
@@ -20320,7 +20320,7 @@
                 "modifierTags": []
               },
               "source": {
-                "line": 190,
+                "line": 194,
                 "file": "NamespaceParser.ts",
                 "path": "lib/structures"
               },
@@ -20350,7 +20350,7 @@
                 "modifierTags": []
               },
               "source": {
-                "line": 196,
+                "line": 200,
                 "file": "NamespaceParser.ts",
                 "path": "lib/structures"
               },
@@ -20380,7 +20380,7 @@
                 "modifierTags": []
               },
               "source": {
-                "line": 178,
+                "line": 182,
                 "file": "NamespaceParser.ts",
                 "path": "lib/structures"
               },
@@ -20404,7 +20404,7 @@
                 "modifierTags": []
               },
               "source": {
-                "line": 202,
+                "line": 206,
                 "file": "NamespaceParser.ts",
                 "path": "lib/structures"
               },
@@ -20458,7 +20458,7 @@
                 "modifierTags": []
               },
               "source": {
-                "line": 208,
+                "line": 212,
                 "file": "NamespaceParser.ts",
                 "path": "lib/structures"
               },
@@ -20512,7 +20512,7 @@
                 "modifierTags": []
               },
               "source": {
-                "line": 214,
+                "line": 218,
                 "file": "NamespaceParser.ts",
                 "path": "lib/structures"
               },
@@ -20578,7 +20578,7 @@
                 "modifierTags": []
               },
               "source": {
-                "line": 220,
+                "line": 224,
                 "file": "NamespaceParser.ts",
                 "path": "lib/structures"
               },
@@ -20605,7 +20605,7 @@
             "modifierTags": []
           },
           "source": {
-            "line": 223,
+            "line": 227,
             "file": "NamespaceParser.ts",
             "path": "lib/structures"
           },
@@ -20625,7 +20625,7 @@
                 "modifierTags": []
               },
               "source": {
-                "line": 234,
+                "line": 238,
                 "file": "NamespaceParser.ts",
                 "path": "lib/structures"
               },
@@ -20682,7 +20682,7 @@
                 "modifierTags": []
               },
               "source": {
-                "line": 240,
+                "line": 244,
                 "file": "NamespaceParser.ts",
                 "path": "lib/structures"
               },
@@ -20712,7 +20712,7 @@
                 "modifierTags": []
               },
               "source": {
-                "line": 246,
+                "line": 250,
                 "file": "NamespaceParser.ts",
                 "path": "lib/structures"
               },
@@ -20742,7 +20742,7 @@
                 "modifierTags": []
               },
               "source": {
-                "line": 228,
+                "line": 232,
                 "file": "NamespaceParser.ts",
                 "path": "lib/structures"
               },
@@ -20766,7 +20766,7 @@
                 "modifierTags": []
               },
               "source": {
-                "line": 252,
+                "line": 256,
                 "file": "NamespaceParser.ts",
                 "path": "lib/structures"
               },
@@ -20820,7 +20820,7 @@
                 "modifierTags": []
               },
               "source": {
-                "line": 258,
+                "line": 262,
                 "file": "NamespaceParser.ts",
                 "path": "lib/structures"
               },
@@ -20874,7 +20874,7 @@
                 "modifierTags": []
               },
               "source": {
-                "line": 264,
+                "line": 268,
                 "file": "NamespaceParser.ts",
                 "path": "lib/structures"
               },
@@ -20940,7 +20940,7 @@
                 "modifierTags": []
               },
               "source": {
-                "line": 270,
+                "line": 274,
                 "file": "NamespaceParser.ts",
                 "path": "lib/structures"
               },
@@ -21437,7 +21437,7 @@
             "modifierTags": []
           },
           "source": {
-            "line": 153,
+            "line": 157,
             "file": "ProjectParser.ts",
             "path": "lib/structures"
           },
@@ -21457,7 +21457,7 @@
                 "modifierTags": []
               },
               "source": {
-                "line": 186,
+                "line": 190,
                 "file": "ProjectParser.ts",
                 "path": "lib/structures"
               },
@@ -21487,7 +21487,7 @@
                 "modifierTags": []
               },
               "source": {
-                "line": 192,
+                "line": 196,
                 "file": "ProjectParser.ts",
                 "path": "lib/structures"
               },
@@ -21517,7 +21517,7 @@
                 "modifierTags": []
               },
               "source": {
-                "line": 198,
+                "line": 202,
                 "file": "ProjectParser.ts",
                 "path": "lib/structures"
               },
@@ -21547,7 +21547,7 @@
                 "modifierTags": []
               },
               "source": {
-                "line": 204,
+                "line": 208,
                 "file": "ProjectParser.ts",
                 "path": "lib/structures"
               },
@@ -21577,7 +21577,7 @@
                 "modifierTags": []
               },
               "source": {
-                "line": 164,
+                "line": 168,
                 "file": "ProjectParser.ts",
                 "path": "lib/structures"
               },
@@ -21601,7 +21601,7 @@
                 "modifierTags": []
               },
               "source": {
-                "line": 210,
+                "line": 214,
                 "file": "ProjectParser.ts",
                 "path": "lib/structures"
               },
@@ -21631,7 +21631,7 @@
                 "modifierTags": []
               },
               "source": {
-                "line": 172,
+                "line": 176,
                 "file": "ProjectParser.ts",
                 "path": "lib/structures"
               },
@@ -21655,7 +21655,7 @@
                 "modifierTags": []
               },
               "source": {
-                "line": 216,
+                "line": 220,
                 "file": "ProjectParser.ts",
                 "path": "lib/structures"
               },
@@ -21685,7 +21685,7 @@
                 "modifierTags": []
               },
               "source": {
-                "line": 222,
+                "line": 226,
                 "file": "ProjectParser.ts",
                 "path": "lib/structures"
               },
@@ -21715,7 +21715,7 @@
                 "modifierTags": []
               },
               "source": {
-                "line": 158,
+                "line": 162,
                 "file": "ProjectParser.ts",
                 "path": "lib/structures"
               },
@@ -21739,7 +21739,7 @@
                 "modifierTags": []
               },
               "source": {
-                "line": 180,
+                "line": 184,
                 "file": "ProjectParser.ts",
                 "path": "lib/structures"
               },
