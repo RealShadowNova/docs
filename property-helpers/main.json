@@ -1,8 +1,9 @@
 {
-  "typeDocJsonParserVersion": "2.3.2",
+  "typeDocJsonParserVersion": "3.0.0",
   "id": 0,
   "name": "property-helpers",
   "version": "1.1.0",
+  "readme": "<div align=\"center\">\n\n# Property Helpers\n\n**Simple helper functions for working with properties**\n\n[![GitHub](https://img.shields.io/github/license/RealShadowNova/property-helpers)](https://github.com/RealShadowNova/property-helpersblob/main/LICENSE.md)\n[![npm](https://img.shields.io/npm/v/property-helpers?color=crimson&logo=npm&style=flat-square)](https://www.npmjs.com/package/property-helpers)\n\n[![Support Server](https://discord.com/api/guilds/554742955898961930/embed.png?style=banner2)](https://discord.gg/fERY6AenEv)\n\n</div>\n\n---\n\n## Description\n\nProperty Helpers is a collection of helper functions for working with properties in objects and arrays.\n\n## Features\n\n- Written in TypeScript\n- Offers CommonJS, ESM, and UMD bundles\n- Fully tested\n- Extremely fast\n\n## Installation\n\n```bash\n# npm\nnpm install property-helpers\n# yarn\nyarn add property-helpers\n```\n\n## Documentation\n\n### deleteProperty\n\nA helper function to delete a property from an object or array at a path.\n\n```typescript\nexport function deleteProperty<T>(input: unknown, path: string[]): T;\n```\n\n---\n\n### getProperty\n\nA helper function to get a property from an object or array at a path.\n\n```typescript\nexport function getProperty<T = unknown>(input: unknown, path: string[], fallbackToInput = true): T | typeof PROPERTY_NOT_FOUND;\n```\n\n---\n\n### hasProperty\n\nA helper function to check if an object or array has a property at a path.\n\n```typescript\nexport function hasProperty(input: unknown, path: string[]): boolean;\n```\n\n---\n\n### setProperty\n\nA helper function to set a property on an object or array at a path.\n\n```typescript\nexport function setProperty<T>(input: unknown, path: string[], value: unknown): T;\n```\n\n---\n",
   "classes": [],
   "constants": [
     {
@@ -16,7 +17,8 @@
       "source": {
         "line": 3,
         "file": "getProperty.ts",
-        "path": "lib"
+        "path": "lib",
+        "url": "https://github.com/RealShadowNova/property-helpers/blob/a653433/src/lib/getProperty.ts#L3"
       },
       "external": false,
       "type": {
@@ -45,7 +47,8 @@
       "source": {
         "line": 12,
         "file": "deleteProperty.ts",
-        "path": "lib"
+        "path": "lib",
+        "url": "https://github.com/RealShadowNova/property-helpers/blob/a653433/src/lib/deleteProperty.ts#L12"
       },
       "external": false,
       "signatures": [
@@ -116,7 +119,8 @@
       "source": {
         "line": 13,
         "file": "getProperty.ts",
-        "path": "lib"
+        "path": "lib",
+        "url": "https://github.com/RealShadowNova/property-helpers/blob/a653433/src/lib/getProperty.ts#L13"
       },
       "external": false,
       "signatures": [
@@ -132,7 +136,7 @@
               },
               {
                 "name": "returns",
-                "text": "The property at the path or \nPROPERTY_NOT_FOUND\n if the property does not exist."
+                "text": "The property at the path or {@link PROPERTY_NOT_FOUND} if the property does not exist."
               }
             ],
             "modifierTags": []
@@ -213,7 +217,8 @@
       "source": {
         "line": 10,
         "file": "hasProperty.ts",
-        "path": "lib"
+        "path": "lib",
+        "url": "https://github.com/RealShadowNova/property-helpers/blob/a653433/src/lib/hasProperty.ts#L10"
       },
       "external": false,
       "signatures": [
@@ -274,7 +279,8 @@
       "source": {
         "line": 11,
         "file": "setProperty.ts",
-        "path": "lib"
+        "path": "lib",
+        "url": "https://github.com/RealShadowNova/property-helpers/blob/a653433/src/lib/setProperty.ts#L11"
       },
       "external": false,
       "signatures": [
