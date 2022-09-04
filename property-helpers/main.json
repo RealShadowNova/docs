@@ -18,7 +18,7 @@
         "line": 3,
         "file": "getProperty.ts",
         "path": "lib",
-        "url": "https://github.com/RealShadowNova/property-helpers/blob/e81a29d/src/lib/getProperty.ts#L3"
+        "url": "https://github.com/RealShadowNova/property-helpers/blob/1a86475/src/lib/getProperty.ts#L3"
       },
       "external": false,
       "type": {
@@ -48,7 +48,7 @@
         "line": 12,
         "file": "deleteProperty.ts",
         "path": "lib",
-        "url": "https://github.com/RealShadowNova/property-helpers/blob/e81a29d/src/lib/deleteProperty.ts#L12"
+        "url": "https://github.com/RealShadowNova/property-helpers/blob/1a86475/src/lib/deleteProperty.ts#L12"
       },
       "external": false,
       "signatures": [
@@ -120,7 +120,7 @@
         "line": 13,
         "file": "getProperty.ts",
         "path": "lib",
-        "url": "https://github.com/RealShadowNova/property-helpers/blob/e81a29d/src/lib/getProperty.ts#L13"
+        "url": "https://github.com/RealShadowNova/property-helpers/blob/1a86475/src/lib/getProperty.ts#L13"
       },
       "external": false,
       "signatures": [
@@ -218,7 +218,7 @@
         "line": 10,
         "file": "hasProperty.ts",
         "path": "lib",
-        "url": "https://github.com/RealShadowNova/property-helpers/blob/e81a29d/src/lib/hasProperty.ts#L10"
+        "url": "https://github.com/RealShadowNova/property-helpers/blob/1a86475/src/lib/hasProperty.ts#L10"
       },
       "external": false,
       "signatures": [
@@ -280,7 +280,7 @@
         "line": 11,
         "file": "setProperty.ts",
         "path": "lib",
-        "url": "https://github.com/RealShadowNova/property-helpers/blob/e81a29d/src/lib/setProperty.ts#L11"
+        "url": "https://github.com/RealShadowNova/property-helpers/blob/1a86475/src/lib/setProperty.ts#L11"
       },
       "external": false,
       "signatures": [
