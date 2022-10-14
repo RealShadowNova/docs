@@ -1,0 +1,14 @@
+{
+  "name": "docs",
+  "version": "1.0.0",
+  "private": true,
+  "description": "A package to parse TypeDoc JSON output",
+  "author": "Hezekiah Hendry <hezekiah.hendry@gmail.com>",
+  "scripts": {
+    "migrate": "typedoc-json-parser -v --migrate docs"
+  },
+  "dependencies": {
+    "typedoc-json-parser": "^6.0.0"
+  },
+  "packageManager": "yarn@3.2.4"
+}

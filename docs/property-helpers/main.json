@@ -1,40 +1,11 @@
 {
-  "typeDocJsonParserVersion": "5.2.0",
+  "typeDocJsonParserVersion": "6.0.0",
   "id": 0,
   "name": "property-helpers",
   "version": "2.0.0",
   "readme": "<div align=\"center\">\n\n# Property Helpers\n\n**Simple helper functions for working with properties**\n\n[![GitHub](https://img.shields.io/github/license/RealShadowNova/property-helpers)](https://github.com/RealShadowNova/property-helpersblob/main/LICENSE.md)\n[![npm](https://img.shields.io/npm/v/property-helpers?color=crimson&logo=npm&style=flat-square)](https://www.npmjs.com/package/property-helpers)\n[![codecov](https://codecov.io/gh/RealShadowNova/property-helpers/branch/main/graph/badge.svg)](https://codecov.io/gh/RealShadowNova/property-helpers)\n\n[![Support Server](https://discord.com/api/guilds/554742955898961930/embed.png?style=banner2)](https://discord.gg/fERY6AenEv)\n\n</div>\n\n---\n\n## Description\n\nProperty Helpers is a collection of helper functions for working with properties in objects and arrays.\n\n## Features\n\n- Written in TypeScript\n- Offers CommonJS and ESM\n- Fully tested\n- Extremely fast\n\n## Installation\n\nYou can use the following command to install this package, or replace `npm install` with your package manager of choice.\n\n```sh\nnpm install property-helpers\n```\n\n## Documentation\n\nWhile currently we do not have a dedicated way to view documentation for this package, you can still use the intellisense from your IDE and read our source code.\n",
   "changelog": "# Changelog\n\nAll notable changes to this project will be documented in this file.\n\n# [2.0.0](https://github.com/RealShadowNova/property-helpers/compare/v1.1.0...v2.0.0) - (2022-09-17)\n\n## 📝 Documentation\n\n- Add `typedoc-json-parser` (#20) ([c18bd4f](https://github.com/RealShadowNova/property-helpers/commit/c18bd4fe27902630dbf0437343bfa1f35cff3a67))\n\n## 🚀 Features\n\n- **build:** Remove `umd` bundle ([16324f3](https://github.com/RealShadowNova/property-helpers/commit/16324f3b18ec4f3d3261ee3177eefef480bf2d05))\n\n   ### 💥 Breaking Changes:\n   - The `UMD` bundle has been removed\n\n\n## [1.1.0](https://github.com/RealShadowNova/property-helpers/compare/v1.0.1...v1.1.0) (2022-04-12)\n\n### Features\n\n- add fallbackToInput parameter ([e41226c](https://github.com/RealShadowNova/property-helpers/commit/e41226cadfdfa74615238f8da88f2558b911c934))\n\n## [1.0.0](https://github.com/RealShadowNova/property-helpers/tree/v1.0.0) (2022-02-28)\n",
   "classes": [],
-  "constants": [
-    {
-      "id": 12,
-      "name": "PROPERTY_NOT_FOUND",
-      "comment": {
-        "description": null,
-        "blockTags": [],
-        "modifierTags": []
-      },
-      "source": {
-        "line": 3,
-        "file": "getProperty.ts",
-        "path": "lib",
-        "url": "https://github.com/RealShadowNova/property-helpers/blob/be877cd/src/lib/getProperty.ts#L3"
-      },
-      "external": false,
-      "type": {
-        "kind": "query",
-        "query": {
-          "kind": "reference",
-          "id": 12,
-          "name": "PROPERTY_NOT_FOUND",
-          "packageName": null,
-          "typeArguments": []
-        }
-      },
-      "value": "..."
-    }
-  ],
   "enums": [],
   "functions": [
     {
@@ -82,6 +53,11 @@
             {
               "id": 4,
               "name": "input",
+              "comment": {
+                "description": null,
+                "blockTags": [],
+                "modifierTags": []
+              },
               "type": {
                 "kind": "intrinsic",
                 "type": "unknown"
@@ -90,6 +66,11 @@
             {
               "id": 5,
               "name": "path",
+              "comment": {
+                "description": null,
+                "blockTags": [],
+                "modifierTags": []
+              },
               "type": {
                 "kind": "array",
                 "type": {
@@ -157,6 +138,11 @@
             {
               "id": 9,
               "name": "input",
+              "comment": {
+                "description": null,
+                "blockTags": [],
+                "modifierTags": []
+              },
               "type": {
                 "kind": "intrinsic",
                 "type": "unknown"
@@ -165,6 +151,11 @@
             {
               "id": 10,
               "name": "path",
+              "comment": {
+                "description": null,
+                "blockTags": [],
+                "modifierTags": []
+              },
               "type": {
                 "kind": "array",
                 "type": {
@@ -176,6 +167,11 @@
             {
               "id": 11,
               "name": "fallbackToInput",
+              "comment": {
+                "description": null,
+                "blockTags": [],
+                "modifierTags": []
+              },
               "type": {
                 "kind": "intrinsic",
                 "type": "boolean"
@@ -245,6 +241,11 @@
             {
               "id": 15,
               "name": "input",
+              "comment": {
+                "description": null,
+                "blockTags": [],
+                "modifierTags": []
+              },
               "type": {
                 "kind": "intrinsic",
                 "type": "unknown"
@@ -253,6 +254,11 @@
             {
               "id": 16,
               "name": "path",
+              "comment": {
+                "description": null,
+                "blockTags": [],
+                "modifierTags": []
+              },
               "type": {
                 "kind": "array",
                 "type": {
@@ -314,6 +320,11 @@
             {
               "id": 20,
               "name": "input",
+              "comment": {
+                "description": null,
+                "blockTags": [],
+                "modifierTags": []
+              },
               "type": {
                 "kind": "intrinsic",
                 "type": "unknown"
@@ -322,6 +333,11 @@
             {
               "id": 21,
               "name": "path",
+              "comment": {
+                "description": null,
+                "blockTags": [],
+                "modifierTags": []
+              },
               "type": {
                 "kind": "array",
                 "type": {
@@ -333,6 +349,11 @@
             {
               "id": 22,
               "name": "value",
+              "comment": {
+                "description": null,
+                "blockTags": [],
+                "modifierTags": []
+              },
               "type": {
                 "kind": "intrinsic",
                 "type": "unknown"
@@ -352,5 +373,34 @@
   ],
   "interfaces": [],
   "namespaces": [],
-  "typeAliases": []
+  "typeAliases": [],
+  "variables": [
+    {
+      "id": 12,
+      "name": "PROPERTY_NOT_FOUND",
+      "comment": {
+        "description": null,
+        "blockTags": [],
+        "modifierTags": []
+      },
+      "source": {
+        "line": 3,
+        "file": "getProperty.ts",
+        "path": "lib",
+        "url": "https://github.com/RealShadowNova/property-helpers/blob/be877cd/src/lib/getProperty.ts#L3"
+      },
+      "external": false,
+      "type": {
+        "kind": "query",
+        "query": {
+          "kind": "reference",
+          "id": 12,
+          "name": "PROPERTY_NOT_FOUND",
+          "packageName": null,
+          "typeArguments": []
+        }
+      },
+      "value": "..."
+    }
+  ]
 }
