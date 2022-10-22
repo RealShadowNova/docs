@@ -1,5 +1,5 @@
 {
-  "typeDocJsonParserVersion": "6.0.0",
+  "typeDocJsonParserVersion": "6.0.1",
   "id": 0,
   "name": "property-helpers",
   "version": "2.0.0",
@@ -11,16 +11,16 @@
     {
       "id": 1,
       "name": "deleteProperty",
-      "comment": {
-        "description": null,
-        "blockTags": [],
-        "modifierTags": []
-      },
       "source": {
         "line": 12,
         "file": "deleteProperty.ts",
         "path": "lib",
-        "url": "https://github.com/RealShadowNova/property-helpers/blob/be877cd/src/lib/deleteProperty.ts#L12"
+        "url": "https://github.com/RealShadowNova/property-helpers/blob/764d1ce/src/lib/deleteProperty.ts#L12"
+      },
+      "comment": {
+        "description": null,
+        "blockTags": [],
+        "modifierTags": []
       },
       "external": false,
       "signatures": [
@@ -54,7 +54,7 @@
               "id": 4,
               "name": "input",
               "comment": {
-                "description": null,
+                "description": "The object or array to delete the property from.",
                 "blockTags": [],
                 "modifierTags": []
               },
@@ -67,7 +67,7 @@
               "id": 5,
               "name": "path",
               "comment": {
-                "description": null,
+                "description": "The path to the property to delete.",
                 "blockTags": [],
                 "modifierTags": []
               },
@@ -93,16 +93,16 @@
     {
       "id": 6,
       "name": "getProperty",
-      "comment": {
-        "description": null,
-        "blockTags": [],
-        "modifierTags": []
-      },
       "source": {
         "line": 13,
         "file": "getProperty.ts",
         "path": "lib",
-        "url": "https://github.com/RealShadowNova/property-helpers/blob/be877cd/src/lib/getProperty.ts#L13"
+        "url": "https://github.com/RealShadowNova/property-helpers/blob/764d1ce/src/lib/getProperty.ts#L13"
+      },
+      "comment": {
+        "description": null,
+        "blockTags": [],
+        "modifierTags": []
       },
       "external": false,
       "signatures": [
@@ -139,7 +139,7 @@
               "id": 9,
               "name": "input",
               "comment": {
-                "description": null,
+                "description": "The object or array to get the property from.",
                 "blockTags": [],
                 "modifierTags": []
               },
@@ -152,7 +152,7 @@
               "id": 10,
               "name": "path",
               "comment": {
-                "description": null,
+                "description": "The path to the property to get.",
                 "blockTags": [],
                 "modifierTags": []
               },
@@ -168,7 +168,7 @@
               "id": 11,
               "name": "fallbackToInput",
               "comment": {
-                "description": null,
+                "description": "Whether to return the input if path has a length of 0.",
                 "blockTags": [],
                 "modifierTags": []
               },
@@ -206,16 +206,16 @@
     {
       "id": 13,
       "name": "hasProperty",
-      "comment": {
-        "description": null,
-        "blockTags": [],
-        "modifierTags": []
-      },
       "source": {
         "line": 10,
         "file": "hasProperty.ts",
         "path": "lib",
-        "url": "https://github.com/RealShadowNova/property-helpers/blob/be877cd/src/lib/hasProperty.ts#L10"
+        "url": "https://github.com/RealShadowNova/property-helpers/blob/764d1ce/src/lib/hasProperty.ts#L10"
+      },
+      "comment": {
+        "description": null,
+        "blockTags": [],
+        "modifierTags": []
       },
       "external": false,
       "signatures": [
@@ -242,7 +242,7 @@
               "id": 15,
               "name": "input",
               "comment": {
-                "description": null,
+                "description": "The object or array to check the property at the path.",
                 "blockTags": [],
                 "modifierTags": []
               },
@@ -255,7 +255,7 @@
               "id": 16,
               "name": "path",
               "comment": {
-                "description": null,
+                "description": "The path to the property to check.",
                 "blockTags": [],
                 "modifierTags": []
               },
@@ -278,16 +278,16 @@
     {
       "id": 17,
       "name": "setProperty",
-      "comment": {
-        "description": null,
-        "blockTags": [],
-        "modifierTags": []
-      },
       "source": {
         "line": 11,
         "file": "setProperty.ts",
         "path": "lib",
-        "url": "https://github.com/RealShadowNova/property-helpers/blob/be877cd/src/lib/setProperty.ts#L11"
+        "url": "https://github.com/RealShadowNova/property-helpers/blob/764d1ce/src/lib/setProperty.ts#L11"
+      },
+      "comment": {
+        "description": null,
+        "blockTags": [],
+        "modifierTags": []
       },
       "external": false,
       "signatures": [
@@ -321,7 +321,7 @@
               "id": 20,
               "name": "input",
               "comment": {
-                "description": null,
+                "description": "The object or array to set the property on.",
                 "blockTags": [],
                 "modifierTags": []
               },
@@ -334,7 +334,7 @@
               "id": 21,
               "name": "path",
               "comment": {
-                "description": null,
+                "description": "The path to the property to set.",
                 "blockTags": [],
                 "modifierTags": []
               },
@@ -350,7 +350,7 @@
               "id": 22,
               "name": "value",
               "comment": {
-                "description": null,
+                "description": "The value to set the property to.",
                 "blockTags": [],
                 "modifierTags": []
               },
@@ -378,16 +378,16 @@
     {
       "id": 12,
       "name": "PROPERTY_NOT_FOUND",
-      "comment": {
-        "description": null,
-        "blockTags": [],
-        "modifierTags": []
-      },
       "source": {
         "line": 3,
         "file": "getProperty.ts",
         "path": "lib",
-        "url": "https://github.com/RealShadowNova/property-helpers/blob/be877cd/src/lib/getProperty.ts#L3"
+        "url": "https://github.com/RealShadowNova/property-helpers/blob/764d1ce/src/lib/getProperty.ts#L3"
+      },
+      "comment": {
+        "description": null,
+        "blockTags": [],
+        "modifierTags": []
       },
       "external": false,
       "type": {
