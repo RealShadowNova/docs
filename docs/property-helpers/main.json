@@ -1,5 +1,5 @@
 {
-  "typeDocJsonParserVersion": "6.0.2",
+  "typeDocJsonParserVersion": "7.0.1",
   "id": 0,
   "name": "property-helpers",
   "version": "2.0.0",
@@ -15,7 +15,7 @@
         "line": 12,
         "file": "deleteProperty.ts",
         "path": "lib",
-        "url": "https://github.com/RealShadowNova/property-helpers/blob/f4adfe2/src/lib/deleteProperty.ts#L12"
+        "url": "https://github.com/RealShadowNova/property-helpers/blob/427cc33/src/lib/deleteProperty.ts#L12"
       },
       "comment": {
         "description": null,
@@ -45,7 +45,7 @@
             {
               "id": 3,
               "name": "T",
-              "type": null,
+              "constraint": null,
               "default": null
             }
           ],
@@ -97,7 +97,7 @@
         "line": 13,
         "file": "getProperty.ts",
         "path": "lib",
-        "url": "https://github.com/RealShadowNova/property-helpers/blob/f4adfe2/src/lib/getProperty.ts#L13"
+        "url": "https://github.com/RealShadowNova/property-helpers/blob/427cc33/src/lib/getProperty.ts#L13"
       },
       "comment": {
         "description": null,
@@ -127,7 +127,7 @@
             {
               "id": 8,
               "name": "T",
-              "type": null,
+              "constraint": null,
               "default": {
                 "kind": "intrinsic",
                 "type": "unknown"
@@ -210,7 +210,7 @@
         "line": 10,
         "file": "hasProperty.ts",
         "path": "lib",
-        "url": "https://github.com/RealShadowNova/property-helpers/blob/f4adfe2/src/lib/hasProperty.ts#L10"
+        "url": "https://github.com/RealShadowNova/property-helpers/blob/427cc33/src/lib/hasProperty.ts#L10"
       },
       "comment": {
         "description": null,
@@ -282,7 +282,7 @@
         "line": 11,
         "file": "setProperty.ts",
         "path": "lib",
-        "url": "https://github.com/RealShadowNova/property-helpers/blob/f4adfe2/src/lib/setProperty.ts#L11"
+        "url": "https://github.com/RealShadowNova/property-helpers/blob/427cc33/src/lib/setProperty.ts#L11"
       },
       "comment": {
         "description": null,
@@ -312,7 +312,7 @@
             {
               "id": 19,
               "name": "T",
-              "type": null,
+              "constraint": null,
               "default": null
             }
           ],
@@ -382,7 +382,7 @@
         "line": 3,
         "file": "getProperty.ts",
         "path": "lib",
-        "url": "https://github.com/RealShadowNova/property-helpers/blob/f4adfe2/src/lib/getProperty.ts#L3"
+        "url": "https://github.com/RealShadowNova/property-helpers/blob/427cc33/src/lib/getProperty.ts#L3"
       },
       "comment": {
         "description": null,
