@@ -62,7 +62,7 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "docs@workspace:."
   dependencies:
-    typedoc-json-parser: ^6.0.2
+    typedoc-json-parser: ^7.0.1
   languageName: unknown
   linkType: soft
 
@@ -127,9 +127,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"typedoc-json-parser@npm:^6.0.2":
-  version: 6.0.2
-  resolution: "typedoc-json-parser@npm:6.0.2"
+"typedoc-json-parser@npm:^7.0.1":
+  version: 7.0.1
+  resolution: "typedoc-json-parser@npm:7.0.1"
   dependencies:
     "@favware/colorette-spinner": ^1.0.1
     "@sapphire/node-utilities": ^1.0.0
@@ -137,26 +137,26 @@ __metadata:
     commander: ^9.4.1
     js-yaml: ^4.1.0
     tslib: ^2.4.0
-    typedoc: ^0.23.16
+    typedoc: ^0.23.18
   bin:
     typedoc-json-parser: ./dist/bin/index.js
-  checksum: 4e8a5e84729d14dc98f24181d90d44d914f92ef119e0ce005b62d051a15c7bef096fd2badff99f7215511bc854a8d13807163ef6f06d294490e80fd9f63e693d
+  checksum: 8177c48bfe06dd2d64e41aeb93c886ac4db8fd6c8581e45b333178e043b47b3a97785dc1b3c9ad69932ead5a2d9f64999b30e9fff67e3420b8230d5df97117d9
   languageName: node
   linkType: hard
 
-"typedoc@npm:^0.23.16":
-  version: 0.23.18
-  resolution: "typedoc@npm:0.23.18"
+"typedoc@npm:^0.23.18":
+  version: 0.23.21
+  resolution: "typedoc@npm:0.23.21"
   dependencies:
     lunr: ^2.3.9
     marked: ^4.0.19
     minimatch: ^5.1.0
     shiki: ^0.11.1
   peerDependencies:
-    typescript: 4.6.x || 4.7.x || 4.8.x
+    typescript: 4.6.x || 4.7.x || 4.8.x || 4.9.x
   bin:
     typedoc: bin/typedoc
-  checksum: 2cf1ae57865e53545ba4cbdd8a441870b7a4ad74e421d43f4b731e4643adc82c3a2e89fa9cf1f600f908d9d12da818bcd1d26970c9dce9493a8d8ec5b649b594
+  checksum: 931520b21ae25ba8ea86111ea7c66f474468bb83cbe1d04c0ea19490f130ea44ba58b7ee4d12f7f02368cfe053ed1fa291c8843c466c8af383ef956de177360d
   languageName: node
   linkType: hard
 
