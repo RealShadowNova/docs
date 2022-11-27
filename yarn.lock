@@ -62,7 +62,7 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "docs@workspace:."
   dependencies:
-    typedoc-json-parser: ^7.0.2
+    typedoc-json-parser: ^7.0.2-next
   languageName: unknown
   linkType: soft
 
@@ -127,7 +127,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"typedoc-json-parser@npm:^7.0.2":
+"typedoc-json-parser@npm:^7.0.2-next":
   version: 7.0.2
   resolution: "typedoc-json-parser@npm:7.0.2"
   dependencies:
