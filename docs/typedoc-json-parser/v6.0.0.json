@@ -1,5 +1,5 @@
 {
-  "typeDocJsonParserVersion": "6.0.0",
+  "typeDocJsonParserVersion": "7.0.2",
   "id": 0,
   "name": "typedoc-json-parser",
   "version": "6.0.0",
@@ -53,6 +53,7 @@
           "url": "https://github.com/RealShadowNova/typedoc-json-parser/blob/4db96c2/src/lib/structures/type-parsers/ArrayTypeParser.ts#L27"
         },
         "parentId": 719,
+        "accessibility": "public",
         "parameters": [
           {
             "id": 725,
@@ -372,6 +373,7 @@
           "url": "https://github.com/RealShadowNova/typedoc-json-parser/blob/4db96c2/src/lib/structures/class-parser/ClassConstructorParser.ts#L27"
         },
         "parentId": 1,
+        "accessibility": "public",
         "parameters": [
           {
             "id": 16,
@@ -1020,6 +1022,7 @@
           "url": "https://github.com/RealShadowNova/typedoc-json-parser/blob/4db96c2/src/lib/structures/class-parser/ClassMethodParser.ts#L43"
         },
         "parentId": 46,
+        "accessibility": "public",
         "parameters": [
           {
             "id": 58,
@@ -1631,6 +1634,7 @@
           "url": "https://github.com/RealShadowNova/typedoc-json-parser/blob/4db96c2/src/lib/structures/class-parser/ClassParser.ts#L70"
         },
         "parentId": 92,
+        "accessibility": "public",
         "parameters": [
           {
             "id": 103,
@@ -2349,6 +2353,7 @@
           "url": "https://github.com/RealShadowNova/typedoc-json-parser/blob/4db96c2/src/lib/structures/class-parser/ClassPropertyParser.ts#L62"
         },
         "parentId": 151,
+        "accessibility": "public",
         "parameters": [
           {
             "id": 163,
@@ -3053,6 +3058,7 @@
           "url": "https://github.com/RealShadowNova/typedoc-json-parser/blob/4db96c2/src/lib/structures/misc/CommentParser.ts#L32"
         },
         "parentId": 445,
+        "accessibility": "public",
         "parameters": [
           {
             "id": 456,
@@ -3564,6 +3570,7 @@
           "url": "https://github.com/RealShadowNova/typedoc-json-parser/blob/4db96c2/src/lib/structures/type-parsers/ConditionalTypeParser.ts#L44"
         },
         "parentId": 740,
+        "accessibility": "public",
         "parameters": [
           {
             "id": 746,
@@ -3987,6 +3994,7 @@
           "url": "https://github.com/RealShadowNova/typedoc-json-parser/blob/4db96c2/src/lib/structures/enum-parser/EnumMemberParser.ts#L32"
         },
         "parentId": 206,
+        "accessibility": "public",
         "parameters": [
           {
             "id": 221,
@@ -4624,6 +4632,7 @@
           "url": "https://github.com/RealShadowNova/typedoc-json-parser/blob/4db96c2/src/lib/structures/enum-parser/EnumParser.ts#L31"
         },
         "parentId": 251,
+        "accessibility": "public",
         "parameters": [
           {
             "id": 262,
@@ -5129,6 +5138,7 @@
           "url": "https://github.com/RealShadowNova/typedoc-json-parser/blob/4db96c2/src/lib/structures/FunctionParser.ts#L30"
         },
         "parentId": 288,
+        "accessibility": "public",
         "parameters": [
           {
             "id": 299,
@@ -5636,6 +5646,7 @@
           "url": "https://github.com/RealShadowNova/typedoc-json-parser/blob/4db96c2/src/lib/structures/type-parsers/IndexedAccessTypeParser.ts#L33"
         },
         "parentId": 770,
+        "accessibility": "public",
         "parameters": [
           {
             "id": 776,
@@ -5995,6 +6006,7 @@
           "url": "https://github.com/RealShadowNova/typedoc-json-parser/blob/4db96c2/src/lib/structures/type-parsers/InferredTypeParser.ts#L27"
         },
         "parentId": 794,
+        "accessibility": "public",
         "parameters": [
           {
             "id": 800,
@@ -6316,6 +6328,7 @@
           "url": "https://github.com/RealShadowNova/typedoc-json-parser/blob/4db96c2/src/lib/structures/interface-parser/InterfaceMethodParser.ts#L25"
         },
         "parentId": 325,
+        "accessibility": "public",
         "parameters": [
           {
             "id": 337,
@@ -6834,6 +6847,7 @@
           "url": "https://github.com/RealShadowNova/typedoc-json-parser/blob/4db96c2/src/lib/structures/interface-parser/InterfaceParser.ts#L38"
         },
         "parentId": 362,
+        "accessibility": "public",
         "parameters": [
           {
             "id": 373,
@@ -7375,6 +7389,7 @@
           "url": "https://github.com/RealShadowNova/typedoc-json-parser/blob/4db96c2/src/lib/structures/interface-parser/InterfacePropertyParser.ts#L38"
         },
         "parentId": 402,
+        "accessibility": "public",
         "parameters": [
           {
             "id": 414,
@@ -7955,6 +7970,7 @@
           "url": "https://github.com/RealShadowNova/typedoc-json-parser/blob/4db96c2/src/lib/structures/type-parsers/IntersectionTypeParser.ts#L27"
         },
         "parentId": 815,
+        "accessibility": "public",
         "parameters": [
           {
             "id": 821,
@@ -8284,6 +8300,7 @@
           "url": "https://github.com/RealShadowNova/typedoc-json-parser/blob/4db96c2/src/lib/structures/type-parsers/IntrinsicTypeParser.ts#L27"
         },
         "parentId": 836,
+        "accessibility": "public",
         "parameters": [
           {
             "id": 842,
@@ -8607,6 +8624,7 @@
           "url": "https://github.com/RealShadowNova/typedoc-json-parser/blob/4db96c2/src/lib/structures/type-parsers/LiteralTypeParser.ts#L27"
         },
         "parentId": 857,
+        "accessibility": "public",
         "parameters": [
           {
             "id": 863,
@@ -8930,6 +8948,7 @@
           "url": "https://github.com/RealShadowNova/typedoc-json-parser/blob/4db96c2/src/lib/structures/type-parsers/MappedTypeParser.ts#L57"
         },
         "parentId": 878,
+        "accessibility": "public",
         "parameters": [
           {
             "id": 884,
@@ -9445,6 +9464,7 @@
           "url": "https://github.com/RealShadowNova/typedoc-json-parser/blob/4db96c2/src/lib/structures/type-parsers/NamedTupleMemberTypeParser.ts#L39"
         },
         "parentId": 917,
+        "accessibility": "public",
         "parameters": [
           {
             "id": 923,
@@ -9829,6 +9849,7 @@
           "url": "https://github.com/RealShadowNova/typedoc-json-parser/blob/4db96c2/src/lib/structures/NamespaceParser.ts#L72"
         },
         "parentId": 612,
+        "accessibility": "public",
         "parameters": [
           {
             "id": 623,
@@ -10678,6 +10699,7 @@
           "url": "https://github.com/RealShadowNova/typedoc-json-parser/blob/4db96c2/src/lib/structures/type-parsers/OptionalTypeParser.ts#L27"
         },
         "parentId": 944,
+        "accessibility": "public",
         "parameters": [
           {
             "id": 950,
@@ -10996,6 +11018,7 @@
           "url": "https://github.com/RealShadowNova/typedoc-json-parser/blob/4db96c2/src/lib/structures/misc/ParameterParser.ts#L42"
         },
         "parentId": 482,
+        "accessibility": "public",
         "parameters": [
           {
             "id": 493,
@@ -11428,6 +11451,7 @@
           "url": "https://github.com/RealShadowNova/typedoc-json-parser/blob/4db96c2/src/lib/structures/type-parsers/PredicateTypeParser.ts#L40"
         },
         "parentId": 965,
+        "accessibility": "public",
         "parameters": [
           {
             "id": 971,
@@ -11810,6 +11834,7 @@
           "url": "https://github.com/RealShadowNova/typedoc-json-parser/blob/4db96c2/src/lib/structures/ProjectParser.ts#L99"
         },
         "parentId": 673,
+        "accessibility": "public",
         "parameters": [
           {
             "id": 677,
@@ -12534,6 +12559,7 @@
           "url": "https://github.com/RealShadowNova/typedoc-json-parser/blob/4db96c2/src/lib/structures/type-parsers/QueryTypeParser.ts#L28"
         },
         "parentId": 992,
+        "accessibility": "public",
         "parameters": [
           {
             "id": 998,
@@ -12860,6 +12886,7 @@
           "url": "https://github.com/RealShadowNova/typedoc-json-parser/blob/4db96c2/src/lib/structures/type-parsers/ReferenceTypeParser.ts#L45"
         },
         "parentId": 1013,
+        "accessibility": "public",
         "parameters": [
           {
             "id": 1019,
@@ -13337,6 +13364,7 @@
           "url": "https://github.com/RealShadowNova/typedoc-json-parser/blob/4db96c2/src/lib/structures/type-parsers/ReflectionTypeParser.ts#L28"
         },
         "parentId": 1045,
+        "accessibility": "public",
         "parameters": [
           {
             "id": 1051,
@@ -13672,6 +13700,7 @@
           "url": "https://github.com/RealShadowNova/typedoc-json-parser/blob/4db96c2/src/lib/structures/type-parsers/RestTypeParser.ts#L27"
         },
         "parentId": 1066,
+        "accessibility": "public",
         "parameters": [
           {
             "id": 1072,
@@ -13990,6 +14019,7 @@
           "url": "https://github.com/RealShadowNova/typedoc-json-parser/blob/4db96c2/src/lib/structures/misc/SignatureParser.ts#L56"
         },
         "parentId": 513,
+        "accessibility": "public",
         "parameters": [
           {
             "id": 524,
@@ -14486,6 +14516,7 @@
           "url": "https://github.com/RealShadowNova/typedoc-json-parser/blob/4db96c2/src/lib/structures/misc/SourceParser.ts#L40"
         },
         "parentId": 550,
+        "accessibility": "public",
         "parameters": [
           {
             "id": 561,
@@ -14921,6 +14952,7 @@
           "url": "https://github.com/RealShadowNova/typedoc-json-parser/blob/4db96c2/src/lib/structures/type-parsers/TemplateLiteralTypeParser.ts#L33"
         },
         "parentId": 1087,
+        "accessibility": "public",
         "parameters": [
           {
             "id": 1093,
@@ -15280,6 +15312,7 @@
           "url": "https://github.com/RealShadowNova/typedoc-json-parser/blob/4db96c2/src/lib/structures/type-parsers/TupleTypeParser.ts#L27"
         },
         "parentId": 1118,
+        "accessibility": "public",
         "parameters": [
           {
             "id": 1124,
@@ -15607,6 +15640,7 @@
           "url": "https://github.com/RealShadowNova/typedoc-json-parser/blob/4db96c2/src/lib/structures/TypeAliasParser.ts#L37"
         },
         "parentId": 1253,
+        "accessibility": "public",
         "parameters": [
           {
             "id": 1264,
@@ -16147,6 +16181,7 @@
           "url": "https://github.com/RealShadowNova/typedoc-json-parser/blob/4db96c2/src/lib/structures/type-parsers/TypeOperatorTypeParser.ts#L33"
         },
         "parentId": 1139,
+        "accessibility": "public",
         "parameters": [
           {
             "id": 1145,
@@ -16498,6 +16533,7 @@
           "url": "https://github.com/RealShadowNova/typedoc-json-parser/blob/4db96c2/src/lib/structures/misc/TypeParameterParser.ts#L41"
         },
         "parentId": 581,
+        "accessibility": "public",
         "parameters": [
           {
             "id": 592,
@@ -16948,6 +16984,7 @@
           "url": "https://github.com/RealShadowNova/typedoc-json-parser/blob/4db96c2/src/lib/structures/type-parsers/UnionTypeParser.ts#L27"
         },
         "parentId": 1211,
+        "accessibility": "public",
         "parameters": [
           {
             "id": 1217,
@@ -17277,6 +17314,7 @@
           "url": "https://github.com/RealShadowNova/typedoc-json-parser/blob/4db96c2/src/lib/structures/type-parsers/UnknownTypeParser.ts#L27"
         },
         "parentId": 1232,
+        "accessibility": "public",
         "parameters": [
           {
             "id": 1238,
@@ -17598,6 +17636,7 @@
           "url": "https://github.com/RealShadowNova/typedoc-json-parser/blob/4db96c2/src/lib/structures/VariableParser.ts#L37"
         },
         "parentId": 1293,
+        "accessibility": "public",
         "parameters": [
           {
             "id": 1304,
@@ -18553,6 +18592,7 @@
         "url": "https://github.com/RealShadowNova/typedoc-json-parser/blob/4db96c2/src/lib/structures/type-parsers/TypeParser.ts#L29"
       },
       "external": false,
+      "typeParameters": [],
       "properties": [
         {
           "id": 1169,
@@ -18721,6 +18761,7 @@
             "url": "https://github.com/RealShadowNova/typedoc-json-parser/blob/4db96c2/src/lib/structures/type-parsers/ArrayTypeParser.ts#L68"
           },
           "external": false,
+          "typeParameters": [],
           "properties": [
             {
               "id": 736,
@@ -18774,6 +18815,7 @@
             "url": "https://github.com/RealShadowNova/typedoc-json-parser/blob/4db96c2/src/lib/structures/type-parsers/ArrayTypeParser.ts#L76"
           },
           "external": false,
+          "typeParameters": [],
           "properties": [
             {
               "id": 738,
@@ -18875,6 +18917,7 @@
             "url": "https://github.com/RealShadowNova/typedoc-json-parser/blob/4db96c2/src/lib/structures/class-parser/ClassConstructorParser.ts#L129"
           },
           "external": false,
+          "typeParameters": [],
           "properties": [
             {
               "id": 33,
@@ -19071,6 +19114,7 @@
             "url": "https://github.com/RealShadowNova/typedoc-json-parser/blob/4db96c2/src/lib/structures/class-parser/ClassConstructorParser.ts#L149"
           },
           "external": false,
+          "typeParameters": [],
           "properties": [
             {
               "id": 40,
@@ -19291,6 +19335,7 @@
             "url": "https://github.com/RealShadowNova/typedoc-json-parser/blob/4db96c2/src/lib/structures/class-parser/ClassMethodParser.ts#L130"
           },
           "external": false,
+          "typeParameters": [],
           "properties": [
             {
               "id": 77,
@@ -19539,6 +19584,7 @@
             "url": "https://github.com/RealShadowNova/typedoc-json-parser/blob/4db96c2/src/lib/structures/class-parser/ClassMethodParser.ts#L162"
           },
           "external": false,
+          "typeParameters": [],
           "properties": [
             {
               "id": 86,
@@ -19886,6 +19932,7 @@
             "url": "https://github.com/RealShadowNova/typedoc-json-parser/blob/4db96c2/src/lib/structures/class-parser/ClassParser.ts#L185"
           },
           "external": false,
+          "typeParameters": [],
           "properties": [
             {
               "id": 124,
@@ -20271,6 +20318,7 @@
             "url": "https://github.com/RealShadowNova/typedoc-json-parser/blob/4db96c2/src/lib/structures/class-parser/ClassParser.ts#L241"
           },
           "external": false,
+          "typeParameters": [],
           "properties": [
             {
               "id": 137,
@@ -20680,6 +20728,7 @@
             "url": "https://github.com/RealShadowNova/typedoc-json-parser/blob/4db96c2/src/lib/structures/class-parser/ClassPropertyParser.ts#L192"
           },
           "external": false,
+          "typeParameters": [],
           "properties": [
             {
               "id": 186,
@@ -21015,6 +21064,7 @@
             "url": "https://github.com/RealShadowNova/typedoc-json-parser/blob/4db96c2/src/lib/structures/class-parser/ClassPropertyParser.ts#L242"
           },
           "external": false,
+          "typeParameters": [],
           "properties": [
             {
               "id": 198,
@@ -21379,6 +21429,7 @@
             "url": "https://github.com/RealShadowNova/typedoc-json-parser/blob/4db96c2/src/lib/structures/misc/CommentParser.ts#L163"
           },
           "external": false,
+          "typeParameters": [],
           "properties": [
             {
               "id": 480,
@@ -21450,6 +21501,7 @@
             "url": "https://github.com/RealShadowNova/typedoc-json-parser/blob/4db96c2/src/lib/structures/misc/CommentParser.ts#L119"
           },
           "external": false,
+          "typeParameters": [],
           "properties": [
             {
               "id": 473,
@@ -21565,6 +21617,7 @@
             "url": "https://github.com/RealShadowNova/typedoc-json-parser/blob/4db96c2/src/lib/structures/misc/CommentParser.ts#L139"
           },
           "external": false,
+          "typeParameters": [],
           "properties": [
             {
               "id": 477,
@@ -21704,6 +21757,7 @@
             "url": "https://github.com/RealShadowNova/typedoc-json-parser/blob/4db96c2/src/lib/structures/type-parsers/ConditionalTypeParser.ts#L94"
           },
           "external": false,
+          "typeParameters": [],
           "properties": [
             {
               "id": 760,
@@ -21844,6 +21898,7 @@
             "url": "https://github.com/RealShadowNova/typedoc-json-parser/blob/4db96c2/src/lib/structures/type-parsers/ConditionalTypeParser.ts#L120"
           },
           "external": false,
+          "typeParameters": [],
           "properties": [
             {
               "id": 766,
@@ -22032,6 +22087,7 @@
             "url": "https://github.com/RealShadowNova/typedoc-json-parser/blob/4db96c2/src/lib/structures/enum-parser/EnumMemberParser.ts#L124"
           },
           "external": false,
+          "typeParameters": [],
           "properties": [
             {
               "id": 238,
@@ -22222,6 +22278,7 @@
             "url": "https://github.com/RealShadowNova/typedoc-json-parser/blob/4db96c2/src/lib/structures/enum-parser/EnumMemberParser.ts#L144"
           },
           "external": false,
+          "typeParameters": [],
           "properties": [
             {
               "id": 245,
@@ -22436,6 +22493,7 @@
             "url": "https://github.com/RealShadowNova/typedoc-json-parser/blob/4db96c2/src/lib/structures/enum-parser/EnumParser.ts#L102"
           },
           "external": false,
+          "typeParameters": [],
           "properties": [
             {
               "id": 275,
@@ -22632,6 +22690,7 @@
             "url": "https://github.com/RealShadowNova/typedoc-json-parser/blob/4db96c2/src/lib/structures/enum-parser/EnumParser.ts#L122"
           },
           "external": false,
+          "typeParameters": [],
           "properties": [
             {
               "id": 282,
@@ -22847,6 +22906,7 @@
             "url": "https://github.com/RealShadowNova/typedoc-json-parser/blob/4db96c2/src/lib/structures/FunctionParser.ts#L97"
           },
           "external": false,
+          "typeParameters": [],
           "properties": [
             {
               "id": 312,
@@ -23043,6 +23103,7 @@
             "url": "https://github.com/RealShadowNova/typedoc-json-parser/blob/4db96c2/src/lib/structures/FunctionParser.ts#L117"
           },
           "external": false,
+          "typeParameters": [],
           "properties": [
             {
               "id": 319,
@@ -23263,6 +23324,7 @@
             "url": "https://github.com/RealShadowNova/typedoc-json-parser/blob/4db96c2/src/lib/structures/type-parsers/IndexedAccessTypeParser.ts#L76"
           },
           "external": false,
+          "typeParameters": [],
           "properties": [
             {
               "id": 789,
@@ -23345,6 +23407,7 @@
             "url": "https://github.com/RealShadowNova/typedoc-json-parser/blob/4db96c2/src/lib/structures/type-parsers/IndexedAccessTypeParser.ts#L90"
           },
           "external": false,
+          "typeParameters": [],
           "properties": [
             {
               "id": 793,
@@ -23475,6 +23538,7 @@
             "url": "https://github.com/RealShadowNova/typedoc-json-parser/blob/4db96c2/src/lib/structures/type-parsers/InferredTypeParser.ts#L68"
           },
           "external": false,
+          "typeParameters": [],
           "properties": [
             {
               "id": 811,
@@ -23525,6 +23589,7 @@
             "url": "https://github.com/RealShadowNova/typedoc-json-parser/blob/4db96c2/src/lib/structures/type-parsers/InferredTypeParser.ts#L76"
           },
           "external": false,
+          "typeParameters": [],
           "properties": [
             {
               "id": 813,
@@ -23623,6 +23688,7 @@
             "url": "https://github.com/RealShadowNova/typedoc-json-parser/blob/4db96c2/src/lib/structures/interface-parser/InterfaceMethodParser.ts#L96"
           },
           "external": false,
+          "typeParameters": [],
           "properties": [
             {
               "id": 353,
@@ -23790,6 +23856,7 @@
             "url": "https://github.com/RealShadowNova/typedoc-json-parser/blob/4db96c2/src/lib/structures/interface-parser/InterfaceMethodParser.ts#L110"
           },
           "external": false,
+          "typeParameters": [],
           "properties": [
             {
               "id": 359,
@@ -23981,6 +24048,7 @@
             "url": "https://github.com/RealShadowNova/typedoc-json-parser/blob/4db96c2/src/lib/structures/interface-parser/InterfaceParser.ts#L117"
           },
           "external": false,
+          "typeParameters": [],
           "properties": [
             {
               "id": 387,
@@ -24209,6 +24277,7 @@
             "url": "https://github.com/RealShadowNova/typedoc-json-parser/blob/4db96c2/src/lib/structures/interface-parser/InterfaceParser.ts#L143"
           },
           "external": false,
+          "typeParameters": [],
           "properties": [
             {
               "id": 395,
@@ -24461,6 +24530,7 @@
             "url": "https://github.com/RealShadowNova/typedoc-json-parser/blob/4db96c2/src/lib/structures/interface-parser/InterfacePropertyParser.ts#L117"
           },
           "external": false,
+          "typeParameters": [],
           "properties": [
             {
               "id": 430,
@@ -24680,6 +24750,7 @@
             "url": "https://github.com/RealShadowNova/typedoc-json-parser/blob/4db96c2/src/lib/structures/interface-parser/InterfacePropertyParser.ts#L143"
           },
           "external": false,
+          "typeParameters": [],
           "properties": [
             {
               "id": 438,
@@ -24923,6 +24994,7 @@
             "url": "https://github.com/RealShadowNova/typedoc-json-parser/blob/4db96c2/src/lib/structures/type-parsers/IntersectionTypeParser.ts#L68"
           },
           "external": false,
+          "typeParameters": [],
           "properties": [
             {
               "id": 832,
@@ -24979,6 +25051,7 @@
             "url": "https://github.com/RealShadowNova/typedoc-json-parser/blob/4db96c2/src/lib/structures/type-parsers/IntersectionTypeParser.ts#L76"
           },
           "external": false,
+          "typeParameters": [],
           "properties": [
             {
               "id": 834,
@@ -25083,6 +25156,7 @@
             "url": "https://github.com/RealShadowNova/typedoc-json-parser/blob/4db96c2/src/lib/structures/type-parsers/IntrinsicTypeParser.ts#L68"
           },
           "external": false,
+          "typeParameters": [],
           "properties": [
             {
               "id": 853,
@@ -25133,6 +25207,7 @@
             "url": "https://github.com/RealShadowNova/typedoc-json-parser/blob/4db96c2/src/lib/structures/type-parsers/IntrinsicTypeParser.ts#L76"
           },
           "external": false,
+          "typeParameters": [],
           "properties": [
             {
               "id": 855,
@@ -25231,6 +25306,7 @@
             "url": "https://github.com/RealShadowNova/typedoc-json-parser/blob/4db96c2/src/lib/structures/type-parsers/LiteralTypeParser.ts#L68"
           },
           "external": false,
+          "typeParameters": [],
           "properties": [
             {
               "id": 874,
@@ -25281,6 +25357,7 @@
             "url": "https://github.com/RealShadowNova/typedoc-json-parser/blob/4db96c2/src/lib/structures/type-parsers/LiteralTypeParser.ts#L76"
           },
           "external": false,
+          "typeParameters": [],
           "properties": [
             {
               "id": 876,
@@ -25432,6 +25509,7 @@
             "url": "https://github.com/RealShadowNova/typedoc-json-parser/blob/4db96c2/src/lib/structures/type-parsers/MappedTypeParser.ts#L113"
           },
           "external": false,
+          "typeParameters": [],
           "properties": [
             {
               "id": 902,
@@ -25654,6 +25732,7 @@
             "url": "https://github.com/RealShadowNova/typedoc-json-parser/blob/4db96c2/src/lib/structures/type-parsers/MappedTypeParser.ts#L151"
           },
           "external": false,
+          "typeParameters": [],
           "properties": [
             {
               "id": 907,
@@ -25924,6 +26003,7 @@
             "url": "https://github.com/RealShadowNova/typedoc-json-parser/blob/4db96c2/src/lib/structures/type-parsers/NamedTupleMemberTypeParser.ts#L84"
           },
           "external": false,
+          "typeParameters": [],
           "properties": [
             {
               "id": 936,
@@ -26029,6 +26109,7 @@
             "url": "https://github.com/RealShadowNova/typedoc-json-parser/blob/4db96c2/src/lib/structures/type-parsers/NamedTupleMemberTypeParser.ts#L104"
           },
           "external": false,
+          "typeParameters": [],
           "properties": [
             {
               "id": 940,
@@ -26182,6 +26263,7 @@
             "url": "https://github.com/RealShadowNova/typedoc-json-parser/blob/4db96c2/src/lib/structures/NamespaceParser.ts#L352"
           },
           "external": false,
+          "typeParameters": [],
           "properties": [
             {
               "id": 650,
@@ -26570,6 +26652,7 @@
             "url": "https://github.com/RealShadowNova/typedoc-json-parser/blob/4db96c2/src/lib/structures/NamespaceParser.ts#L408"
           },
           "external": false,
+          "typeParameters": [],
           "properties": [
             {
               "id": 663,
@@ -26982,6 +27065,7 @@
             "url": "https://github.com/RealShadowNova/typedoc-json-parser/blob/4db96c2/src/lib/structures/type-parsers/OptionalTypeParser.ts#L68"
           },
           "external": false,
+          "typeParameters": [],
           "properties": [
             {
               "id": 961,
@@ -27035,6 +27119,7 @@
             "url": "https://github.com/RealShadowNova/typedoc-json-parser/blob/4db96c2/src/lib/structures/type-parsers/OptionalTypeParser.ts#L76"
           },
           "external": false,
+          "typeParameters": [],
           "properties": [
             {
               "id": 963,
@@ -27136,6 +27221,7 @@
             "url": "https://github.com/RealShadowNova/typedoc-json-parser/blob/4db96c2/src/lib/structures/misc/ParameterParser.ts#L108"
           },
           "external": false,
+          "typeParameters": [],
           "properties": [
             {
               "id": 506,
@@ -27265,6 +27351,7 @@
             "url": "https://github.com/RealShadowNova/typedoc-json-parser/blob/4db96c2/src/lib/structures/misc/ParameterParser.ts#L134"
           },
           "external": false,
+          "typeParameters": [],
           "properties": [
             {
               "id": 511,
@@ -27418,6 +27505,7 @@
             "url": "https://github.com/RealShadowNova/typedoc-json-parser/blob/4db96c2/src/lib/structures/type-parsers/PredicateTypeParser.ts#L85"
           },
           "external": false,
+          "typeParameters": [],
           "properties": [
             {
               "id": 984,
@@ -27532,6 +27620,7 @@
             "url": "https://github.com/RealShadowNova/typedoc-json-parser/blob/4db96c2/src/lib/structures/type-parsers/PredicateTypeParser.ts#L107"
           },
           "external": false,
+          "typeParameters": [],
           "properties": [
             {
               "id": 989,
@@ -27694,6 +27783,7 @@
             "url": "https://github.com/RealShadowNova/typedoc-json-parser/blob/4db96c2/src/lib/structures/ProjectParser.ts#L401"
           },
           "external": false,
+          "typeParameters": [],
           "properties": [
             {
               "id": 711,
@@ -28120,6 +28210,7 @@
             "url": "https://github.com/RealShadowNova/typedoc-json-parser/blob/4db96c2/src/lib/structures/ProjectParser.ts#L375"
           },
           "external": false,
+          "typeParameters": [],
           "properties": [
             {
               "id": 704,
@@ -28282,6 +28373,7 @@
             "url": "https://github.com/RealShadowNova/typedoc-json-parser/blob/4db96c2/src/lib/structures/type-parsers/QueryTypeParser.ts#L69"
           },
           "external": false,
+          "typeParameters": [],
           "properties": [
             {
               "id": 1009,
@@ -28335,6 +28427,7 @@
             "url": "https://github.com/RealShadowNova/typedoc-json-parser/blob/4db96c2/src/lib/structures/type-parsers/QueryTypeParser.ts#L77"
           },
           "external": false,
+          "typeParameters": [],
           "properties": [
             {
               "id": 1011,
@@ -28436,6 +28529,7 @@
             "url": "https://github.com/RealShadowNova/typedoc-json-parser/blob/4db96c2/src/lib/structures/type-parsers/ReferenceTypeParser.ts#L103"
           },
           "external": false,
+          "typeParameters": [],
           "properties": [
             {
               "id": 1035,
@@ -28588,6 +28682,7 @@
             "url": "https://github.com/RealShadowNova/typedoc-json-parser/blob/4db96c2/src/lib/structures/type-parsers/ReferenceTypeParser.ts#L129"
           },
           "external": false,
+          "typeParameters": [],
           "properties": [
             {
               "id": 1041,
@@ -28788,6 +28883,7 @@
             "url": "https://github.com/RealShadowNova/typedoc-json-parser/blob/4db96c2/src/lib/structures/type-parsers/ReflectionTypeParser.ts#L69"
           },
           "external": false,
+          "typeParameters": [],
           "properties": [
             {
               "id": 1062,
@@ -28850,6 +28946,7 @@
             "url": "https://github.com/RealShadowNova/typedoc-json-parser/blob/4db96c2/src/lib/structures/type-parsers/ReflectionTypeParser.ts#L77"
           },
           "external": false,
+          "typeParameters": [],
           "properties": [
             {
               "id": 1064,
@@ -28960,6 +29057,7 @@
             "url": "https://github.com/RealShadowNova/typedoc-json-parser/blob/4db96c2/src/lib/structures/type-parsers/RestTypeParser.ts#L68"
           },
           "external": false,
+          "typeParameters": [],
           "properties": [
             {
               "id": 1083,
@@ -29013,6 +29111,7 @@
             "url": "https://github.com/RealShadowNova/typedoc-json-parser/blob/4db96c2/src/lib/structures/type-parsers/RestTypeParser.ts#L76"
           },
           "external": false,
+          "typeParameters": [],
           "properties": [
             {
               "id": 1085,
@@ -29114,6 +29213,7 @@
             "url": "https://github.com/RealShadowNova/typedoc-json-parser/blob/4db96c2/src/lib/structures/misc/SignatureParser.ts#L139"
           },
           "external": false,
+          "typeParameters": [],
           "properties": [
             {
               "id": 539,
@@ -29307,6 +29407,7 @@
             "url": "https://github.com/RealShadowNova/typedoc-json-parser/blob/4db96c2/src/lib/structures/misc/SignatureParser.ts#L177"
           },
           "external": false,
+          "typeParameters": [],
           "properties": [
             {
               "id": 546,
@@ -29524,6 +29625,7 @@
             "url": "https://github.com/RealShadowNova/typedoc-json-parser/blob/4db96c2/src/lib/structures/misc/SourceParser.ts#L102"
           },
           "external": false,
+          "typeParameters": [],
           "properties": [
             {
               "id": 573,
@@ -29656,6 +29758,7 @@
             "url": "https://github.com/RealShadowNova/typedoc-json-parser/blob/4db96c2/src/lib/structures/misc/SourceParser.ts#L128"
           },
           "external": false,
+          "typeParameters": [],
           "properties": [
             {
               "id": 578,
@@ -29812,6 +29915,7 @@
             "url": "https://github.com/RealShadowNova/typedoc-json-parser/blob/4db96c2/src/lib/structures/type-parsers/TemplateLiteralTypeParser.ts#L76"
           },
           "external": false,
+          "typeParameters": [],
           "properties": [
             {
               "id": 1105,
@@ -29894,6 +29998,7 @@
             "url": "https://github.com/RealShadowNova/typedoc-json-parser/blob/4db96c2/src/lib/structures/type-parsers/TemplateLiteralTypeParser.ts#L90"
           },
           "external": false,
+          "typeParameters": [],
           "properties": [
             {
               "id": 1109,
@@ -30000,6 +30105,7 @@
             "url": "https://github.com/RealShadowNova/typedoc-json-parser/blob/4db96c2/src/lib/structures/type-parsers/TemplateLiteralTypeParser.ts#L106"
           },
           "external": false,
+          "typeParameters": [],
           "properties": [
             {
               "id": 1113,
@@ -30095,6 +30201,7 @@
                 "url": "https://github.com/RealShadowNova/typedoc-json-parser/blob/4db96c2/src/lib/structures/type-parsers/TemplateLiteralTypeParser.ts#L121"
               },
               "external": false,
+              "typeParameters": [],
               "properties": [
                 {
                   "id": 1117,
@@ -30197,6 +30304,7 @@
             "url": "https://github.com/RealShadowNova/typedoc-json-parser/blob/4db96c2/src/lib/structures/type-parsers/TupleTypeParser.ts#L68"
           },
           "external": false,
+          "typeParameters": [],
           "properties": [
             {
               "id": 1135,
@@ -30253,6 +30361,7 @@
             "url": "https://github.com/RealShadowNova/typedoc-json-parser/blob/4db96c2/src/lib/structures/type-parsers/TupleTypeParser.ts#L76"
           },
           "external": false,
+          "typeParameters": [],
           "properties": [
             {
               "id": 1137,
@@ -30357,6 +30466,7 @@
             "url": "https://github.com/RealShadowNova/typedoc-json-parser/blob/4db96c2/src/lib/structures/TypeAliasParser.ts#L108"
           },
           "external": false,
+          "typeParameters": [],
           "properties": [
             {
               "id": 1278,
@@ -30582,6 +30692,7 @@
             "url": "https://github.com/RealShadowNova/typedoc-json-parser/blob/4db96c2/src/lib/structures/TypeAliasParser.ts#L134"
           },
           "external": false,
+          "typeParameters": [],
           "properties": [
             {
               "id": 1286,
@@ -30896,6 +31007,7 @@
             "url": "https://github.com/RealShadowNova/typedoc-json-parser/blob/4db96c2/src/lib/structures/type-parsers/TypeOperatorTypeParser.ts#L76"
           },
           "external": false,
+          "typeParameters": [],
           "properties": [
             {
               "id": 1157,
@@ -30978,6 +31090,7 @@
             "url": "https://github.com/RealShadowNova/typedoc-json-parser/blob/4db96c2/src/lib/structures/type-parsers/TypeOperatorTypeParser.ts#L90"
           },
           "external": false,
+          "typeParameters": [],
           "properties": [
             {
               "id": 1160,
@@ -31108,6 +31221,7 @@
             "url": "https://github.com/RealShadowNova/typedoc-json-parser/blob/4db96c2/src/lib/structures/misc/TypeParameterParser.ts#L107"
           },
           "external": false,
+          "typeParameters": [],
           "properties": [
             {
               "id": 606,
@@ -31255,6 +31369,7 @@
             "url": "https://github.com/RealShadowNova/typedoc-json-parser/blob/4db96c2/src/lib/structures/misc/TypeParameterParser.ts#L133"
           },
           "external": false,
+          "typeParameters": [],
           "properties": [
             {
               "id": 611,
@@ -32015,6 +32130,7 @@
             "url": "https://github.com/RealShadowNova/typedoc-json-parser/blob/4db96c2/src/lib/structures/type-parsers/TypeParser.ts#L521"
           },
           "external": false,
+          "typeParameters": [],
           "properties": [
             {
               "id": 1210,
@@ -32129,6 +32245,7 @@
             "url": "https://github.com/RealShadowNova/typedoc-json-parser/blob/4db96c2/src/lib/structures/type-parsers/UnionTypeParser.ts#L68"
           },
           "external": false,
+          "typeParameters": [],
           "properties": [
             {
               "id": 1228,
@@ -32185,6 +32302,7 @@
             "url": "https://github.com/RealShadowNova/typedoc-json-parser/blob/4db96c2/src/lib/structures/type-parsers/UnionTypeParser.ts#L76"
           },
           "external": false,
+          "typeParameters": [],
           "properties": [
             {
               "id": 1230,
@@ -32289,6 +32407,7 @@
             "url": "https://github.com/RealShadowNova/typedoc-json-parser/blob/4db96c2/src/lib/structures/type-parsers/UnknownTypeParser.ts#L68"
           },
           "external": false,
+          "typeParameters": [],
           "properties": [
             {
               "id": 1249,
@@ -32339,6 +32458,7 @@
             "url": "https://github.com/RealShadowNova/typedoc-json-parser/blob/4db96c2/src/lib/structures/type-parsers/UnknownTypeParser.ts#L76"
           },
           "external": false,
+          "typeParameters": [],
           "properties": [
             {
               "id": 1251,
@@ -32437,6 +32557,7 @@
             "url": "https://github.com/RealShadowNova/typedoc-json-parser/blob/4db96c2/src/lib/structures/VariableParser.ts#L108"
           },
           "external": false,
+          "typeParameters": [],
           "properties": [
             {
               "id": 1318,
@@ -32656,6 +32777,7 @@
             "url": "https://github.com/RealShadowNova/typedoc-json-parser/blob/4db96c2/src/lib/structures/VariableParser.ts#L134"
           },
           "external": false,
+          "typeParameters": [],
           "properties": [
             {
               "id": 1326,

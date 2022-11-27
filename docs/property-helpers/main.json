@@ -1,5 +1,5 @@
 {
-  "typeDocJsonParserVersion": "7.0.1",
+  "typeDocJsonParserVersion": "7.0.2",
   "id": 0,
   "name": "property-helpers",
   "version": "2.0.0",
@@ -11,16 +11,16 @@
     {
       "id": 1,
       "name": "deleteProperty",
+      "comment": {
+        "description": null,
+        "blockTags": [],
+        "modifierTags": []
+      },
       "source": {
         "line": 12,
         "file": "deleteProperty.ts",
         "path": "lib",
         "url": "https://github.com/RealShadowNova/property-helpers/blob/18ce1f2/src/lib/deleteProperty.ts#L12"
-      },
-      "comment": {
-        "description": null,
-        "blockTags": [],
-        "modifierTags": []
       },
       "external": false,
       "signatures": [
@@ -93,16 +93,16 @@
     {
       "id": 6,
       "name": "getProperty",
+      "comment": {
+        "description": null,
+        "blockTags": [],
+        "modifierTags": []
+      },
       "source": {
         "line": 13,
         "file": "getProperty.ts",
         "path": "lib",
         "url": "https://github.com/RealShadowNova/property-helpers/blob/18ce1f2/src/lib/getProperty.ts#L13"
-      },
-      "comment": {
-        "description": null,
-        "blockTags": [],
-        "modifierTags": []
       },
       "external": false,
       "signatures": [
@@ -206,16 +206,16 @@
     {
       "id": 13,
       "name": "hasProperty",
+      "comment": {
+        "description": null,
+        "blockTags": [],
+        "modifierTags": []
+      },
       "source": {
         "line": 10,
         "file": "hasProperty.ts",
         "path": "lib",
         "url": "https://github.com/RealShadowNova/property-helpers/blob/18ce1f2/src/lib/hasProperty.ts#L10"
-      },
-      "comment": {
-        "description": null,
-        "blockTags": [],
-        "modifierTags": []
       },
       "external": false,
       "signatures": [
@@ -278,16 +278,16 @@
     {
       "id": 17,
       "name": "setProperty",
+      "comment": {
+        "description": null,
+        "blockTags": [],
+        "modifierTags": []
+      },
       "source": {
         "line": 11,
         "file": "setProperty.ts",
         "path": "lib",
         "url": "https://github.com/RealShadowNova/property-helpers/blob/18ce1f2/src/lib/setProperty.ts#L11"
-      },
-      "comment": {
-        "description": null,
-        "blockTags": [],
-        "modifierTags": []
       },
       "external": false,
       "signatures": [
@@ -378,16 +378,16 @@
     {
       "id": 12,
       "name": "PROPERTY_NOT_FOUND",
+      "comment": {
+        "description": null,
+        "blockTags": [],
+        "modifierTags": []
+      },
       "source": {
         "line": 3,
         "file": "getProperty.ts",
         "path": "lib",
         "url": "https://github.com/RealShadowNova/property-helpers/blob/18ce1f2/src/lib/getProperty.ts#L3"
-      },
-      "comment": {
-        "description": null,
-        "blockTags": [],
-        "modifierTags": []
       },
       "external": false,
       "type": {

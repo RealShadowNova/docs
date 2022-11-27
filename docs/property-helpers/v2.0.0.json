@@ -1,5 +1,5 @@
 {
-  "typeDocJsonParserVersion": "6.0.0",
+  "typeDocJsonParserVersion": "7.0.2",
   "id": 0,
   "name": "property-helpers",
   "version": "2.0.0",
@@ -45,7 +45,7 @@
             {
               "id": 3,
               "name": "T",
-              "type": null,
+              "constraint": null,
               "default": null
             }
           ],
@@ -127,7 +127,7 @@
             {
               "id": 8,
               "name": "T",
-              "type": null,
+              "constraint": null,
               "default": {
                 "kind": "intrinsic",
                 "type": "unknown"
@@ -312,7 +312,7 @@
             {
               "id": 19,
               "name": "T",
-              "type": null,
+              "constraint": null,
               "default": null
             }
           ],
