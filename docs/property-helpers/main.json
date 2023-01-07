@@ -1,5 +1,5 @@
 {
-  "typeDocJsonParserVersion": "7.0.1",
+  "typeDocJsonParserVersion": "7.1.0",
   "id": 0,
   "name": "property-helpers",
   "version": "2.0.0",
@@ -15,7 +15,7 @@
         "line": 12,
         "file": "deleteProperty.ts",
         "path": "lib",
-        "url": "https://github.com/RealShadowNova/property-helpers/blob/04d6af1/src/lib/deleteProperty.ts#L12"
+        "url": "https://github.com/RealShadowNova/property-helpers/blob/de222e9/src/lib/deleteProperty.ts#L12"
       },
       "comment": {
         "description": null,
@@ -58,6 +58,7 @@
                 "blockTags": [],
                 "modifierTags": []
               },
+              "optional": false,
               "type": {
                 "kind": "intrinsic",
                 "type": "unknown"
@@ -71,6 +72,7 @@
                 "blockTags": [],
                 "modifierTags": []
               },
+              "optional": false,
               "type": {
                 "kind": "array",
                 "type": {
@@ -97,7 +99,7 @@
         "line": 13,
         "file": "getProperty.ts",
         "path": "lib",
-        "url": "https://github.com/RealShadowNova/property-helpers/blob/04d6af1/src/lib/getProperty.ts#L13"
+        "url": "https://github.com/RealShadowNova/property-helpers/blob/de222e9/src/lib/getProperty.ts#L13"
       },
       "comment": {
         "description": null,
@@ -143,6 +145,7 @@
                 "blockTags": [],
                 "modifierTags": []
               },
+              "optional": false,
               "type": {
                 "kind": "intrinsic",
                 "type": "unknown"
@@ -156,6 +159,7 @@
                 "blockTags": [],
                 "modifierTags": []
               },
+              "optional": false,
               "type": {
                 "kind": "array",
                 "type": {
@@ -172,6 +176,7 @@
                 "blockTags": [],
                 "modifierTags": []
               },
+              "optional": false,
               "type": {
                 "kind": "intrinsic",
                 "type": "boolean"
@@ -210,7 +215,7 @@
         "line": 10,
         "file": "hasProperty.ts",
         "path": "lib",
-        "url": "https://github.com/RealShadowNova/property-helpers/blob/04d6af1/src/lib/hasProperty.ts#L10"
+        "url": "https://github.com/RealShadowNova/property-helpers/blob/de222e9/src/lib/hasProperty.ts#L10"
       },
       "comment": {
         "description": null,
@@ -246,6 +251,7 @@
                 "blockTags": [],
                 "modifierTags": []
               },
+              "optional": false,
               "type": {
                 "kind": "intrinsic",
                 "type": "unknown"
@@ -259,6 +265,7 @@
                 "blockTags": [],
                 "modifierTags": []
               },
+              "optional": false,
               "type": {
                 "kind": "array",
                 "type": {
@@ -282,7 +289,7 @@
         "line": 11,
         "file": "setProperty.ts",
         "path": "lib",
-        "url": "https://github.com/RealShadowNova/property-helpers/blob/04d6af1/src/lib/setProperty.ts#L11"
+        "url": "https://github.com/RealShadowNova/property-helpers/blob/de222e9/src/lib/setProperty.ts#L11"
       },
       "comment": {
         "description": null,
@@ -325,6 +332,7 @@
                 "blockTags": [],
                 "modifierTags": []
               },
+              "optional": false,
               "type": {
                 "kind": "intrinsic",
                 "type": "unknown"
@@ -338,6 +346,7 @@
                 "blockTags": [],
                 "modifierTags": []
               },
+              "optional": false,
               "type": {
                 "kind": "array",
                 "type": {
@@ -354,6 +363,7 @@
                 "blockTags": [],
                 "modifierTags": []
               },
+              "optional": false,
               "type": {
                 "kind": "intrinsic",
                 "type": "unknown"
@@ -382,7 +392,7 @@
         "line": 3,
         "file": "getProperty.ts",
         "path": "lib",
-        "url": "https://github.com/RealShadowNova/property-helpers/blob/04d6af1/src/lib/getProperty.ts#L3"
+        "url": "https://github.com/RealShadowNova/property-helpers/blob/de222e9/src/lib/getProperty.ts#L3"
       },
       "comment": {
         "description": null,
