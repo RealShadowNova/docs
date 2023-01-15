@@ -15,7 +15,7 @@
         "line": 9,
         "file": "parse.ts",
         "path": "lib",
-        "url": "https://github.com/RealShadowNova/better-serialize/blob/dca5e54/src/lib/parse.ts#L9"
+        "url": "https://github.com/RealShadowNova/better-serialize/blob/ea58430/src/lib/parse.ts#L9"
       },
       "comment": {
         "description": null,
@@ -72,7 +72,7 @@
         "line": 9,
         "file": "stringify.ts",
         "path": "lib",
-        "url": "https://github.com/RealShadowNova/better-serialize/blob/dca5e54/src/lib/stringify.ts#L9"
+        "url": "https://github.com/RealShadowNova/better-serialize/blob/ea58430/src/lib/stringify.ts#L9"
       },
       "comment": {
         "description": null,
@@ -132,7 +132,7 @@
         "line": 7,
         "file": "Serialize.ts",
         "path": "lib",
-        "url": "https://github.com/RealShadowNova/better-serialize/blob/dca5e54/src/lib/Serialize.ts#L7"
+        "url": "https://github.com/RealShadowNova/better-serialize/blob/ea58430/src/lib/Serialize.ts#L7"
       },
       "comment": {
         "description": "The namespace which contains everything for the transformation of raw Node.js data types.",
@@ -154,7 +154,7 @@
             "line": 146,
             "file": "Serialize.ts",
             "path": "lib",
-            "url": "https://github.com/RealShadowNova/better-serialize/blob/dca5e54/src/lib/Serialize.ts#L146"
+            "url": "https://github.com/RealShadowNova/better-serialize/blob/ea58430/src/lib/Serialize.ts#L146"
           },
           "comment": {
             "description": "The keying used for JSON-compatible data.",
@@ -175,7 +175,7 @@
                 "line": 153,
                 "file": "Serialize.ts",
                 "path": "lib",
-                "url": "https://github.com/RealShadowNova/better-serialize/blob/dca5e54/src/lib/Serialize.ts#L153"
+                "url": "https://github.com/RealShadowNova/better-serialize/blob/ea58430/src/lib/Serialize.ts#L153"
               },
               "comment": {
                 "description": null,
@@ -192,7 +192,7 @@
                 "line": 151,
                 "file": "Serialize.ts",
                 "path": "lib",
-                "url": "https://github.com/RealShadowNova/better-serialize/blob/dca5e54/src/lib/Serialize.ts#L151"
+                "url": "https://github.com/RealShadowNova/better-serialize/blob/ea58430/src/lib/Serialize.ts#L151"
               },
               "comment": {
                 "description": null,
@@ -209,7 +209,7 @@
                 "line": 147,
                 "file": "Serialize.ts",
                 "path": "lib",
-                "url": "https://github.com/RealShadowNova/better-serialize/blob/dca5e54/src/lib/Serialize.ts#L147"
+                "url": "https://github.com/RealShadowNova/better-serialize/blob/ea58430/src/lib/Serialize.ts#L147"
               },
               "comment": {
                 "description": null,
@@ -226,7 +226,7 @@
                 "line": 149,
                 "file": "Serialize.ts",
                 "path": "lib",
-                "url": "https://github.com/RealShadowNova/better-serialize/blob/dca5e54/src/lib/Serialize.ts#L149"
+                "url": "https://github.com/RealShadowNova/better-serialize/blob/ea58430/src/lib/Serialize.ts#L149"
               },
               "comment": {
                 "description": null,
@@ -245,7 +245,7 @@
             "line": 160,
             "file": "Serialize.ts",
             "path": "lib",
-            "url": "https://github.com/RealShadowNova/better-serialize/blob/dca5e54/src/lib/Serialize.ts#L160"
+            "url": "https://github.com/RealShadowNova/better-serialize/blob/ea58430/src/lib/Serialize.ts#L160"
           },
           "comment": {
             "description": "The types of JSON-compatible data.",
@@ -266,7 +266,7 @@
                 "line": 161,
                 "file": "Serialize.ts",
                 "path": "lib",
-                "url": "https://github.com/RealShadowNova/better-serialize/blob/dca5e54/src/lib/Serialize.ts#L161"
+                "url": "https://github.com/RealShadowNova/better-serialize/blob/ea58430/src/lib/Serialize.ts#L161"
               },
               "comment": {
                 "description": null,
@@ -283,7 +283,7 @@
                 "line": 163,
                 "file": "Serialize.ts",
                 "path": "lib",
-                "url": "https://github.com/RealShadowNova/better-serialize/blob/dca5e54/src/lib/Serialize.ts#L163"
+                "url": "https://github.com/RealShadowNova/better-serialize/blob/ea58430/src/lib/Serialize.ts#L163"
               },
               "comment": {
                 "description": null,
@@ -300,7 +300,7 @@
                 "line": 165,
                 "file": "Serialize.ts",
                 "path": "lib",
-                "url": "https://github.com/RealShadowNova/better-serialize/blob/dca5e54/src/lib/Serialize.ts#L165"
+                "url": "https://github.com/RealShadowNova/better-serialize/blob/ea58430/src/lib/Serialize.ts#L165"
               },
               "comment": {
                 "description": null,
@@ -317,7 +317,7 @@
                 "line": 167,
                 "file": "Serialize.ts",
                 "path": "lib",
-                "url": "https://github.com/RealShadowNova/better-serialize/blob/dca5e54/src/lib/Serialize.ts#L167"
+                "url": "https://github.com/RealShadowNova/better-serialize/blob/ea58430/src/lib/Serialize.ts#L167"
               },
               "comment": {
                 "description": null,
@@ -334,7 +334,7 @@
                 "line": 169,
                 "file": "Serialize.ts",
                 "path": "lib",
-                "url": "https://github.com/RealShadowNova/better-serialize/blob/dca5e54/src/lib/Serialize.ts#L169"
+                "url": "https://github.com/RealShadowNova/better-serialize/blob/ea58430/src/lib/Serialize.ts#L169"
               },
               "comment": {
                 "description": null,
@@ -351,7 +351,7 @@
                 "line": 171,
                 "file": "Serialize.ts",
                 "path": "lib",
-                "url": "https://github.com/RealShadowNova/better-serialize/blob/dca5e54/src/lib/Serialize.ts#L171"
+                "url": "https://github.com/RealShadowNova/better-serialize/blob/ea58430/src/lib/Serialize.ts#L171"
               },
               "comment": {
                 "description": null,
@@ -368,7 +368,7 @@
                 "line": 173,
                 "file": "Serialize.ts",
                 "path": "lib",
-                "url": "https://github.com/RealShadowNova/better-serialize/blob/dca5e54/src/lib/Serialize.ts#L173"
+                "url": "https://github.com/RealShadowNova/better-serialize/blob/ea58430/src/lib/Serialize.ts#L173"
               },
               "comment": {
                 "description": null,
@@ -385,7 +385,7 @@
                 "line": 175,
                 "file": "Serialize.ts",
                 "path": "lib",
-                "url": "https://github.com/RealShadowNova/better-serialize/blob/dca5e54/src/lib/Serialize.ts#L175"
+                "url": "https://github.com/RealShadowNova/better-serialize/blob/ea58430/src/lib/Serialize.ts#L175"
               },
               "comment": {
                 "description": null,
@@ -402,7 +402,7 @@
                 "line": 177,
                 "file": "Serialize.ts",
                 "path": "lib",
-                "url": "https://github.com/RealShadowNova/better-serialize/blob/dca5e54/src/lib/Serialize.ts#L177"
+                "url": "https://github.com/RealShadowNova/better-serialize/blob/ea58430/src/lib/Serialize.ts#L177"
               },
               "comment": {
                 "description": null,
@@ -419,7 +419,7 @@
                 "line": 179,
                 "file": "Serialize.ts",
                 "path": "lib",
-                "url": "https://github.com/RealShadowNova/better-serialize/blob/dca5e54/src/lib/Serialize.ts#L179"
+                "url": "https://github.com/RealShadowNova/better-serialize/blob/ea58430/src/lib/Serialize.ts#L179"
               },
               "comment": {
                 "description": null,
@@ -436,7 +436,7 @@
                 "line": 181,
                 "file": "Serialize.ts",
                 "path": "lib",
-                "url": "https://github.com/RealShadowNova/better-serialize/blob/dca5e54/src/lib/Serialize.ts#L181"
+                "url": "https://github.com/RealShadowNova/better-serialize/blob/ea58430/src/lib/Serialize.ts#L181"
               },
               "comment": {
                 "description": null,
@@ -453,7 +453,7 @@
                 "line": 183,
                 "file": "Serialize.ts",
                 "path": "lib",
-                "url": "https://github.com/RealShadowNova/better-serialize/blob/dca5e54/src/lib/Serialize.ts#L183"
+                "url": "https://github.com/RealShadowNova/better-serialize/blob/ea58430/src/lib/Serialize.ts#L183"
               },
               "comment": {
                 "description": null,
@@ -474,7 +474,7 @@
             "line": 69,
             "file": "Serialize.ts",
             "path": "lib",
-            "url": "https://github.com/RealShadowNova/better-serialize/blob/dca5e54/src/lib/Serialize.ts#L69"
+            "url": "https://github.com/RealShadowNova/better-serialize/blob/ea58430/src/lib/Serialize.ts#L69"
           },
           "comment": {
             "description": null,
@@ -534,7 +534,7 @@
             "line": 14,
             "file": "Serialize.ts",
             "path": "lib",
-            "url": "https://github.com/RealShadowNova/better-serialize/blob/dca5e54/src/lib/Serialize.ts#L14"
+            "url": "https://github.com/RealShadowNova/better-serialize/blob/ea58430/src/lib/Serialize.ts#L14"
           },
           "comment": {
             "description": null,
@@ -596,7 +596,7 @@
             "line": 190,
             "file": "Serialize.ts",
             "path": "lib",
-            "url": "https://github.com/RealShadowNova/better-serialize/blob/dca5e54/src/lib/Serialize.ts#L190"
+            "url": "https://github.com/RealShadowNova/better-serialize/blob/ea58430/src/lib/Serialize.ts#L190"
           },
           "comment": {
             "description": "The JSON-compatible data format.",
@@ -618,7 +618,7 @@
                 "line": 191,
                 "file": "Serialize.ts",
                 "path": "lib",
-                "url": "https://github.com/RealShadowNova/better-serialize/blob/dca5e54/src/lib/Serialize.ts#L191"
+                "url": "https://github.com/RealShadowNova/better-serialize/blob/ea58430/src/lib/Serialize.ts#L191"
               },
               "comment": {
                 "description": null,
@@ -642,7 +642,7 @@
                 "line": 193,
                 "file": "Serialize.ts",
                 "path": "lib",
-                "url": "https://github.com/RealShadowNova/better-serialize/blob/dca5e54/src/lib/Serialize.ts#L193"
+                "url": "https://github.com/RealShadowNova/better-serialize/blob/ea58430/src/lib/Serialize.ts#L193"
               },
               "comment": {
                 "description": null,
@@ -744,7 +744,7 @@
             "line": 208,
             "file": "Serialize.ts",
             "path": "lib",
-            "url": "https://github.com/RealShadowNova/better-serialize/blob/dca5e54/src/lib/Serialize.ts#L208"
+            "url": "https://github.com/RealShadowNova/better-serialize/blob/ea58430/src/lib/Serialize.ts#L208"
           },
           "comment": {
             "description": "The JSON-compatible RegExp format.",
@@ -766,7 +766,7 @@
                 "line": 211,
                 "file": "Serialize.ts",
                 "path": "lib",
-                "url": "https://github.com/RealShadowNova/better-serialize/blob/dca5e54/src/lib/Serialize.ts#L211"
+                "url": "https://github.com/RealShadowNova/better-serialize/blob/ea58430/src/lib/Serialize.ts#L211"
               },
               "comment": {
                 "description": null,
@@ -787,7 +787,7 @@
                 "line": 209,
                 "file": "Serialize.ts",
                 "path": "lib",
-                "url": "https://github.com/RealShadowNova/better-serialize/blob/dca5e54/src/lib/Serialize.ts#L209"
+                "url": "https://github.com/RealShadowNova/better-serialize/blob/ea58430/src/lib/Serialize.ts#L209"
               },
               "comment": {
                 "description": null,
