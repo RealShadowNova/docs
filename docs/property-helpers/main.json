@@ -15,7 +15,7 @@
         "line": 12,
         "file": "deleteProperty.ts",
         "path": "lib",
-        "url": "https://github.com/RealShadowNova/property-helpers/blob/4d381e5/src/lib/deleteProperty.ts#L12"
+        "url": "https://github.com/RealShadowNova/property-helpers/blob/daf0ca2/src/lib/deleteProperty.ts#L12"
       },
       "comment": {
         "description": null,
@@ -99,7 +99,7 @@
         "line": 13,
         "file": "getProperty.ts",
         "path": "lib",
-        "url": "https://github.com/RealShadowNova/property-helpers/blob/4d381e5/src/lib/getProperty.ts#L13"
+        "url": "https://github.com/RealShadowNova/property-helpers/blob/daf0ca2/src/lib/getProperty.ts#L13"
       },
       "comment": {
         "description": null,
@@ -215,7 +215,7 @@
         "line": 10,
         "file": "hasProperty.ts",
         "path": "lib",
-        "url": "https://github.com/RealShadowNova/property-helpers/blob/4d381e5/src/lib/hasProperty.ts#L10"
+        "url": "https://github.com/RealShadowNova/property-helpers/blob/daf0ca2/src/lib/hasProperty.ts#L10"
       },
       "comment": {
         "description": null,
@@ -289,7 +289,7 @@
         "line": 11,
         "file": "setProperty.ts",
         "path": "lib",
-        "url": "https://github.com/RealShadowNova/property-helpers/blob/4d381e5/src/lib/setProperty.ts#L11"
+        "url": "https://github.com/RealShadowNova/property-helpers/blob/daf0ca2/src/lib/setProperty.ts#L11"
       },
       "comment": {
         "description": null,
@@ -392,7 +392,7 @@
         "line": 3,
         "file": "getProperty.ts",
         "path": "lib",
-        "url": "https://github.com/RealShadowNova/property-helpers/blob/4d381e5/src/lib/getProperty.ts#L3"
+        "url": "https://github.com/RealShadowNova/property-helpers/blob/daf0ca2/src/lib/getProperty.ts#L3"
       },
       "comment": {
         "description": null,
