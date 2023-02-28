@@ -1,5 +1,5 @@
 {
-  "typeDocJsonParserVersion": "7.0.2",
+  "typeDocJsonParserVersion": "7.2.0",
   "id": 0,
   "name": "property-helpers",
   "version": "2.0.0",
@@ -58,6 +58,8 @@
                 "blockTags": [],
                 "modifierTags": []
               },
+              "rest": false,
+              "optional": false,
               "type": {
                 "kind": "intrinsic",
                 "type": "unknown"
@@ -71,6 +73,8 @@
                 "blockTags": [],
                 "modifierTags": []
               },
+              "rest": false,
+              "optional": false,
               "type": {
                 "kind": "array",
                 "type": {
@@ -143,6 +147,8 @@
                 "blockTags": [],
                 "modifierTags": []
               },
+              "rest": false,
+              "optional": false,
               "type": {
                 "kind": "intrinsic",
                 "type": "unknown"
@@ -156,6 +162,8 @@
                 "blockTags": [],
                 "modifierTags": []
               },
+              "rest": false,
+              "optional": false,
               "type": {
                 "kind": "array",
                 "type": {
@@ -172,6 +180,8 @@
                 "blockTags": [],
                 "modifierTags": []
               },
+              "rest": false,
+              "optional": false,
               "type": {
                 "kind": "intrinsic",
                 "type": "boolean"
@@ -246,6 +256,8 @@
                 "blockTags": [],
                 "modifierTags": []
               },
+              "rest": false,
+              "optional": false,
               "type": {
                 "kind": "intrinsic",
                 "type": "unknown"
@@ -259,6 +271,8 @@
                 "blockTags": [],
                 "modifierTags": []
               },
+              "rest": false,
+              "optional": false,
               "type": {
                 "kind": "array",
                 "type": {
@@ -325,6 +339,8 @@
                 "blockTags": [],
                 "modifierTags": []
               },
+              "rest": false,
+              "optional": false,
               "type": {
                 "kind": "intrinsic",
                 "type": "unknown"
@@ -338,6 +354,8 @@
                 "blockTags": [],
                 "modifierTags": []
               },
+              "rest": false,
+              "optional": false,
               "type": {
                 "kind": "array",
                 "type": {
@@ -354,6 +372,8 @@
                 "blockTags": [],
                 "modifierTags": []
               },
+              "rest": false,
+              "optional": false,
               "type": {
                 "kind": "intrinsic",
                 "type": "unknown"

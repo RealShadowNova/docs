@@ -1,5 +1,5 @@
 {
-  "typeDocJsonParserVersion": "7.0.2",
+  "typeDocJsonParserVersion": "7.2.0",
   "id": 0,
   "name": "typedoc-json-parser",
   "version": "7.0.2",
@@ -63,6 +63,8 @@
               "blockTags": [],
               "modifierTags": []
             },
+            "rest": false,
+            "optional": false,
             "type": {
               "kind": "reference",
               "id": 672,
@@ -226,6 +228,8 @@
                     "blockTags": [],
                     "modifierTags": []
                   },
+                  "rest": false,
+                  "optional": false,
                   "type": {
                     "kind": "reference",
                     "id": 611,
@@ -283,6 +287,8 @@
                     "blockTags": [],
                     "modifierTags": []
                   },
+                  "rest": false,
+                  "optional": false,
                   "type": {
                     "kind": "reference",
                     "id": 1129,
@@ -359,6 +365,8 @@
               "blockTags": [],
               "modifierTags": []
             },
+            "rest": false,
+            "optional": false,
             "type": {
               "kind": "reference",
               "id": 28,
@@ -806,6 +814,8 @@
                     "blockTags": [],
                     "modifierTags": []
                   },
+                  "rest": false,
+                  "optional": false,
                   "type": {
                     "kind": "reference",
                     "id": 36,
@@ -866,6 +876,8 @@
                     "blockTags": [],
                     "modifierTags": []
                   },
+                  "rest": false,
+                  "optional": false,
                   "type": {
                     "kind": "reference",
                     "id": null,
@@ -882,6 +894,8 @@
                     "blockTags": [],
                     "modifierTags": []
                   },
+                  "rest": false,
+                  "optional": false,
                   "type": {
                     "kind": "intrinsic",
                     "type": "number"
@@ -955,6 +969,8 @@
               "blockTags": [],
               "modifierTags": []
             },
+            "rest": false,
+            "optional": false,
             "type": {
               "kind": "reference",
               "id": 72,
@@ -1429,6 +1445,8 @@
                     "blockTags": [],
                     "modifierTags": []
                   },
+                  "rest": false,
+                  "optional": false,
                   "type": {
                     "kind": "reference",
                     "id": 81,
@@ -1489,6 +1507,8 @@
                     "blockTags": [],
                     "modifierTags": []
                   },
+                  "rest": false,
+                  "optional": false,
                   "type": {
                     "kind": "reference",
                     "id": null,
@@ -1505,6 +1525,8 @@
                     "blockTags": [],
                     "modifierTags": []
                   },
+                  "rest": false,
+                  "optional": false,
                   "type": {
                     "kind": "intrinsic",
                     "type": "number"
@@ -1578,6 +1600,8 @@
               "blockTags": [],
               "modifierTags": []
             },
+            "rest": false,
+            "optional": false,
             "type": {
               "kind": "reference",
               "id": 115,
@@ -2085,6 +2109,8 @@
                     "blockTags": [],
                     "modifierTags": []
                   },
+                  "rest": false,
+                  "optional": false,
                   "type": {
                     "kind": "reference",
                     "id": 128,
@@ -2145,6 +2171,8 @@
                     "blockTags": [],
                     "modifierTags": []
                   },
+                  "rest": false,
+                  "optional": false,
                   "type": {
                     "kind": "reference",
                     "id": null,
@@ -2221,6 +2249,8 @@
               "blockTags": [],
               "modifierTags": []
             },
+            "rest": false,
+            "optional": false,
             "type": {
               "kind": "reference",
               "id": 176,
@@ -2785,6 +2815,8 @@
                     "blockTags": [],
                     "modifierTags": []
                   },
+                  "rest": false,
+                  "optional": false,
                   "type": {
                     "kind": "reference",
                     "id": 188,
@@ -2845,6 +2877,8 @@
                     "blockTags": [],
                     "modifierTags": []
                   },
+                  "rest": false,
+                  "optional": false,
                   "type": {
                     "kind": "reference",
                     "id": null,
@@ -2861,6 +2895,8 @@
                     "blockTags": [],
                     "modifierTags": []
                   },
+                  "rest": false,
+                  "optional": false,
                   "type": {
                     "kind": "intrinsic",
                     "type": "number"
@@ -2928,6 +2964,8 @@
               "blockTags": [],
               "modifierTags": []
             },
+            "rest": false,
+            "optional": false,
             "type": {
               "kind": "reference",
               "id": 429,
@@ -3231,6 +3269,8 @@
                     "blockTags": [],
                     "modifierTags": []
                   },
+                  "rest": false,
+                  "optional": false,
                   "type": {
                     "kind": "reference",
                     "id": 433,
@@ -3291,6 +3331,8 @@
                     "blockTags": [],
                     "modifierTags": []
                   },
+                  "rest": false,
+                  "optional": false,
                   "type": {
                     "kind": "reference",
                     "id": null,
@@ -3369,6 +3411,8 @@
               "blockTags": [],
               "modifierTags": []
             },
+            "rest": false,
+            "optional": false,
             "type": {
               "kind": "reference",
               "id": 695,
@@ -3631,6 +3675,8 @@
                     "blockTags": [],
                     "modifierTags": []
                   },
+                  "rest": false,
+                  "optional": false,
                   "type": {
                     "kind": "reference",
                     "id": 611,
@@ -3688,6 +3734,8 @@
                     "blockTags": [],
                     "modifierTags": []
                   },
+                  "rest": false,
+                  "optional": false,
                   "type": {
                     "kind": "reference",
                     "id": 1129,
@@ -3769,6 +3817,8 @@
               "blockTags": [],
               "modifierTags": []
             },
+            "rest": false,
+            "optional": false,
             "type": {
               "kind": "reference",
               "id": 220,
@@ -4057,6 +4107,8 @@
                     "blockTags": [],
                     "modifierTags": []
                   },
+                  "rest": false,
+                  "optional": false,
                   "type": {
                     "kind": "reference",
                     "id": 227,
@@ -4117,6 +4169,8 @@
                     "blockTags": [],
                     "modifierTags": []
                   },
+                  "rest": false,
+                  "optional": false,
                   "type": {
                     "kind": "reference",
                     "id": null,
@@ -4133,6 +4187,8 @@
                     "blockTags": [],
                     "modifierTags": []
                   },
+                  "rest": false,
+                  "optional": false,
                   "type": {
                     "kind": "intrinsic",
                     "type": "number"
@@ -4206,6 +4262,8 @@
               "blockTags": [],
               "modifierTags": []
             },
+            "rest": false,
+            "optional": false,
             "type": {
               "kind": "reference",
               "id": 253,
@@ -4500,6 +4558,8 @@
                     "blockTags": [],
                     "modifierTags": []
                   },
+                  "rest": false,
+                  "optional": false,
                   "type": {
                     "kind": "reference",
                     "id": 260,
@@ -4560,6 +4620,8 @@
                     "blockTags": [],
                     "modifierTags": []
                   },
+                  "rest": false,
+                  "optional": false,
                   "type": {
                     "kind": "reference",
                     "id": null,
@@ -4636,6 +4698,8 @@
               "blockTags": [],
               "modifierTags": []
             },
+            "rest": false,
+            "optional": false,
             "type": {
               "kind": "reference",
               "id": 286,
@@ -4930,6 +4994,8 @@
                     "blockTags": [],
                     "modifierTags": []
                   },
+                  "rest": false,
+                  "optional": false,
                   "type": {
                     "kind": "reference",
                     "id": 293,
@@ -4990,6 +5056,8 @@
                     "blockTags": [],
                     "modifierTags": []
                   },
+                  "rest": false,
+                  "optional": false,
                   "type": {
                     "kind": "reference",
                     "id": null,
@@ -5068,6 +5136,8 @@
               "blockTags": [],
               "modifierTags": []
             },
+            "rest": false,
+            "optional": false,
             "type": {
               "kind": "reference",
               "id": 722,
@@ -5264,6 +5334,8 @@
                     "blockTags": [],
                     "modifierTags": []
                   },
+                  "rest": false,
+                  "optional": false,
                   "type": {
                     "kind": "reference",
                     "id": 611,
@@ -5321,6 +5393,8 @@
                     "blockTags": [],
                     "modifierTags": []
                   },
+                  "rest": false,
+                  "optional": false,
                   "type": {
                     "kind": "reference",
                     "id": 1129,
@@ -5404,6 +5478,8 @@
               "blockTags": [],
               "modifierTags": []
             },
+            "rest": false,
+            "optional": false,
             "type": {
               "kind": "reference",
               "id": 744,
@@ -5564,6 +5640,8 @@
                     "blockTags": [],
                     "modifierTags": []
                   },
+                  "rest": false,
+                  "optional": false,
                   "type": {
                     "kind": "reference",
                     "id": 611,
@@ -5621,6 +5699,8 @@
                     "blockTags": [],
                     "modifierTags": []
                   },
+                  "rest": false,
+                  "optional": false,
                   "type": {
                     "kind": "reference",
                     "id": 1129,
@@ -5702,6 +5782,8 @@
               "blockTags": [],
               "modifierTags": []
             },
+            "rest": false,
+            "optional": false,
             "type": {
               "kind": "reference",
               "id": 319,
@@ -5963,6 +6045,8 @@
                     "blockTags": [],
                     "modifierTags": []
                   },
+                  "rest": false,
+                  "optional": false,
                   "type": {
                     "kind": "reference",
                     "id": 325,
@@ -6023,6 +6107,8 @@
                     "blockTags": [],
                     "modifierTags": []
                   },
+                  "rest": false,
+                  "optional": false,
                   "type": {
                     "kind": "reference",
                     "id": null,
@@ -6039,6 +6125,8 @@
                     "blockTags": [],
                     "modifierTags": []
                   },
+                  "rest": false,
+                  "optional": false,
                   "type": {
                     "kind": "intrinsic",
                     "type": "number"
@@ -6112,6 +6200,8 @@
               "blockTags": [],
               "modifierTags": []
             },
+            "rest": false,
+            "optional": false,
             "type": {
               "kind": "reference",
               "id": 352,
@@ -6478,6 +6568,8 @@
                     "blockTags": [],
                     "modifierTags": []
                   },
+                  "rest": false,
+                  "optional": false,
                   "type": {
                     "kind": "reference",
                     "id": 361,
@@ -6538,6 +6630,8 @@
                     "blockTags": [],
                     "modifierTags": []
                   },
+                  "rest": false,
+                  "optional": false,
                   "type": {
                     "kind": "reference",
                     "id": null,
@@ -6614,6 +6708,8 @@
               "blockTags": [],
               "modifierTags": []
             },
+            "rest": false,
+            "optional": false,
             "type": {
               "kind": "reference",
               "id": 391,
@@ -6935,6 +7031,8 @@
                     "blockTags": [],
                     "modifierTags": []
                   },
+                  "rest": false,
+                  "optional": false,
                   "type": {
                     "kind": "reference",
                     "id": 399,
@@ -6995,6 +7093,8 @@
                     "blockTags": [],
                     "modifierTags": []
                   },
+                  "rest": false,
+                  "optional": false,
                   "type": {
                     "kind": "reference",
                     "id": null,
@@ -7011,6 +7111,8 @@
                     "blockTags": [],
                     "modifierTags": []
                   },
+                  "rest": false,
+                  "optional": false,
                   "type": {
                     "kind": "intrinsic",
                     "type": "number"
@@ -7086,6 +7188,8 @@
               "blockTags": [],
               "modifierTags": []
             },
+            "rest": false,
+            "optional": false,
             "type": {
               "kind": "reference",
               "id": 764,
@@ -7252,6 +7356,8 @@
                     "blockTags": [],
                     "modifierTags": []
                   },
+                  "rest": false,
+                  "optional": false,
                   "type": {
                     "kind": "reference",
                     "id": 611,
@@ -7309,6 +7415,8 @@
                     "blockTags": [],
                     "modifierTags": []
                   },
+                  "rest": false,
+                  "optional": false,
                   "type": {
                     "kind": "reference",
                     "id": 1129,
@@ -7392,6 +7500,8 @@
               "blockTags": [],
               "modifierTags": []
             },
+            "rest": false,
+            "optional": false,
             "type": {
               "kind": "reference",
               "id": 784,
@@ -7552,6 +7662,8 @@
                     "blockTags": [],
                     "modifierTags": []
                   },
+                  "rest": false,
+                  "optional": false,
                   "type": {
                     "kind": "reference",
                     "id": 611,
@@ -7609,6 +7721,8 @@
                     "blockTags": [],
                     "modifierTags": []
                   },
+                  "rest": false,
+                  "optional": false,
                   "type": {
                     "kind": "reference",
                     "id": 1129,
@@ -7692,6 +7806,8 @@
               "blockTags": [],
               "modifierTags": []
             },
+            "rest": false,
+            "optional": false,
             "type": {
               "kind": "reference",
               "id": 804,
@@ -7852,6 +7968,8 @@
                     "blockTags": [],
                     "modifierTags": []
                   },
+                  "rest": false,
+                  "optional": false,
                   "type": {
                     "kind": "reference",
                     "id": 611,
@@ -7909,6 +8027,8 @@
                     "blockTags": [],
                     "modifierTags": []
                   },
+                  "rest": false,
+                  "optional": false,
                   "type": {
                     "kind": "reference",
                     "id": 1129,
@@ -7992,6 +8112,8 @@
               "blockTags": [],
               "modifierTags": []
             },
+            "rest": false,
+            "optional": false,
             "type": {
               "kind": "reference",
               "id": 829,
@@ -8344,6 +8466,8 @@
                     "blockTags": [],
                     "modifierTags": []
                   },
+                  "rest": false,
+                  "optional": false,
                   "type": {
                     "kind": "reference",
                     "id": 611,
@@ -8401,6 +8525,8 @@
                     "blockTags": [],
                     "modifierTags": []
                   },
+                  "rest": false,
+                  "optional": false,
                   "type": {
                     "kind": "reference",
                     "id": 1129,
@@ -8484,6 +8610,8 @@
               "blockTags": [],
               "modifierTags": []
             },
+            "rest": false,
+            "optional": false,
             "type": {
               "kind": "reference",
               "id": 864,
@@ -8707,6 +8835,8 @@
                     "blockTags": [],
                     "modifierTags": []
                   },
+                  "rest": false,
+                  "optional": false,
                   "type": {
                     "kind": "reference",
                     "id": 611,
@@ -8764,6 +8894,8 @@
                     "blockTags": [],
                     "modifierTags": []
                   },
+                  "rest": false,
+                  "optional": false,
                   "type": {
                     "kind": "reference",
                     "id": 1129,
@@ -8845,6 +8977,8 @@
               "blockTags": [],
               "modifierTags": []
             },
+            "rest": false,
+            "optional": false,
             "type": {
               "kind": "reference",
               "id": 585,
@@ -9316,6 +9450,8 @@
                     "blockTags": [],
                     "modifierTags": []
                   },
+                  "rest": false,
+                  "optional": false,
                   "type": {
                     "kind": "intrinsic",
                     "type": "number"
@@ -9382,6 +9518,8 @@
                     "blockTags": [],
                     "modifierTags": []
                   },
+                  "rest": false,
+                  "optional": false,
                   "type": {
                     "kind": "intrinsic",
                     "type": "string"
@@ -9481,6 +9619,8 @@
                     "blockTags": [],
                     "modifierTags": []
                   },
+                  "rest": false,
+                  "optional": false,
                   "type": {
                     "kind": "reference",
                     "id": 598,
@@ -9541,6 +9681,8 @@
                     "blockTags": [],
                     "modifierTags": []
                   },
+                  "rest": false,
+                  "optional": false,
                   "type": {
                     "kind": "reference",
                     "id": null,
@@ -9619,6 +9761,8 @@
               "blockTags": [],
               "modifierTags": []
             },
+            "rest": false,
+            "optional": false,
             "type": {
               "kind": "reference",
               "id": 888,
@@ -9782,6 +9926,8 @@
                     "blockTags": [],
                     "modifierTags": []
                   },
+                  "rest": false,
+                  "optional": false,
                   "type": {
                     "kind": "reference",
                     "id": 611,
@@ -9839,6 +9985,8 @@
                     "blockTags": [],
                     "modifierTags": []
                   },
+                  "rest": false,
+                  "optional": false,
                   "type": {
                     "kind": "reference",
                     "id": 1129,
@@ -9914,6 +10062,8 @@
               "blockTags": [],
               "modifierTags": []
             },
+            "rest": false,
+            "optional": false,
             "type": {
               "kind": "reference",
               "id": 457,
@@ -10133,6 +10283,8 @@
                     "blockTags": [],
                     "modifierTags": []
                   },
+                  "rest": false,
+                  "optional": false,
                   "type": {
                     "kind": "reference",
                     "id": 462,
@@ -10193,6 +10345,8 @@
                     "blockTags": [],
                     "modifierTags": []
                   },
+                  "rest": false,
+                  "optional": false,
                   "type": {
                     "kind": "reference",
                     "id": null,
@@ -10271,6 +10425,8 @@
               "blockTags": [],
               "modifierTags": []
             },
+            "rest": false,
+            "optional": false,
             "type": {
               "kind": "reference",
               "id": 910,
@@ -10498,6 +10654,8 @@
                     "blockTags": [],
                     "modifierTags": []
                   },
+                  "rest": false,
+                  "optional": false,
                   "type": {
                     "kind": "reference",
                     "id": 611,
@@ -10555,6 +10713,8 @@
                     "blockTags": [],
                     "modifierTags": []
                   },
+                  "rest": false,
+                  "optional": false,
                   "type": {
                     "kind": "reference",
                     "id": 1129,
@@ -10630,6 +10790,8 @@
               "blockTags": [],
               "modifierTags": []
             },
+            "rest": false,
+            "optional": false,
             "type": {
               "kind": "reference",
               "id": 638,
@@ -11168,6 +11330,8 @@
                     "blockTags": [],
                     "modifierTags": []
                   },
+                  "rest": false,
+                  "optional": false,
                   "type": {
                     "kind": "intrinsic",
                     "type": "number"
@@ -11234,6 +11398,8 @@
                     "blockTags": [],
                     "modifierTags": []
                   },
+                  "rest": false,
+                  "optional": false,
                   "type": {
                     "kind": "intrinsic",
                     "type": "string"
@@ -11355,6 +11521,8 @@
               "blockTags": [],
               "modifierTags": []
             },
+            "rest": false,
+            "optional": false,
             "type": {
               "kind": "reference",
               "id": 934,
@@ -11518,6 +11686,8 @@
                     "blockTags": [],
                     "modifierTags": []
                   },
+                  "rest": false,
+                  "optional": false,
                   "type": {
                     "kind": "reference",
                     "id": 611,
@@ -11575,6 +11745,8 @@
                     "blockTags": [],
                     "modifierTags": []
                   },
+                  "rest": false,
+                  "optional": false,
                   "type": {
                     "kind": "reference",
                     "id": 1129,
@@ -11658,6 +11830,8 @@
               "blockTags": [],
               "modifierTags": []
             },
+            "rest": false,
+            "optional": false,
             "type": {
               "kind": "reference",
               "id": 959,
@@ -11972,6 +12146,8 @@
                     "blockTags": [],
                     "modifierTags": []
                   },
+                  "rest": false,
+                  "optional": false,
                   "type": {
                     "kind": "reference",
                     "id": 611,
@@ -12029,6 +12205,8 @@
                     "blockTags": [],
                     "modifierTags": []
                   },
+                  "rest": false,
+                  "optional": false,
                   "type": {
                     "kind": "reference",
                     "id": 1129,
@@ -12112,6 +12290,8 @@
               "blockTags": [],
               "modifierTags": []
             },
+            "rest": false,
+            "optional": false,
             "type": {
               "kind": "reference",
               "id": 985,
@@ -12284,6 +12464,8 @@
                     "blockTags": [],
                     "modifierTags": []
                   },
+                  "rest": false,
+                  "optional": false,
                   "type": {
                     "kind": "reference",
                     "id": 611,
@@ -12341,6 +12523,8 @@
                     "blockTags": [],
                     "modifierTags": []
                   },
+                  "rest": false,
+                  "optional": false,
                   "type": {
                     "kind": "reference",
                     "id": 1129,
@@ -12424,6 +12608,8 @@
               "blockTags": [],
               "modifierTags": []
             },
+            "rest": false,
+            "optional": false,
             "type": {
               "kind": "reference",
               "id": 1005,
@@ -12587,6 +12773,8 @@
                     "blockTags": [],
                     "modifierTags": []
                   },
+                  "rest": false,
+                  "optional": false,
                   "type": {
                     "kind": "reference",
                     "id": 611,
@@ -12644,6 +12832,8 @@
                     "blockTags": [],
                     "modifierTags": []
                   },
+                  "rest": false,
+                  "optional": false,
                   "type": {
                     "kind": "reference",
                     "id": 1129,
@@ -12719,6 +12909,8 @@
               "blockTags": [],
               "modifierTags": []
             },
+            "rest": false,
+            "optional": false,
             "type": {
               "kind": "reference",
               "id": 486,
@@ -13010,6 +13202,8 @@
                     "blockTags": [],
                     "modifierTags": []
                   },
+                  "rest": false,
+                  "optional": false,
                   "type": {
                     "kind": "reference",
                     "id": 493,
@@ -13070,6 +13264,8 @@
                     "blockTags": [],
                     "modifierTags": []
                   },
+                  "rest": false,
+                  "optional": false,
                   "type": {
                     "kind": "reference",
                     "id": null,
@@ -13140,6 +13336,8 @@
               "blockTags": [],
               "modifierTags": []
             },
+            "rest": false,
+            "optional": false,
             "type": {
               "kind": "reference",
               "id": 517,
@@ -13362,6 +13560,8 @@
                     "blockTags": [],
                     "modifierTags": []
                   },
+                  "rest": false,
+                  "optional": false,
                   "type": {
                     "kind": "reference",
                     "id": 522,
@@ -13422,6 +13622,8 @@
                     "blockTags": [],
                     "modifierTags": []
                   },
+                  "rest": false,
+                  "optional": false,
                   "type": {
                     "kind": "reference",
                     "id": null,
@@ -13500,6 +13702,8 @@
               "blockTags": [],
               "modifierTags": []
             },
+            "rest": false,
+            "optional": false,
             "type": {
               "kind": "reference",
               "id": 1026,
@@ -13696,6 +13900,8 @@
                     "blockTags": [],
                     "modifierTags": []
                   },
+                  "rest": false,
+                  "optional": false,
                   "type": {
                     "kind": "reference",
                     "id": 611,
@@ -13753,6 +13959,8 @@
                     "blockTags": [],
                     "modifierTags": []
                   },
+                  "rest": false,
+                  "optional": false,
                   "type": {
                     "kind": "reference",
                     "id": 1129,
@@ -13836,6 +14044,8 @@
               "blockTags": [],
               "modifierTags": []
             },
+            "rest": false,
+            "optional": false,
             "type": {
               "kind": "reference",
               "id": 1055,
@@ -14002,6 +14212,8 @@
                     "blockTags": [],
                     "modifierTags": []
                   },
+                  "rest": false,
+                  "optional": false,
                   "type": {
                     "kind": "reference",
                     "id": 611,
@@ -14059,6 +14271,8 @@
                     "blockTags": [],
                     "modifierTags": []
                   },
+                  "rest": false,
+                  "optional": false,
                   "type": {
                     "kind": "reference",
                     "id": 1129,
@@ -14140,6 +14354,8 @@
               "blockTags": [],
               "modifierTags": []
             },
+            "rest": false,
+            "optional": false,
             "type": {
               "kind": "reference",
               "id": 1193,
@@ -14467,6 +14683,8 @@
                     "blockTags": [],
                     "modifierTags": []
                   },
+                  "rest": false,
+                  "optional": false,
                   "type": {
                     "kind": "reference",
                     "id": 1201,
@@ -14527,6 +14745,8 @@
                     "blockTags": [],
                     "modifierTags": []
                   },
+                  "rest": false,
+                  "optional": false,
                   "type": {
                     "kind": "reference",
                     "id": null,
@@ -14605,6 +14825,8 @@
               "blockTags": [],
               "modifierTags": []
             },
+            "rest": false,
+            "optional": false,
             "type": {
               "kind": "reference",
               "id": 1076,
@@ -14801,6 +15023,8 @@
                     "blockTags": [],
                     "modifierTags": []
                   },
+                  "rest": false,
+                  "optional": false,
                   "type": {
                     "kind": "reference",
                     "id": 611,
@@ -14858,6 +15082,8 @@
                     "blockTags": [],
                     "modifierTags": []
                   },
+                  "rest": false,
+                  "optional": false,
                   "type": {
                     "kind": "reference",
                     "id": 1129,
@@ -14933,6 +15159,8 @@
               "blockTags": [],
               "modifierTags": []
             },
+            "rest": false,
+            "optional": false,
             "type": {
               "kind": "reference",
               "id": 544,
@@ -15170,6 +15398,8 @@
                     "blockTags": [],
                     "modifierTags": []
                   },
+                  "rest": false,
+                  "optional": false,
                   "type": {
                     "kind": "reference",
                     "id": 549,
@@ -15230,6 +15460,8 @@
                     "blockTags": [],
                     "modifierTags": []
                   },
+                  "rest": false,
+                  "optional": false,
                   "type": {
                     "kind": "reference",
                     "id": null,
@@ -15308,6 +15540,8 @@
               "blockTags": [],
               "modifierTags": []
             },
+            "rest": false,
+            "optional": false,
             "type": {
               "kind": "reference",
               "id": 1148,
@@ -15474,6 +15708,8 @@
                     "blockTags": [],
                     "modifierTags": []
                   },
+                  "rest": false,
+                  "optional": false,
                   "type": {
                     "kind": "reference",
                     "id": 611,
@@ -15531,6 +15767,8 @@
                     "blockTags": [],
                     "modifierTags": []
                   },
+                  "rest": false,
+                  "optional": false,
                   "type": {
                     "kind": "reference",
                     "id": 1129,
@@ -15614,6 +15852,8 @@
               "blockTags": [],
               "modifierTags": []
             },
+            "rest": false,
+            "optional": false,
             "type": {
               "kind": "reference",
               "id": 1168,
@@ -15774,6 +16014,8 @@
                     "blockTags": [],
                     "modifierTags": []
                   },
+                  "rest": false,
+                  "optional": false,
                   "type": {
                     "kind": "reference",
                     "id": 611,
@@ -15831,6 +16073,8 @@
                     "blockTags": [],
                     "modifierTags": []
                   },
+                  "rest": false,
+                  "optional": false,
                   "type": {
                     "kind": "reference",
                     "id": 1129,
@@ -15912,6 +16156,8 @@
               "blockTags": [],
               "modifierTags": []
             },
+            "rest": false,
+            "optional": false,
             "type": {
               "kind": "reference",
               "id": 1229,
@@ -16233,6 +16479,8 @@
                     "blockTags": [],
                     "modifierTags": []
                   },
+                  "rest": false,
+                  "optional": false,
                   "type": {
                     "kind": "reference",
                     "id": 1237,
@@ -16293,6 +16541,8 @@
                     "blockTags": [],
                     "modifierTags": []
                   },
+                  "rest": false,
+                  "optional": false,
                   "type": {
                     "kind": "reference",
                     "id": null,
@@ -16885,6 +17135,8 @@
                     "blockTags": [],
                     "modifierTags": []
                   },
+                  "rest": false,
+                  "optional": false,
                   "type": {
                     "kind": "reference",
                     "id": 611,
@@ -30210,6 +30462,8 @@
                     "blockTags": [],
                     "modifierTags": []
                   },
+                  "rest": false,
+                  "optional": false,
                   "type": {
                     "kind": "reference",
                     "id": 1127,
@@ -30272,6 +30526,8 @@
                     "blockTags": [],
                     "modifierTags": []
                   },
+                  "rest": false,
+                  "optional": false,
                   "type": {
                     "kind": "reference",
                     "id": null,
@@ -30334,6 +30590,8 @@
                     "blockTags": [],
                     "modifierTags": []
                   },
+                  "rest": false,
+                  "optional": false,
                   "type": {
                     "kind": "reference",
                     "id": 1087,
@@ -30350,6 +30608,8 @@
                     "blockTags": [],
                     "modifierTags": []
                   },
+                  "rest": false,
+                  "optional": false,
                   "type": {
                     "kind": "intrinsic",
                     "type": "number"
