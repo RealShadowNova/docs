@@ -11,16 +11,16 @@
     {
       "id": 1,
       "name": "parse",
-      "comment": {
-        "description": null,
-        "blockTags": [],
-        "modifierTags": []
-      },
       "source": {
         "line": 9,
         "file": "parse.ts",
         "path": "lib",
-        "url": "https://github.com/RealShadowNova/better-serialize/blob/cd28e50/src/lib/parse.ts#L9"
+        "url": "https://github.com/RealShadowNova/better-serialize/blob/0c823e6/src/lib/parse.ts#L9"
+      },
+      "comment": {
+        "description": null,
+        "blockTags": [],
+        "modifierTags": []
       },
       "external": false,
       "signatures": [
@@ -69,16 +69,16 @@
     {
       "id": 35,
       "name": "stringify",
-      "comment": {
-        "description": null,
-        "blockTags": [],
-        "modifierTags": []
-      },
       "source": {
         "line": 9,
         "file": "stringify.ts",
         "path": "lib",
-        "url": "https://github.com/RealShadowNova/better-serialize/blob/cd28e50/src/lib/stringify.ts#L9"
+        "url": "https://github.com/RealShadowNova/better-serialize/blob/0c823e6/src/lib/stringify.ts#L9"
+      },
+      "comment": {
+        "description": null,
+        "blockTags": [],
+        "modifierTags": []
       },
       "external": false,
       "signatures": [
@@ -130,6 +130,12 @@
     {
       "id": 4,
       "name": "Serialize",
+      "source": {
+        "line": 7,
+        "file": "Serialize.ts",
+        "path": "lib",
+        "url": "https://github.com/RealShadowNova/better-serialize/blob/0c823e6/src/lib/Serialize.ts#L7"
+      },
       "comment": {
         "description": "The namespace which contains everything for the transformation of raw Node.js data types.",
         "blockTags": [
@@ -140,18 +146,18 @@
         ],
         "modifierTags": []
       },
-      "source": {
-        "line": 7,
-        "file": "Serialize.ts",
-        "path": "lib",
-        "url": "https://github.com/RealShadowNova/better-serialize/blob/cd28e50/src/lib/Serialize.ts#L7"
-      },
       "external": false,
       "classes": [],
       "enums": [
         {
           "id": 11,
           "name": "Keying",
+          "source": {
+            "line": 146,
+            "file": "Serialize.ts",
+            "path": "lib",
+            "url": "https://github.com/RealShadowNova/better-serialize/blob/0c823e6/src/lib/Serialize.ts#L146"
+          },
           "comment": {
             "description": "The keying used for JSON-compatible data.",
             "blockTags": [
@@ -162,27 +168,21 @@
             ],
             "modifierTags": []
           },
-          "source": {
-            "line": 146,
-            "file": "Serialize.ts",
-            "path": "lib",
-            "url": "https://github.com/RealShadowNova/better-serialize/blob/cd28e50/src/lib/Serialize.ts#L146"
-          },
           "external": false,
           "members": [
             {
               "id": 15,
               "name": "Flags",
-              "comment": {
-                "description": null,
-                "blockTags": [],
-                "modifierTags": []
-              },
               "source": {
                 "line": 153,
                 "file": "Serialize.ts",
                 "path": "lib",
-                "url": "https://github.com/RealShadowNova/better-serialize/blob/cd28e50/src/lib/Serialize.ts#L153"
+                "url": "https://github.com/RealShadowNova/better-serialize/blob/0c823e6/src/lib/Serialize.ts#L153"
+              },
+              "comment": {
+                "description": null,
+                "blockTags": [],
+                "modifierTags": []
               },
               "parentId": 11,
               "value": "f"
@@ -190,16 +190,16 @@
             {
               "id": 14,
               "name": "Source",
-              "comment": {
-                "description": null,
-                "blockTags": [],
-                "modifierTags": []
-              },
               "source": {
                 "line": 151,
                 "file": "Serialize.ts",
                 "path": "lib",
-                "url": "https://github.com/RealShadowNova/better-serialize/blob/cd28e50/src/lib/Serialize.ts#L151"
+                "url": "https://github.com/RealShadowNova/better-serialize/blob/0c823e6/src/lib/Serialize.ts#L151"
+              },
+              "comment": {
+                "description": null,
+                "blockTags": [],
+                "modifierTags": []
               },
               "parentId": 11,
               "value": "s"
@@ -207,16 +207,16 @@
             {
               "id": 12,
               "name": "Type",
-              "comment": {
-                "description": null,
-                "blockTags": [],
-                "modifierTags": []
-              },
               "source": {
                 "line": 147,
                 "file": "Serialize.ts",
                 "path": "lib",
-                "url": "https://github.com/RealShadowNova/better-serialize/blob/cd28e50/src/lib/Serialize.ts#L147"
+                "url": "https://github.com/RealShadowNova/better-serialize/blob/0c823e6/src/lib/Serialize.ts#L147"
+              },
+              "comment": {
+                "description": null,
+                "blockTags": [],
+                "modifierTags": []
               },
               "parentId": 11,
               "value": "t"
@@ -224,16 +224,16 @@
             {
               "id": 13,
               "name": "Value",
-              "comment": {
-                "description": null,
-                "blockTags": [],
-                "modifierTags": []
-              },
               "source": {
                 "line": 149,
                 "file": "Serialize.ts",
                 "path": "lib",
-                "url": "https://github.com/RealShadowNova/better-serialize/blob/cd28e50/src/lib/Serialize.ts#L149"
+                "url": "https://github.com/RealShadowNova/better-serialize/blob/0c823e6/src/lib/Serialize.ts#L149"
+              },
+              "comment": {
+                "description": null,
+                "blockTags": [],
+                "modifierTags": []
               },
               "parentId": 11,
               "value": "v"
@@ -243,6 +243,12 @@
         {
           "id": 16,
           "name": "Type",
+          "source": {
+            "line": 160,
+            "file": "Serialize.ts",
+            "path": "lib",
+            "url": "https://github.com/RealShadowNova/better-serialize/blob/0c823e6/src/lib/Serialize.ts#L160"
+          },
           "comment": {
             "description": "The types of JSON-compatible data.",
             "blockTags": [
@@ -253,27 +259,21 @@
             ],
             "modifierTags": []
           },
-          "source": {
-            "line": 160,
-            "file": "Serialize.ts",
-            "path": "lib",
-            "url": "https://github.com/RealShadowNova/better-serialize/blob/cd28e50/src/lib/Serialize.ts#L160"
-          },
           "external": false,
           "members": [
             {
               "id": 17,
               "name": "Array",
-              "comment": {
-                "description": null,
-                "blockTags": [],
-                "modifierTags": []
-              },
               "source": {
                 "line": 161,
                 "file": "Serialize.ts",
                 "path": "lib",
-                "url": "https://github.com/RealShadowNova/better-serialize/blob/cd28e50/src/lib/Serialize.ts#L161"
+                "url": "https://github.com/RealShadowNova/better-serialize/blob/0c823e6/src/lib/Serialize.ts#L161"
+              },
+              "comment": {
+                "description": null,
+                "blockTags": [],
+                "modifierTags": []
               },
               "parentId": 16,
               "value": "4"
@@ -281,16 +281,16 @@
             {
               "id": 18,
               "name": "BigInt",
-              "comment": {
-                "description": null,
-                "blockTags": [],
-                "modifierTags": []
-              },
               "source": {
                 "line": 163,
                 "file": "Serialize.ts",
                 "path": "lib",
-                "url": "https://github.com/RealShadowNova/better-serialize/blob/cd28e50/src/lib/Serialize.ts#L163"
+                "url": "https://github.com/RealShadowNova/better-serialize/blob/0c823e6/src/lib/Serialize.ts#L163"
+              },
+              "comment": {
+                "description": null,
+                "blockTags": [],
+                "modifierTags": []
               },
               "parentId": 16,
               "value": "8"
@@ -298,16 +298,16 @@
             {
               "id": 19,
               "name": "Boolean",
-              "comment": {
-                "description": null,
-                "blockTags": [],
-                "modifierTags": []
-              },
               "source": {
                 "line": 165,
                 "file": "Serialize.ts",
                 "path": "lib",
-                "url": "https://github.com/RealShadowNova/better-serialize/blob/cd28e50/src/lib/Serialize.ts#L165"
+                "url": "https://github.com/RealShadowNova/better-serialize/blob/0c823e6/src/lib/Serialize.ts#L165"
+              },
+              "comment": {
+                "description": null,
+                "blockTags": [],
+                "modifierTags": []
               },
               "parentId": 16,
               "value": "3"
@@ -315,16 +315,16 @@
             {
               "id": 20,
               "name": "Date",
-              "comment": {
-                "description": null,
-                "blockTags": [],
-                "modifierTags": []
-              },
               "source": {
                 "line": 167,
                 "file": "Serialize.ts",
                 "path": "lib",
-                "url": "https://github.com/RealShadowNova/better-serialize/blob/cd28e50/src/lib/Serialize.ts#L167"
+                "url": "https://github.com/RealShadowNova/better-serialize/blob/0c823e6/src/lib/Serialize.ts#L167"
+              },
+              "comment": {
+                "description": null,
+                "blockTags": [],
+                "modifierTags": []
               },
               "parentId": 16,
               "value": "6"
@@ -332,16 +332,16 @@
             {
               "id": 21,
               "name": "Map",
-              "comment": {
-                "description": null,
-                "blockTags": [],
-                "modifierTags": []
-              },
               "source": {
                 "line": 169,
                 "file": "Serialize.ts",
                 "path": "lib",
-                "url": "https://github.com/RealShadowNova/better-serialize/blob/cd28e50/src/lib/Serialize.ts#L169"
+                "url": "https://github.com/RealShadowNova/better-serialize/blob/0c823e6/src/lib/Serialize.ts#L169"
+              },
+              "comment": {
+                "description": null,
+                "blockTags": [],
+                "modifierTags": []
               },
               "parentId": 16,
               "value": "10"
@@ -349,16 +349,16 @@
             {
               "id": 22,
               "name": "Null",
-              "comment": {
-                "description": null,
-                "blockTags": [],
-                "modifierTags": []
-              },
               "source": {
                 "line": 171,
                 "file": "Serialize.ts",
                 "path": "lib",
-                "url": "https://github.com/RealShadowNova/better-serialize/blob/cd28e50/src/lib/Serialize.ts#L171"
+                "url": "https://github.com/RealShadowNova/better-serialize/blob/0c823e6/src/lib/Serialize.ts#L171"
+              },
+              "comment": {
+                "description": null,
+                "blockTags": [],
+                "modifierTags": []
               },
               "parentId": 16,
               "value": "5"
@@ -366,16 +366,16 @@
             {
               "id": 23,
               "name": "Number",
-              "comment": {
-                "description": null,
-                "blockTags": [],
-                "modifierTags": []
-              },
               "source": {
                 "line": 173,
                 "file": "Serialize.ts",
                 "path": "lib",
-                "url": "https://github.com/RealShadowNova/better-serialize/blob/cd28e50/src/lib/Serialize.ts#L173"
+                "url": "https://github.com/RealShadowNova/better-serialize/blob/0c823e6/src/lib/Serialize.ts#L173"
+              },
+              "comment": {
+                "description": null,
+                "blockTags": [],
+                "modifierTags": []
               },
               "parentId": 16,
               "value": "2"
@@ -383,16 +383,16 @@
             {
               "id": 24,
               "name": "Object",
-              "comment": {
-                "description": null,
-                "blockTags": [],
-                "modifierTags": []
-              },
               "source": {
                 "line": 175,
                 "file": "Serialize.ts",
                 "path": "lib",
-                "url": "https://github.com/RealShadowNova/better-serialize/blob/cd28e50/src/lib/Serialize.ts#L175"
+                "url": "https://github.com/RealShadowNova/better-serialize/blob/0c823e6/src/lib/Serialize.ts#L175"
+              },
+              "comment": {
+                "description": null,
+                "blockTags": [],
+                "modifierTags": []
               },
               "parentId": 16,
               "value": "0"
@@ -400,16 +400,16 @@
             {
               "id": 25,
               "name": "RegExp",
-              "comment": {
-                "description": null,
-                "blockTags": [],
-                "modifierTags": []
-              },
               "source": {
                 "line": 177,
                 "file": "Serialize.ts",
                 "path": "lib",
-                "url": "https://github.com/RealShadowNova/better-serialize/blob/cd28e50/src/lib/Serialize.ts#L177"
+                "url": "https://github.com/RealShadowNova/better-serialize/blob/0c823e6/src/lib/Serialize.ts#L177"
+              },
+              "comment": {
+                "description": null,
+                "blockTags": [],
+                "modifierTags": []
               },
               "parentId": 16,
               "value": "9"
@@ -417,16 +417,16 @@
             {
               "id": 26,
               "name": "Set",
-              "comment": {
-                "description": null,
-                "blockTags": [],
-                "modifierTags": []
-              },
               "source": {
                 "line": 179,
                 "file": "Serialize.ts",
                 "path": "lib",
-                "url": "https://github.com/RealShadowNova/better-serialize/blob/cd28e50/src/lib/Serialize.ts#L179"
+                "url": "https://github.com/RealShadowNova/better-serialize/blob/0c823e6/src/lib/Serialize.ts#L179"
+              },
+              "comment": {
+                "description": null,
+                "blockTags": [],
+                "modifierTags": []
               },
               "parentId": 16,
               "value": "11"
@@ -434,16 +434,16 @@
             {
               "id": 27,
               "name": "String",
-              "comment": {
-                "description": null,
-                "blockTags": [],
-                "modifierTags": []
-              },
               "source": {
                 "line": 181,
                 "file": "Serialize.ts",
                 "path": "lib",
-                "url": "https://github.com/RealShadowNova/better-serialize/blob/cd28e50/src/lib/Serialize.ts#L181"
+                "url": "https://github.com/RealShadowNova/better-serialize/blob/0c823e6/src/lib/Serialize.ts#L181"
+              },
+              "comment": {
+                "description": null,
+                "blockTags": [],
+                "modifierTags": []
               },
               "parentId": 16,
               "value": "1"
@@ -451,16 +451,16 @@
             {
               "id": 28,
               "name": "Undefined",
-              "comment": {
-                "description": null,
-                "blockTags": [],
-                "modifierTags": []
-              },
               "source": {
                 "line": 183,
                 "file": "Serialize.ts",
                 "path": "lib",
-                "url": "https://github.com/RealShadowNova/better-serialize/blob/cd28e50/src/lib/Serialize.ts#L183"
+                "url": "https://github.com/RealShadowNova/better-serialize/blob/0c823e6/src/lib/Serialize.ts#L183"
+              },
+              "comment": {
+                "description": null,
+                "blockTags": [],
+                "modifierTags": []
               },
               "parentId": 16,
               "value": "7"
@@ -472,16 +472,16 @@
         {
           "id": 8,
           "name": "fromJsonCompatible",
-          "comment": {
-            "description": null,
-            "blockTags": [],
-            "modifierTags": []
-          },
           "source": {
             "line": 69,
             "file": "Serialize.ts",
             "path": "lib",
-            "url": "https://github.com/RealShadowNova/better-serialize/blob/cd28e50/src/lib/Serialize.ts#L69"
+            "url": "https://github.com/RealShadowNova/better-serialize/blob/0c823e6/src/lib/Serialize.ts#L69"
+          },
+          "comment": {
+            "description": null,
+            "blockTags": [],
+            "modifierTags": []
           },
           "external": false,
           "signatures": [
@@ -533,16 +533,16 @@
         {
           "id": 5,
           "name": "toJsonCompatible",
-          "comment": {
-            "description": null,
-            "blockTags": [],
-            "modifierTags": []
-          },
           "source": {
             "line": 14,
             "file": "Serialize.ts",
             "path": "lib",
-            "url": "https://github.com/RealShadowNova/better-serialize/blob/cd28e50/src/lib/Serialize.ts#L14"
+            "url": "https://github.com/RealShadowNova/better-serialize/blob/0c823e6/src/lib/Serialize.ts#L14"
+          },
+          "comment": {
+            "description": null,
+            "blockTags": [],
+            "modifierTags": []
           },
           "external": false,
           "signatures": [
@@ -596,6 +596,12 @@
         {
           "id": 29,
           "name": "JsonCompatible",
+          "source": {
+            "line": 190,
+            "file": "Serialize.ts",
+            "path": "lib",
+            "url": "https://github.com/RealShadowNova/better-serialize/blob/0c823e6/src/lib/Serialize.ts#L190"
+          },
           "comment": {
             "description": "The JSON-compatible data format.",
             "blockTags": [
@@ -606,30 +612,24 @@
             ],
             "modifierTags": []
           },
-          "source": {
-            "line": 190,
-            "file": "Serialize.ts",
-            "path": "lib",
-            "url": "https://github.com/RealShadowNova/better-serialize/blob/cd28e50/src/lib/Serialize.ts#L190"
-          },
           "external": false,
           "typeParameters": [],
           "properties": [
             {
               "id": 30,
               "name": "t",
+              "source": {
+                "line": 191,
+                "file": "Serialize.ts",
+                "path": "lib",
+                "url": "https://github.com/RealShadowNova/better-serialize/blob/0c823e6/src/lib/Serialize.ts#L191"
+              },
               "comment": {
                 "description": null,
                 "blockTags": [],
                 "modifierTags": []
               },
-              "source": {
-                "line": 191,
-                "file": "Serialize.ts",
-                "path": "lib",
-                "url": "https://github.com/RealShadowNova/better-serialize/blob/cd28e50/src/lib/Serialize.ts#L191"
-              },
-              "parentId": 30,
+              "parentId": 29,
               "readonly": false,
               "type": {
                 "kind": "reference",
@@ -642,18 +642,18 @@
             {
               "id": 31,
               "name": "v",
+              "source": {
+                "line": 193,
+                "file": "Serialize.ts",
+                "path": "lib",
+                "url": "https://github.com/RealShadowNova/better-serialize/blob/0c823e6/src/lib/Serialize.ts#L193"
+              },
               "comment": {
                 "description": null,
                 "blockTags": [],
                 "modifierTags": []
               },
-              "source": {
-                "line": 193,
-                "file": "Serialize.ts",
-                "path": "lib",
-                "url": "https://github.com/RealShadowNova/better-serialize/blob/cd28e50/src/lib/Serialize.ts#L193"
-              },
-              "parentId": 31,
+              "parentId": 29,
               "readonly": false,
               "type": {
                 "kind": "union",
@@ -744,6 +744,12 @@
         {
           "id": 32,
           "name": "Regex",
+          "source": {
+            "line": 208,
+            "file": "Serialize.ts",
+            "path": "lib",
+            "url": "https://github.com/RealShadowNova/better-serialize/blob/0c823e6/src/lib/Serialize.ts#L208"
+          },
           "comment": {
             "description": "The JSON-compatible RegExp format.",
             "blockTags": [
@@ -754,30 +760,24 @@
             ],
             "modifierTags": []
           },
-          "source": {
-            "line": 208,
-            "file": "Serialize.ts",
-            "path": "lib",
-            "url": "https://github.com/RealShadowNova/better-serialize/blob/cd28e50/src/lib/Serialize.ts#L208"
-          },
           "external": false,
           "typeParameters": [],
           "properties": [
             {
               "id": 34,
               "name": "f",
+              "source": {
+                "line": 211,
+                "file": "Serialize.ts",
+                "path": "lib",
+                "url": "https://github.com/RealShadowNova/better-serialize/blob/0c823e6/src/lib/Serialize.ts#L211"
+              },
               "comment": {
                 "description": null,
                 "blockTags": [],
                 "modifierTags": []
               },
-              "source": {
-                "line": 211,
-                "file": "Serialize.ts",
-                "path": "lib",
-                "url": "https://github.com/RealShadowNova/better-serialize/blob/cd28e50/src/lib/Serialize.ts#L211"
-              },
-              "parentId": 34,
+              "parentId": 32,
               "readonly": false,
               "type": {
                 "kind": "intrinsic",
@@ -787,18 +787,18 @@
             {
               "id": 33,
               "name": "s",
+              "source": {
+                "line": 209,
+                "file": "Serialize.ts",
+                "path": "lib",
+                "url": "https://github.com/RealShadowNova/better-serialize/blob/0c823e6/src/lib/Serialize.ts#L209"
+              },
               "comment": {
                 "description": null,
                 "blockTags": [],
                 "modifierTags": []
               },
-              "source": {
-                "line": 209,
-                "file": "Serialize.ts",
-                "path": "lib",
-                "url": "https://github.com/RealShadowNova/better-serialize/blob/cd28e50/src/lib/Serialize.ts#L209"
-              },
-              "parentId": 33,
+              "parentId": 32,
               "readonly": false,
               "type": {
                 "kind": "intrinsic",
