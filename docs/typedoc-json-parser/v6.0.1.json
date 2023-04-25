@@ -1,5 +1,5 @@
 {
-  "typeDocJsonParserVersion": "7.2.0",
+  "typeDocJsonParserVersion": "7.3.1",
   "id": 0,
   "name": "typedoc-json-parser",
   "version": "6.0.1",
@@ -19,6 +19,7 @@
         ],
         "modifierTags": []
       },
+      "namespaceParentId": null,
       "source": {
         "line": 8,
         "file": "ArrayTypeParser.ts",
@@ -347,6 +348,7 @@
         "blockTags": [],
         "modifierTags": []
       },
+      "namespaceParentId": null,
       "source": {
         "line": 8,
         "file": "ClassConstructorParser.ts",
@@ -1012,6 +1014,7 @@
         ],
         "modifierTags": []
       },
+      "namespaceParentId": null,
       "source": {
         "line": 12,
         "file": "ClassMethodParser.ts",
@@ -1638,6 +1641,7 @@
         ],
         "modifierTags": []
       },
+      "namespaceParentId": null,
       "source": {
         "line": 15,
         "file": "ClassParser.ts",
@@ -2369,6 +2373,7 @@
         ],
         "modifierTags": []
       },
+      "namespaceParentId": null,
       "source": {
         "line": 13,
         "file": "ClassPropertyParser.ts",
@@ -3094,6 +3099,7 @@
         ],
         "modifierTags": []
       },
+      "namespaceParentId": null,
       "source": {
         "line": 8,
         "file": "CommentParser.ts",
@@ -3610,6 +3616,7 @@
         ],
         "modifierTags": []
       },
+      "namespaceParentId": null,
       "source": {
         "line": 8,
         "file": "ConditionalTypeParser.ts",
@@ -4042,6 +4049,7 @@
         ],
         "modifierTags": []
       },
+      "namespaceParentId": null,
       "source": {
         "line": 13,
         "file": "EnumMemberParser.ts",
@@ -4696,6 +4704,7 @@
         ],
         "modifierTags": []
       },
+      "namespaceParentId": null,
       "source": {
         "line": 12,
         "file": "EnumParser.ts",
@@ -5214,6 +5223,7 @@
         ],
         "modifierTags": []
       },
+      "namespaceParentId": null,
       "source": {
         "line": 11,
         "file": "FunctionParser.ts",
@@ -5732,6 +5742,7 @@
         ],
         "modifierTags": []
       },
+      "namespaceParentId": null,
       "source": {
         "line": 8,
         "file": "IndexedAccessTypeParser.ts",
@@ -6098,6 +6109,7 @@
         ],
         "modifierTags": []
       },
+      "namespaceParentId": null,
       "source": {
         "line": 8,
         "file": "InferredTypeParser.ts",
@@ -6428,6 +6440,7 @@
         ],
         "modifierTags": []
       },
+      "namespaceParentId": null,
       "source": {
         "line": 12,
         "file": "InterfaceMethodParser.ts",
@@ -6961,6 +6974,7 @@
         ],
         "modifierTags": []
       },
+      "namespaceParentId": null,
       "source": {
         "line": 13,
         "file": "InterfaceParser.ts",
@@ -7515,6 +7529,7 @@
         ],
         "modifierTags": []
       },
+      "namespaceParentId": null,
       "source": {
         "line": 13,
         "file": "InterfacePropertyParser.ts",
@@ -8108,6 +8123,7 @@
         ],
         "modifierTags": []
       },
+      "namespaceParentId": null,
       "source": {
         "line": 8,
         "file": "IntersectionTypeParser.ts",
@@ -8444,6 +8460,7 @@
         ],
         "modifierTags": []
       },
+      "namespaceParentId": null,
       "source": {
         "line": 8,
         "file": "IntrinsicTypeParser.ts",
@@ -8774,6 +8791,7 @@
         ],
         "modifierTags": []
       },
+      "namespaceParentId": null,
       "source": {
         "line": 8,
         "file": "LiteralTypeParser.ts",
@@ -9104,6 +9122,7 @@
         ],
         "modifierTags": []
       },
+      "namespaceParentId": null,
       "source": {
         "line": 8,
         "file": "MappedTypeParser.ts",
@@ -9626,6 +9645,7 @@
         ],
         "modifierTags": []
       },
+      "namespaceParentId": null,
       "source": {
         "line": 8,
         "file": "NamedTupleMemberTypeParser.ts",
@@ -10019,6 +10039,7 @@
         ],
         "modifierTags": []
       },
+      "namespaceParentId": null,
       "source": {
         "line": 17,
         "file": "NamespaceParser.ts",
@@ -10883,6 +10904,7 @@
         ],
         "modifierTags": []
       },
+      "namespaceParentId": null,
       "source": {
         "line": 8,
         "file": "OptionalTypeParser.ts",
@@ -11216,6 +11238,7 @@
         ],
         "modifierTags": []
       },
+      "namespaceParentId": null,
       "source": {
         "line": 11,
         "file": "ParameterParser.ts",
@@ -11653,6 +11676,7 @@
         ],
         "modifierTags": []
       },
+      "namespaceParentId": null,
       "source": {
         "line": 8,
         "file": "PredicateTypeParser.ts",
@@ -12050,6 +12074,7 @@
         ],
         "modifierTags": []
       },
+      "namespaceParentId": null,
       "source": {
         "line": 16,
         "file": "ProjectParser.ts",
@@ -12773,6 +12798,7 @@
         ],
         "modifierTags": []
       },
+      "namespaceParentId": null,
       "source": {
         "line": 9,
         "file": "QueryTypeParser.ts",
@@ -13106,6 +13132,7 @@
         ],
         "modifierTags": []
       },
+      "namespaceParentId": null,
       "source": {
         "line": 8,
         "file": "ReferenceTypeParser.ts",
@@ -13590,6 +13617,7 @@
         ],
         "modifierTags": []
       },
+      "namespaceParentId": null,
       "source": {
         "line": 9,
         "file": "ReflectionTypeParser.ts",
@@ -13932,6 +13960,7 @@
         ],
         "modifierTags": []
       },
+      "namespaceParentId": null,
       "source": {
         "line": 8,
         "file": "RestTypeParser.ts",
@@ -14265,6 +14294,7 @@
         ],
         "modifierTags": []
       },
+      "namespaceParentId": null,
       "source": {
         "line": 13,
         "file": "SignatureParser.ts",
@@ -14774,6 +14804,7 @@
         ],
         "modifierTags": []
       },
+      "namespaceParentId": null,
       "source": {
         "line": 9,
         "file": "SourceParser.ts",
@@ -15214,6 +15245,7 @@
         ],
         "modifierTags": []
       },
+      "namespaceParentId": null,
       "source": {
         "line": 8,
         "file": "TemplateLiteralTypeParser.ts",
@@ -15580,6 +15612,7 @@
         ],
         "modifierTags": []
       },
+      "namespaceParentId": null,
       "source": {
         "line": 8,
         "file": "TupleTypeParser.ts",
@@ -15916,6 +15949,7 @@
         ],
         "modifierTags": []
       },
+      "namespaceParentId": null,
       "source": {
         "line": 12,
         "file": "TypeAliasParser.ts",
@@ -16467,6 +16501,7 @@
         ],
         "modifierTags": []
       },
+      "namespaceParentId": null,
       "source": {
         "line": 8,
         "file": "TypeOperatorTypeParser.ts",
@@ -16833,6 +16868,7 @@
         ],
         "modifierTags": []
       },
+      "namespaceParentId": null,
       "source": {
         "line": 10,
         "file": "TypeParameterParser.ts",
@@ -17288,6 +17324,7 @@
         ],
         "modifierTags": []
       },
+      "namespaceParentId": null,
       "source": {
         "line": 8,
         "file": "UnionTypeParser.ts",
@@ -17624,6 +17661,7 @@
         ],
         "modifierTags": []
       },
+      "namespaceParentId": null,
       "source": {
         "line": 8,
         "file": "UnknownTypeParser.ts",
@@ -17954,6 +17992,7 @@
         ],
         "modifierTags": []
       },
+      "namespaceParentId": null,
       "source": {
         "line": 12,
         "file": "VariableParser.ts",
@@ -18496,6 +18535,7 @@
         "blockTags": [],
         "modifierTags": []
       },
+      "namespaceParentId": null,
       "source": {
         "line": 1,
         "file": "ReflectionKind.ts",
@@ -18937,6 +18977,7 @@
     {
       "id": 1167,
       "name": "TypeParser",
+      "namespaceParentId": null,
       "comment": {
         "description": "The base interface for all type parsers.",
         "blockTags": [
@@ -19092,6 +19133,7 @@
     {
       "id": 734,
       "name": "ArrayTypeParser",
+      "namespaceParentId": null,
       "comment": {
         "description": null,
         "blockTags": [],
@@ -19111,6 +19153,7 @@
         {
           "id": 735,
           "name": "Data",
+          "namespaceParentId": 734,
           "comment": {
             "description": null,
             "blockTags": [],
@@ -19160,6 +19203,7 @@
         {
           "id": 737,
           "name": "JSON",
+          "namespaceParentId": 734,
           "comment": {
             "description": "The base interface for the JSON compatible format of type parsers.",
             "blockTags": [
@@ -19248,6 +19292,7 @@
     {
       "id": 31,
       "name": "ClassConstructorParser",
+      "namespaceParentId": null,
       "comment": {
         "description": null,
         "blockTags": [],
@@ -19267,6 +19312,7 @@
         {
           "id": 32,
           "name": "Data",
+          "namespaceParentId": 31,
           "comment": {
             "description": null,
             "blockTags": [],
@@ -19464,6 +19510,7 @@
         {
           "id": 39,
           "name": "JSON",
+          "namespaceParentId": 31,
           "comment": {
             "description": null,
             "blockTags": [],
@@ -19666,6 +19713,7 @@
     {
       "id": 73,
       "name": "ClassMethodParser",
+      "namespaceParentId": null,
       "comment": {
         "description": null,
         "blockTags": [],
@@ -19685,6 +19733,7 @@
         {
           "id": 74,
           "name": "Data",
+          "namespaceParentId": 73,
           "comment": {
             "description": null,
             "blockTags": [],
@@ -19934,6 +19983,7 @@
         {
           "id": 83,
           "name": "JSON",
+          "namespaceParentId": 73,
           "comment": {
             "description": null,
             "blockTags": [],
@@ -20188,6 +20238,7 @@
     {
       "id": 120,
       "name": "ClassParser",
+      "namespaceParentId": null,
       "comment": {
         "description": null,
         "blockTags": [],
@@ -20215,6 +20266,7 @@
             ],
             "modifierTags": []
           },
+          "namespaceParentId": 120,
           "source": {
             "line": 301,
             "file": "ClassParser.ts",
@@ -20282,6 +20334,7 @@
         {
           "id": 121,
           "name": "Data",
+          "namespaceParentId": 120,
           "comment": {
             "description": null,
             "blockTags": [],
@@ -20668,6 +20721,7 @@
         {
           "id": 134,
           "name": "JSON",
+          "namespaceParentId": 120,
           "comment": {
             "description": null,
             "blockTags": [],
@@ -21059,6 +21113,7 @@
     {
       "id": 181,
       "name": "ClassPropertyParser",
+      "namespaceParentId": null,
       "comment": {
         "description": null,
         "blockTags": [],
@@ -21078,6 +21133,7 @@
         {
           "id": 182,
           "name": "Data",
+          "namespaceParentId": 181,
           "comment": {
             "description": null,
             "blockTags": [],
@@ -21414,6 +21470,7 @@
         {
           "id": 194,
           "name": "JSON",
+          "namespaceParentId": 181,
           "comment": {
             "description": null,
             "blockTags": [],
@@ -21755,6 +21812,7 @@
     {
       "id": 470,
       "name": "CommentParser",
+      "namespaceParentId": null,
       "comment": {
         "description": null,
         "blockTags": [],
@@ -21774,6 +21832,7 @@
         {
           "id": 479,
           "name": "BlockTag",
+          "namespaceParentId": 470,
           "comment": {
             "description": "A tag of a comment.",
             "blockTags": [
@@ -21851,6 +21910,7 @@
         {
           "id": 471,
           "name": "Data",
+          "namespaceParentId": 470,
           "comment": {
             "description": null,
             "blockTags": [],
@@ -21967,6 +22027,7 @@
         {
           "id": 475,
           "name": "JSON",
+          "namespaceParentId": 470,
           "comment": {
             "description": null,
             "blockTags": [],
@@ -22088,6 +22149,7 @@
     {
       "id": 758,
       "name": "ConditionalTypeParser",
+      "namespaceParentId": null,
       "comment": {
         "description": null,
         "blockTags": [],
@@ -22107,6 +22169,7 @@
         {
           "id": 759,
           "name": "Data",
+          "namespaceParentId": 758,
           "comment": {
             "description": null,
             "blockTags": [],
@@ -22243,6 +22306,7 @@
         {
           "id": 764,
           "name": "JSON",
+          "namespaceParentId": 758,
           "comment": {
             "description": "The base interface for the JSON compatible format of type parsers.",
             "blockTags": [
@@ -22418,6 +22482,7 @@
     {
       "id": 236,
       "name": "EnumMemberParser",
+      "namespaceParentId": null,
       "comment": {
         "description": null,
         "blockTags": [],
@@ -22437,6 +22502,7 @@
         {
           "id": 237,
           "name": "Data",
+          "namespaceParentId": 236,
           "comment": {
             "description": null,
             "blockTags": [],
@@ -22628,6 +22694,7 @@
         {
           "id": 244,
           "name": "JSON",
+          "namespaceParentId": 236,
           "comment": {
             "description": null,
             "blockTags": [],
@@ -22824,6 +22891,7 @@
     {
       "id": 273,
       "name": "EnumParser",
+      "namespaceParentId": null,
       "comment": {
         "description": null,
         "blockTags": [],
@@ -22843,6 +22911,7 @@
         {
           "id": 274,
           "name": "Data",
+          "namespaceParentId": 273,
           "comment": {
             "description": null,
             "blockTags": [],
@@ -23040,6 +23109,7 @@
         {
           "id": 281,
           "name": "JSON",
+          "namespaceParentId": 273,
           "comment": {
             "description": null,
             "blockTags": [],
@@ -23237,6 +23307,7 @@
     {
       "id": 310,
       "name": "FunctionParser",
+      "namespaceParentId": null,
       "comment": {
         "description": null,
         "blockTags": [],
@@ -23256,6 +23327,7 @@
         {
           "id": 311,
           "name": "Data",
+          "namespaceParentId": 310,
           "comment": {
             "description": null,
             "blockTags": [],
@@ -23453,6 +23525,7 @@
         {
           "id": 318,
           "name": "JSON",
+          "namespaceParentId": 310,
           "comment": {
             "description": null,
             "blockTags": [],
@@ -23655,6 +23728,7 @@
     {
       "id": 786,
       "name": "IndexedAccessTypeParser",
+      "namespaceParentId": null,
       "comment": {
         "description": null,
         "blockTags": [],
@@ -23674,6 +23748,7 @@
         {
           "id": 787,
           "name": "Data",
+          "namespaceParentId": 786,
           "comment": {
             "description": null,
             "blockTags": [],
@@ -23752,6 +23827,7 @@
         {
           "id": 790,
           "name": "JSON",
+          "namespaceParentId": 786,
           "comment": {
             "description": "The base interface for the JSON compatible format of type parsers.",
             "blockTags": [
@@ -23869,6 +23945,7 @@
     {
       "id": 809,
       "name": "InferredTypeParser",
+      "namespaceParentId": null,
       "comment": {
         "description": null,
         "blockTags": [],
@@ -23888,6 +23965,7 @@
         {
           "id": 810,
           "name": "Data",
+          "namespaceParentId": 809,
           "comment": {
             "description": null,
             "blockTags": [],
@@ -23934,6 +24012,7 @@
         {
           "id": 812,
           "name": "JSON",
+          "namespaceParentId": 809,
           "comment": {
             "description": "The base interface for the JSON compatible format of type parsers.",
             "blockTags": [
@@ -24019,6 +24098,7 @@
     {
       "id": 349,
       "name": "InterfaceMethodParser",
+      "namespaceParentId": null,
       "comment": {
         "description": null,
         "blockTags": [],
@@ -24038,6 +24118,7 @@
         {
           "id": 350,
           "name": "Data",
+          "namespaceParentId": 349,
           "comment": {
             "description": null,
             "blockTags": [],
@@ -24206,6 +24287,7 @@
         {
           "id": 356,
           "name": "JSON",
+          "namespaceParentId": 349,
           "comment": {
             "description": null,
             "blockTags": [],
@@ -24379,6 +24461,7 @@
     {
       "id": 385,
       "name": "InterfaceParser",
+      "namespaceParentId": null,
       "comment": {
         "description": null,
         "blockTags": [],
@@ -24398,6 +24481,7 @@
         {
           "id": 386,
           "name": "Data",
+          "namespaceParentId": 385,
           "comment": {
             "description": null,
             "blockTags": [],
@@ -24627,6 +24711,7 @@
         {
           "id": 394,
           "name": "JSON",
+          "namespaceParentId": 385,
           "comment": {
             "description": null,
             "blockTags": [],
@@ -24861,6 +24946,7 @@
     {
       "id": 428,
       "name": "InterfacePropertyParser",
+      "namespaceParentId": null,
       "comment": {
         "description": null,
         "blockTags": [],
@@ -24880,6 +24966,7 @@
         {
           "id": 429,
           "name": "Data",
+          "namespaceParentId": 428,
           "comment": {
             "description": null,
             "blockTags": [],
@@ -25100,6 +25187,7 @@
         {
           "id": 437,
           "name": "JSON",
+          "namespaceParentId": 428,
           "comment": {
             "description": null,
             "blockTags": [],
@@ -25325,6 +25413,7 @@
     {
       "id": 830,
       "name": "IntersectionTypeParser",
+      "namespaceParentId": null,
       "comment": {
         "description": null,
         "blockTags": [],
@@ -25344,6 +25433,7 @@
         {
           "id": 831,
           "name": "Data",
+          "namespaceParentId": 830,
           "comment": {
             "description": null,
             "blockTags": [],
@@ -25396,6 +25486,7 @@
         {
           "id": 833,
           "name": "JSON",
+          "namespaceParentId": 830,
           "comment": {
             "description": "The base interface for the JSON compatible format of type parsers.",
             "blockTags": [
@@ -25487,6 +25578,7 @@
     {
       "id": 851,
       "name": "IntrinsicTypeParser",
+      "namespaceParentId": null,
       "comment": {
         "description": null,
         "blockTags": [],
@@ -25506,6 +25598,7 @@
         {
           "id": 852,
           "name": "Data",
+          "namespaceParentId": 851,
           "comment": {
             "description": null,
             "blockTags": [],
@@ -25552,6 +25645,7 @@
         {
           "id": 854,
           "name": "JSON",
+          "namespaceParentId": 851,
           "comment": {
             "description": "The base interface for the JSON compatible format of type parsers.",
             "blockTags": [
@@ -25637,6 +25731,7 @@
     {
       "id": 872,
       "name": "LiteralTypeParser",
+      "namespaceParentId": null,
       "comment": {
         "description": null,
         "blockTags": [],
@@ -25656,6 +25751,7 @@
         {
           "id": 873,
           "name": "Data",
+          "namespaceParentId": 872,
           "comment": {
             "description": null,
             "blockTags": [],
@@ -25702,6 +25798,7 @@
         {
           "id": 875,
           "name": "JSON",
+          "namespaceParentId": 872,
           "comment": {
             "description": "The base interface for the JSON compatible format of type parsers.",
             "blockTags": [
@@ -25787,6 +25884,7 @@
     {
       "id": 898,
       "name": "MappedTypeParser",
+      "namespaceParentId": null,
       "comment": {
         "description": null,
         "blockTags": [],
@@ -25809,6 +25907,7 @@
             "blockTags": [],
             "modifierTags": []
           },
+          "namespaceParentId": 898,
           "source": {
             "line": 194,
             "file": "MappedTypeParser.ts",
@@ -25859,6 +25958,7 @@
         {
           "id": 899,
           "name": "Data",
+          "namespaceParentId": 898,
           "comment": {
             "description": null,
             "blockTags": [],
@@ -26077,6 +26177,7 @@
         {
           "id": 906,
           "name": "JSON",
+          "namespaceParentId": 898,
           "comment": {
             "description": "The base interface for the JSON compatible format of type parsers.",
             "blockTags": [
@@ -26334,6 +26435,7 @@
     {
       "id": 934,
       "name": "NamedTupleMemberTypeParser",
+      "namespaceParentId": null,
       "comment": {
         "description": null,
         "blockTags": [],
@@ -26353,6 +26455,7 @@
         {
           "id": 935,
           "name": "Data",
+          "namespaceParentId": 934,
           "comment": {
             "description": null,
             "blockTags": [],
@@ -26454,6 +26557,7 @@
         {
           "id": 939,
           "name": "JSON",
+          "namespaceParentId": 934,
           "comment": {
             "description": "The base interface for the JSON compatible format of type parsers.",
             "blockTags": [
@@ -26594,6 +26698,7 @@
     {
       "id": 646,
       "name": "NamespaceParser",
+      "namespaceParentId": null,
       "comment": {
         "description": null,
         "blockTags": [],
@@ -26613,6 +26718,7 @@
         {
           "id": 647,
           "name": "Data",
+          "namespaceParentId": 646,
           "comment": {
             "description": null,
             "blockTags": [],
@@ -27002,6 +27108,7 @@
         {
           "id": 660,
           "name": "JSON",
+          "namespaceParentId": 646,
           "comment": {
             "description": null,
             "blockTags": [],
@@ -27396,6 +27503,7 @@
     {
       "id": 959,
       "name": "OptionalTypeParser",
+      "namespaceParentId": null,
       "comment": {
         "description": null,
         "blockTags": [],
@@ -27415,6 +27523,7 @@
         {
           "id": 960,
           "name": "Data",
+          "namespaceParentId": 959,
           "comment": {
             "description": null,
             "blockTags": [],
@@ -27464,6 +27573,7 @@
         {
           "id": 962,
           "name": "JSON",
+          "namespaceParentId": 959,
           "comment": {
             "description": "The base interface for the JSON compatible format of type parsers.",
             "blockTags": [
@@ -27552,6 +27662,7 @@
     {
       "id": 502,
       "name": "ParameterParser",
+      "namespaceParentId": null,
       "comment": {
         "description": null,
         "blockTags": [],
@@ -27571,6 +27682,7 @@
         {
           "id": 503,
           "name": "Data",
+          "namespaceParentId": 502,
           "comment": {
             "description": null,
             "blockTags": [],
@@ -27701,6 +27813,7 @@
         {
           "id": 508,
           "name": "JSON",
+          "namespaceParentId": 502,
           "comment": {
             "description": null,
             "blockTags": [],
@@ -27836,6 +27949,7 @@
     {
       "id": 982,
       "name": "PredicateTypeParser",
+      "namespaceParentId": null,
       "comment": {
         "description": null,
         "blockTags": [],
@@ -27855,6 +27969,7 @@
         {
           "id": 983,
           "name": "Data",
+          "namespaceParentId": 982,
           "comment": {
             "description": null,
             "blockTags": [],
@@ -27965,6 +28080,7 @@
         {
           "id": 987,
           "name": "JSON",
+          "namespaceParentId": 982,
           "comment": {
             "description": "The base interface for the JSON compatible format of type parsers.",
             "blockTags": [
@@ -28114,6 +28230,7 @@
     {
       "id": 699,
       "name": "ProjectParser",
+      "namespaceParentId": null,
       "comment": {
         "description": null,
         "blockTags": [],
@@ -28133,6 +28250,7 @@
         {
           "id": 705,
           "name": "JSON",
+          "namespaceParentId": 699,
           "comment": {
             "description": null,
             "blockTags": [],
@@ -28560,6 +28678,7 @@
         {
           "id": 700,
           "name": "Options",
+          "namespaceParentId": 699,
           "comment": {
             "description": null,
             "blockTags": [],
@@ -28704,6 +28823,7 @@
     {
       "id": 1007,
       "name": "QueryTypeParser",
+      "namespaceParentId": null,
       "comment": {
         "description": null,
         "blockTags": [],
@@ -28723,6 +28843,7 @@
         {
           "id": 1008,
           "name": "Data",
+          "namespaceParentId": 1007,
           "comment": {
             "description": null,
             "blockTags": [],
@@ -28772,6 +28893,7 @@
         {
           "id": 1010,
           "name": "JSON",
+          "namespaceParentId": 1007,
           "comment": {
             "description": "The base interface for the JSON compatible format of type parsers.",
             "blockTags": [
@@ -28860,6 +28982,7 @@
     {
       "id": 1033,
       "name": "ReferenceTypeParser",
+      "namespaceParentId": null,
       "comment": {
         "description": null,
         "blockTags": [],
@@ -28879,6 +29002,7 @@
         {
           "id": 1034,
           "name": "Data",
+          "namespaceParentId": 1033,
           "comment": {
             "description": null,
             "blockTags": [],
@@ -29027,6 +29151,7 @@
         {
           "id": 1039,
           "name": "JSON",
+          "namespaceParentId": 1033,
           "comment": {
             "description": "The base interface for the JSON compatible format of type parsers.",
             "blockTags": [
@@ -29214,6 +29339,7 @@
     {
       "id": 1060,
       "name": "ReflectionTypeParser",
+      "namespaceParentId": null,
       "comment": {
         "description": null,
         "blockTags": [],
@@ -29233,6 +29359,7 @@
         {
           "id": 1061,
           "name": "Data",
+          "namespaceParentId": 1060,
           "comment": {
             "description": null,
             "blockTags": [],
@@ -29291,6 +29418,7 @@
         {
           "id": 1063,
           "name": "JSON",
+          "namespaceParentId": 1060,
           "comment": {
             "description": "The base interface for the JSON compatible format of type parsers.",
             "blockTags": [
@@ -29388,6 +29516,7 @@
     {
       "id": 1081,
       "name": "RestTypeParser",
+      "namespaceParentId": null,
       "comment": {
         "description": null,
         "blockTags": [],
@@ -29407,6 +29536,7 @@
         {
           "id": 1082,
           "name": "Data",
+          "namespaceParentId": 1081,
           "comment": {
             "description": null,
             "blockTags": [],
@@ -29456,6 +29586,7 @@
         {
           "id": 1084,
           "name": "JSON",
+          "namespaceParentId": 1081,
           "comment": {
             "description": "The base interface for the JSON compatible format of type parsers.",
             "blockTags": [
@@ -29544,6 +29675,7 @@
     {
       "id": 535,
       "name": "SignatureParser",
+      "namespaceParentId": null,
       "comment": {
         "description": null,
         "blockTags": [],
@@ -29563,6 +29695,7 @@
         {
           "id": 536,
           "name": "Data",
+          "namespaceParentId": 535,
           "comment": {
             "description": null,
             "blockTags": [],
@@ -29757,6 +29890,7 @@
         {
           "id": 543,
           "name": "JSON",
+          "namespaceParentId": 535,
           "comment": {
             "description": null,
             "blockTags": [],
@@ -29956,6 +30090,7 @@
     {
       "id": 570,
       "name": "SourceParser",
+      "namespaceParentId": null,
       "comment": {
         "description": null,
         "blockTags": [],
@@ -29975,6 +30110,7 @@
         {
           "id": 571,
           "name": "Data",
+          "namespaceParentId": 570,
           "comment": {
             "description": null,
             "blockTags": [],
@@ -30108,6 +30244,7 @@
         {
           "id": 576,
           "name": "JSON",
+          "namespaceParentId": 570,
           "comment": {
             "description": null,
             "blockTags": [],
@@ -30246,6 +30383,7 @@
     {
       "id": 1103,
       "name": "TemplateLiteralTypeParser",
+      "namespaceParentId": null,
       "comment": {
         "description": null,
         "blockTags": [],
@@ -30265,6 +30403,7 @@
         {
           "id": 1104,
           "name": "Data",
+          "namespaceParentId": 1103,
           "comment": {
             "description": null,
             "blockTags": [],
@@ -30343,6 +30482,7 @@
         {
           "id": 1107,
           "name": "JSON",
+          "namespaceParentId": 1103,
           "comment": {
             "description": "The base interface for the JSON compatible format of type parsers.",
             "blockTags": [
@@ -30455,6 +30595,7 @@
         {
           "id": 1111,
           "name": "Tail",
+          "namespaceParentId": 1103,
           "comment": {
             "description": null,
             "blockTags": [],
@@ -30532,6 +30673,7 @@
         {
           "id": 1114,
           "name": "Tail",
+          "namespaceParentId": 1103,
           "comment": {
             "description": null,
             "blockTags": [],
@@ -30551,6 +30693,7 @@
             {
               "id": 1115,
               "name": "JSON",
+              "namespaceParentId": 1114,
               "comment": {
                 "description": null,
                 "blockTags": [],
@@ -30635,6 +30778,7 @@
     {
       "id": 1133,
       "name": "TupleTypeParser",
+      "namespaceParentId": null,
       "comment": {
         "description": null,
         "blockTags": [],
@@ -30654,6 +30798,7 @@
         {
           "id": 1134,
           "name": "Data",
+          "namespaceParentId": 1133,
           "comment": {
             "description": null,
             "blockTags": [],
@@ -30706,6 +30851,7 @@
         {
           "id": 1136,
           "name": "JSON",
+          "namespaceParentId": 1133,
           "comment": {
             "description": "The base interface for the JSON compatible format of type parsers.",
             "blockTags": [
@@ -30797,6 +30943,7 @@
     {
       "id": 1276,
       "name": "TypeAliasParser",
+      "namespaceParentId": null,
       "comment": {
         "description": null,
         "blockTags": [],
@@ -30816,6 +30963,7 @@
         {
           "id": 1277,
           "name": "Data",
+          "namespaceParentId": 1276,
           "comment": {
             "description": null,
             "blockTags": [],
@@ -31042,6 +31190,7 @@
         {
           "id": 1285,
           "name": "JSON",
+          "namespaceParentId": 1276,
           "comment": {
             "description": null,
             "blockTags": [],
@@ -31268,6 +31417,7 @@
     {
       "id": 1155,
       "name": "TypeOperatorTypeParser",
+      "namespaceParentId": null,
       "comment": {
         "description": null,
         "blockTags": [],
@@ -31290,6 +31440,7 @@
             "blockTags": [],
             "modifierTags": []
           },
+          "namespaceParentId": 1155,
           "source": {
             "line": 109,
             "file": "TypeOperatorTypeParser.ts",
@@ -31357,6 +31508,7 @@
         {
           "id": 1156,
           "name": "Data",
+          "namespaceParentId": 1155,
           "comment": {
             "description": null,
             "blockTags": [],
@@ -31435,6 +31587,7 @@
         {
           "id": 1159,
           "name": "JSON",
+          "namespaceParentId": 1155,
           "comment": {
             "description": "The base interface for the JSON compatible format of type parsers.",
             "blockTags": [
@@ -31552,6 +31705,7 @@
     {
       "id": 601,
       "name": "TypeParameterParser",
+      "namespaceParentId": null,
       "comment": {
         "description": null,
         "blockTags": [],
@@ -31571,6 +31725,7 @@
         {
           "id": 602,
           "name": "Data",
+          "namespaceParentId": 601,
           "comment": {
             "description": null,
             "blockTags": [],
@@ -31719,6 +31874,7 @@
         {
           "id": 607,
           "name": "JSON",
+          "namespaceParentId": 601,
           "comment": {
             "description": null,
             "blockTags": [],
@@ -31872,6 +32028,7 @@
     {
       "id": 1174,
       "name": "TypeParser",
+      "namespaceParentId": null,
       "comment": {
         "description": null,
         "blockTags": [],
@@ -31899,6 +32056,7 @@
             ],
             "modifierTags": []
           },
+          "namespaceParentId": 1174,
           "source": {
             "line": 448,
             "file": "TypeParser.ts",
@@ -32254,6 +32412,7 @@
         {
           "id": 1179,
           "name": "generateFromJSON",
+          "namespaceParentId": 1174,
           "comment": {
             "description": null,
             "blockTags": [],
@@ -32327,6 +32486,7 @@
         {
           "id": 1175,
           "name": "generateFromTypeDoc",
+          "namespaceParentId": 1174,
           "comment": {
             "description": null,
             "blockTags": [],
@@ -32409,6 +32569,7 @@
         {
           "id": 1183,
           "name": "wrap",
+          "namespaceParentId": 1174,
           "comment": {
             "description": null,
             "blockTags": [],
@@ -32487,6 +32648,7 @@
         {
           "id": 1209,
           "name": "JSON",
+          "namespaceParentId": 1174,
           "comment": {
             "description": "The base interface for the JSON compatible format of type parsers.",
             "blockTags": [
@@ -32545,6 +32707,7 @@
         {
           "id": 1208,
           "name": "BindingPowers",
+          "namespaceParentId": 1174,
           "comment": {
             "description": "The binding powers of the type parsers.",
             "blockTags": [
@@ -32588,6 +32751,7 @@
     {
       "id": 1226,
       "name": "UnionTypeParser",
+      "namespaceParentId": null,
       "comment": {
         "description": null,
         "blockTags": [],
@@ -32607,6 +32771,7 @@
         {
           "id": 1227,
           "name": "Data",
+          "namespaceParentId": 1226,
           "comment": {
             "description": null,
             "blockTags": [],
@@ -32659,6 +32824,7 @@
         {
           "id": 1229,
           "name": "JSON",
+          "namespaceParentId": 1226,
           "comment": {
             "description": "The base interface for the JSON compatible format of type parsers.",
             "blockTags": [
@@ -32750,6 +32916,7 @@
     {
       "id": 1247,
       "name": "UnknownTypeParser",
+      "namespaceParentId": null,
       "comment": {
         "description": null,
         "blockTags": [],
@@ -32769,6 +32936,7 @@
         {
           "id": 1248,
           "name": "Data",
+          "namespaceParentId": 1247,
           "comment": {
             "description": null,
             "blockTags": [],
@@ -32815,6 +32983,7 @@
         {
           "id": 1250,
           "name": "JSON",
+          "namespaceParentId": 1247,
           "comment": {
             "description": "The base interface for the JSON compatible format of type parsers.",
             "blockTags": [
@@ -32900,6 +33069,7 @@
     {
       "id": 1316,
       "name": "VariableParser",
+      "namespaceParentId": null,
       "comment": {
         "description": null,
         "blockTags": [],
@@ -32919,6 +33089,7 @@
         {
           "id": 1317,
           "name": "Data",
+          "namespaceParentId": 1316,
           "comment": {
             "description": null,
             "blockTags": [],
@@ -33139,6 +33310,7 @@
         {
           "id": 1325,
           "name": "JSON",
+          "namespaceParentId": 1316,
           "comment": {
             "description": null,
             "blockTags": [],
@@ -33366,6 +33538,7 @@
     {
       "id": 1359,
       "name": "SearchResult",
+      "namespaceParentId": null,
       "comment": {
         "description": null,
         "blockTags": [],

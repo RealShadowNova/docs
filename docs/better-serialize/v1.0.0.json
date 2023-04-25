@@ -1,5 +1,5 @@
 {
-  "typeDocJsonParserVersion": "7.2.0",
+  "typeDocJsonParserVersion": "7.3.1",
   "id": 0,
   "name": "better-serialize",
   "version": "1.0.0",
@@ -11,6 +11,7 @@
     {
       "id": 1,
       "name": "parse",
+      "namespaceParentId": null,
       "comment": {
         "description": null,
         "blockTags": [],
@@ -69,6 +70,7 @@
     {
       "id": 35,
       "name": "stringify",
+      "namespaceParentId": null,
       "comment": {
         "description": null,
         "blockTags": [],
@@ -130,6 +132,7 @@
     {
       "id": 4,
       "name": "Serialize",
+      "namespaceParentId": null,
       "comment": {
         "description": "The namespace which contains everything for the transformation of raw Node.js data types.",
         "blockTags": [
@@ -162,6 +165,7 @@
             ],
             "modifierTags": []
           },
+          "namespaceParentId": 4,
           "source": {
             "line": 146,
             "file": "Serialize.ts",
@@ -253,6 +257,7 @@
             ],
             "modifierTags": []
           },
+          "namespaceParentId": 4,
           "source": {
             "line": 160,
             "file": "Serialize.ts",
@@ -472,6 +477,7 @@
         {
           "id": 8,
           "name": "fromJsonCompatible",
+          "namespaceParentId": 4,
           "comment": {
             "description": null,
             "blockTags": [],
@@ -533,6 +539,7 @@
         {
           "id": 5,
           "name": "toJsonCompatible",
+          "namespaceParentId": 4,
           "comment": {
             "description": null,
             "blockTags": [],
@@ -596,6 +603,7 @@
         {
           "id": 29,
           "name": "JsonCompatible",
+          "namespaceParentId": 4,
           "comment": {
             "description": "The JSON-compatible data format.",
             "blockTags": [
@@ -744,6 +752,7 @@
         {
           "id": 32,
           "name": "Regex",
+          "namespaceParentId": 4,
           "comment": {
             "description": "The JSON-compatible RegExp format.",
             "blockTags": [
