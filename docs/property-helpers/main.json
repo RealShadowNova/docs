@@ -1,5 +1,5 @@
 {
-  "typeDocJsonParserVersion": "7.2.0",
+  "typeDocJsonParserVersion": "7.3.1",
   "id": 0,
   "name": "property-helpers",
   "version": "2.0.0",
@@ -15,8 +15,9 @@
         "line": 12,
         "file": "deleteProperty.ts",
         "path": "lib",
-        "url": "https://github.com/RealShadowNova/property-helpers/blob/40bb5f9/src/lib/deleteProperty.ts#L12"
+        "url": "https://github.com/RealShadowNova/property-helpers/blob/4f2592b/src/lib/deleteProperty.ts#L12"
       },
+      "namespaceParentId": null,
       "comment": {
         "description": null,
         "blockTags": [],
@@ -86,7 +87,7 @@
           ],
           "returnType": {
             "kind": "reference",
-            "id": null,
+            "id": -1,
             "name": "T",
             "packageName": null,
             "typeArguments": []
@@ -101,8 +102,9 @@
         "line": 13,
         "file": "getProperty.ts",
         "path": "lib",
-        "url": "https://github.com/RealShadowNova/property-helpers/blob/40bb5f9/src/lib/getProperty.ts#L13"
+        "url": "https://github.com/RealShadowNova/property-helpers/blob/4f2592b/src/lib/getProperty.ts#L13"
       },
+      "namespaceParentId": null,
       "comment": {
         "description": null,
         "blockTags": [],
@@ -193,7 +195,7 @@
             "types": [
               {
                 "kind": "reference",
-                "id": null,
+                "id": -1,
                 "name": "T",
                 "packageName": null,
                 "typeArguments": []
@@ -202,7 +204,7 @@
                 "kind": "query",
                 "query": {
                   "kind": "reference",
-                  "id": null,
+                  "id": 12,
                   "name": "PROPERTY_NOT_FOUND",
                   "packageName": "property-helpers",
                   "typeArguments": []
@@ -220,8 +222,9 @@
         "line": 10,
         "file": "hasProperty.ts",
         "path": "lib",
-        "url": "https://github.com/RealShadowNova/property-helpers/blob/40bb5f9/src/lib/hasProperty.ts#L10"
+        "url": "https://github.com/RealShadowNova/property-helpers/blob/4f2592b/src/lib/hasProperty.ts#L10"
       },
+      "namespaceParentId": null,
       "comment": {
         "description": null,
         "blockTags": [],
@@ -296,8 +299,9 @@
         "line": 11,
         "file": "setProperty.ts",
         "path": "lib",
-        "url": "https://github.com/RealShadowNova/property-helpers/blob/40bb5f9/src/lib/setProperty.ts#L11"
+        "url": "https://github.com/RealShadowNova/property-helpers/blob/4f2592b/src/lib/setProperty.ts#L11"
       },
+      "namespaceParentId": null,
       "comment": {
         "description": null,
         "blockTags": [],
@@ -382,7 +386,7 @@
           ],
           "returnType": {
             "kind": "reference",
-            "id": null,
+            "id": -1,
             "name": "T",
             "packageName": null,
             "typeArguments": []
@@ -402,8 +406,9 @@
         "line": 3,
         "file": "getProperty.ts",
         "path": "lib",
-        "url": "https://github.com/RealShadowNova/property-helpers/blob/40bb5f9/src/lib/getProperty.ts#L3"
+        "url": "https://github.com/RealShadowNova/property-helpers/blob/4f2592b/src/lib/getProperty.ts#L3"
       },
+      "namespaceParentId": null,
       "comment": {
         "description": null,
         "blockTags": [],
@@ -414,7 +419,7 @@
         "kind": "query",
         "query": {
           "kind": "reference",
-          "id": null,
+          "id": 12,
           "name": "PROPERTY_NOT_FOUND",
           "packageName": "property-helpers",
           "typeArguments": []
