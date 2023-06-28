@@ -1,0 +1,431 @@
+{
+  "typeDocJsonParserVersion": "8.2.0",
+  "id": 0,
+  "name": "property-helpers",
+  "version": "2.0.0",
+  "readme": "<div align=\"center\">\n\n# Property Helpers\n\n**Simple helper functions for working with properties**\n\n[![GitHub](https://img.shields.io/github/license/RealShadowNova/property-helpers)](https://github.com/RealShadowNova/property-helpersblob/main/LICENSE.md)\n[![npm](https://img.shields.io/npm/v/property-helpers?color=crimson&logo=npm&style=flat-square)](https://www.npmjs.com/package/property-helpers)\n[![codecov](https://codecov.io/gh/RealShadowNova/property-helpers/branch/main/graph/badge.svg)](https://codecov.io/gh/RealShadowNova/property-helpers)\n\n[![Support Server](https://discord.com/api/guilds/554742955898961930/embed.png?style=banner2)](https://discord.gg/fERY6AenEv)\n\n</div>\n\n---\n\n## Description\n\nProperty Helpers is a collection of helper functions for working with properties in objects and arrays.\n\n## Features\n\n- Written in TypeScript\n- Offers CommonJS and ESM\n- Fully tested\n- Extremely fast\n\n## Installation\n\nYou can use the following command to install this package, or replace `npm install` with your package manager of choice.\n\n```sh\nnpm install property-helpers\n```\n\n## Documentation\n\nWhile currently we do not have a dedicated way to view documentation for this package, you can still use the intellisense from your IDE and read our source code.\n",
+  "changelog": "# Changelog\n\nAll notable changes to this project will be documented in this file.\n\n# [2.0.0](https://github.com/RealShadowNova/property-helpers/compare/v1.1.0...v2.0.0) - (2022-09-17)\n\n## 📝 Documentation\n\n- Add `typedoc-json-parser` (#20) ([c18bd4f](https://github.com/RealShadowNova/property-helpers/commit/c18bd4fe27902630dbf0437343bfa1f35cff3a67))\n\n## 🚀 Features\n\n- **build:** Remove `umd` bundle ([16324f3](https://github.com/RealShadowNova/property-helpers/commit/16324f3b18ec4f3d3261ee3177eefef480bf2d05))\n\n   ### 💥 Breaking Changes:\n   - The `UMD` bundle has been removed\n\n\n## [1.1.0](https://github.com/RealShadowNova/property-helpers/compare/v1.0.1...v1.1.0) (2022-04-12)\n\n### Features\n\n- add fallbackToInput parameter ([e41226c](https://github.com/RealShadowNova/property-helpers/commit/e41226cadfdfa74615238f8da88f2558b911c934))\n\n## [1.0.0](https://github.com/RealShadowNova/property-helpers/tree/v1.0.0) (2022-02-28)\n",
+  "classes": [],
+  "enums": [],
+  "functions": [
+    {
+      "id": 1,
+      "name": "deleteProperty",
+      "source": {
+        "line": 12,
+        "file": "deleteProperty.ts",
+        "path": "lib",
+        "url": "https://github.com/RealShadowNova/property-helpers/blob/3b7b621/src/lib/deleteProperty.ts#L12"
+      },
+      "namespaceParentId": null,
+      "comment": {
+        "description": null,
+        "blockTags": [],
+        "modifierTags": []
+      },
+      "external": false,
+      "signatures": [
+        {
+          "id": 2,
+          "name": "deleteProperty",
+          "comment": {
+            "description": "A helper function to delete a property from an object or array at a path.",
+            "blockTags": [
+              {
+                "name": "since",
+                "text": "1.0.0"
+              },
+              {
+                "name": "returns",
+                "text": "The input object or array."
+              }
+            ],
+            "modifierTags": []
+          },
+          "typeParameters": [
+            {
+              "id": 3,
+              "name": "T",
+              "constraint": null,
+              "default": null
+            }
+          ],
+          "parameters": [
+            {
+              "id": 4,
+              "name": "input",
+              "comment": {
+                "description": "The object or array to delete the property from.",
+                "blockTags": [],
+                "modifierTags": []
+              },
+              "rest": false,
+              "optional": false,
+              "type": {
+                "kind": "intrinsic",
+                "type": "unknown"
+              }
+            },
+            {
+              "id": 5,
+              "name": "path",
+              "comment": {
+                "description": "The path to the property to delete.",
+                "blockTags": [],
+                "modifierTags": []
+              },
+              "rest": false,
+              "optional": false,
+              "type": {
+                "kind": "array",
+                "type": {
+                  "kind": "intrinsic",
+                  "type": "string"
+                }
+              }
+            }
+          ],
+          "returnType": {
+            "kind": "reference",
+            "id": -1,
+            "name": "T",
+            "packageName": null,
+            "typeArguments": []
+          }
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "name": "getProperty",
+      "source": {
+        "line": 13,
+        "file": "getProperty.ts",
+        "path": "lib",
+        "url": "https://github.com/RealShadowNova/property-helpers/blob/3b7b621/src/lib/getProperty.ts#L13"
+      },
+      "namespaceParentId": null,
+      "comment": {
+        "description": null,
+        "blockTags": [],
+        "modifierTags": []
+      },
+      "external": false,
+      "signatures": [
+        {
+          "id": 7,
+          "name": "getProperty",
+          "comment": {
+            "description": "A helper function to get a property from an object or array at a path.",
+            "blockTags": [
+              {
+                "name": "since",
+                "text": "1.0.0"
+              },
+              {
+                "name": "returns",
+                "text": "The property at the path or {@link PROPERTY_NOT_FOUND} if the property does not exist."
+              }
+            ],
+            "modifierTags": []
+          },
+          "typeParameters": [
+            {
+              "id": 8,
+              "name": "T",
+              "constraint": null,
+              "default": {
+                "kind": "intrinsic",
+                "type": "unknown"
+              }
+            }
+          ],
+          "parameters": [
+            {
+              "id": 9,
+              "name": "input",
+              "comment": {
+                "description": "The object or array to get the property from.",
+                "blockTags": [],
+                "modifierTags": []
+              },
+              "rest": false,
+              "optional": false,
+              "type": {
+                "kind": "intrinsic",
+                "type": "unknown"
+              }
+            },
+            {
+              "id": 10,
+              "name": "path",
+              "comment": {
+                "description": "The path to the property to get.",
+                "blockTags": [],
+                "modifierTags": []
+              },
+              "rest": false,
+              "optional": false,
+              "type": {
+                "kind": "array",
+                "type": {
+                  "kind": "intrinsic",
+                  "type": "string"
+                }
+              }
+            },
+            {
+              "id": 11,
+              "name": "fallbackToInput",
+              "comment": {
+                "description": "Whether to return the input if path has a length of 0.",
+                "blockTags": [],
+                "modifierTags": []
+              },
+              "rest": false,
+              "optional": false,
+              "type": {
+                "kind": "intrinsic",
+                "type": "boolean"
+              }
+            }
+          ],
+          "returnType": {
+            "kind": "union",
+            "types": [
+              {
+                "kind": "reference",
+                "id": -1,
+                "name": "T",
+                "packageName": null,
+                "typeArguments": []
+              },
+              {
+                "kind": "query",
+                "query": {
+                  "kind": "reference",
+                  "id": 12,
+                  "name": "PROPERTY_NOT_FOUND",
+                  "packageName": "property-helpers",
+                  "typeArguments": []
+                }
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": 13,
+      "name": "hasProperty",
+      "source": {
+        "line": 10,
+        "file": "hasProperty.ts",
+        "path": "lib",
+        "url": "https://github.com/RealShadowNova/property-helpers/blob/3b7b621/src/lib/hasProperty.ts#L10"
+      },
+      "namespaceParentId": null,
+      "comment": {
+        "description": null,
+        "blockTags": [],
+        "modifierTags": []
+      },
+      "external": false,
+      "signatures": [
+        {
+          "id": 14,
+          "name": "hasProperty",
+          "comment": {
+            "description": "A helper function to check if an object or array has a property at a path.",
+            "blockTags": [
+              {
+                "name": "since",
+                "text": "1.0.0"
+              },
+              {
+                "name": "returns",
+                "text": "Whether the property at the path exists."
+              }
+            ],
+            "modifierTags": []
+          },
+          "typeParameters": [],
+          "parameters": [
+            {
+              "id": 15,
+              "name": "input",
+              "comment": {
+                "description": "The object or array to check the property at the path.",
+                "blockTags": [],
+                "modifierTags": []
+              },
+              "rest": false,
+              "optional": false,
+              "type": {
+                "kind": "intrinsic",
+                "type": "unknown"
+              }
+            },
+            {
+              "id": 16,
+              "name": "path",
+              "comment": {
+                "description": "The path to the property to check.",
+                "blockTags": [],
+                "modifierTags": []
+              },
+              "rest": false,
+              "optional": false,
+              "type": {
+                "kind": "array",
+                "type": {
+                  "kind": "intrinsic",
+                  "type": "string"
+                }
+              }
+            }
+          ],
+          "returnType": {
+            "kind": "intrinsic",
+            "type": "boolean"
+          }
+        }
+      ]
+    },
+    {
+      "id": 17,
+      "name": "setProperty",
+      "source": {
+        "line": 11,
+        "file": "setProperty.ts",
+        "path": "lib",
+        "url": "https://github.com/RealShadowNova/property-helpers/blob/3b7b621/src/lib/setProperty.ts#L11"
+      },
+      "namespaceParentId": null,
+      "comment": {
+        "description": null,
+        "blockTags": [],
+        "modifierTags": []
+      },
+      "external": false,
+      "signatures": [
+        {
+          "id": 18,
+          "name": "setProperty",
+          "comment": {
+            "description": "A helper function to set a property on an object or array at a path.",
+            "blockTags": [
+              {
+                "name": "since",
+                "text": "1.0.0"
+              },
+              {
+                "name": "returns",
+                "text": "The input object or array."
+              }
+            ],
+            "modifierTags": []
+          },
+          "typeParameters": [
+            {
+              "id": 19,
+              "name": "T",
+              "constraint": null,
+              "default": null
+            }
+          ],
+          "parameters": [
+            {
+              "id": 20,
+              "name": "input",
+              "comment": {
+                "description": "The object or array to set the property on.",
+                "blockTags": [],
+                "modifierTags": []
+              },
+              "rest": false,
+              "optional": false,
+              "type": {
+                "kind": "intrinsic",
+                "type": "unknown"
+              }
+            },
+            {
+              "id": 21,
+              "name": "path",
+              "comment": {
+                "description": "The path to the property to set.",
+                "blockTags": [],
+                "modifierTags": []
+              },
+              "rest": false,
+              "optional": false,
+              "type": {
+                "kind": "array",
+                "type": {
+                  "kind": "intrinsic",
+                  "type": "string"
+                }
+              }
+            },
+            {
+              "id": 22,
+              "name": "value",
+              "comment": {
+                "description": "The value to set the property to.",
+                "blockTags": [],
+                "modifierTags": []
+              },
+              "rest": false,
+              "optional": false,
+              "type": {
+                "kind": "intrinsic",
+                "type": "unknown"
+              }
+            }
+          ],
+          "returnType": {
+            "kind": "reference",
+            "id": -1,
+            "name": "T",
+            "packageName": null,
+            "typeArguments": []
+          }
+        }
+      ]
+    }
+  ],
+  "interfaces": [],
+  "namespaces": [],
+  "typeAliases": [],
+  "variables": [
+    {
+      "id": 12,
+      "name": "PROPERTY_NOT_FOUND",
+      "source": {
+        "line": 3,
+        "file": "getProperty.ts",
+        "path": "lib",
+        "url": "https://github.com/RealShadowNova/property-helpers/blob/3b7b621/src/lib/getProperty.ts#L3"
+      },
+      "namespaceParentId": null,
+      "comment": {
+        "description": null,
+        "blockTags": [],
+        "modifierTags": []
+      },
+      "external": false,
+      "type": {
+        "kind": "query",
+        "query": {
+          "kind": "reference",
+          "id": 12,
+          "name": "PROPERTY_NOT_FOUND",
+          "packageName": "property-helpers",
+          "typeArguments": []
+        }
+      },
+      "value": "..."
+    }
+  ]
+}
