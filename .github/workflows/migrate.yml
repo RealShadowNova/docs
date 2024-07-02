@@ -10,17 +10,17 @@ jobs:
     steps:
       - name: Checkout Project
         uses: actions/checkout@692973e3d937129bcbf40652eb9f2f61becf3332 # v4
-      - name: Use Node.js v18
+      - name: Use Node.js v20
         uses: actions/setup-node@60edb5dd545a775178f52524783378180af0d1f8 # v4
         with:
-          node-version: 18
+          node-version: 20
           cache: yarn
           registry-url: https://registry.npmjs.org/
       - name: Install Dependencies
         run: yarn --immutable
       - name: Run Migration
         run: yarn migrate
-      - name: Commit any changes and create a pull request
+      - name: Commit Changes & Create PR
         env:
           GITHUB_USER: github-actions[bot]
           GITHUB_EMAIL: 41898282+github-actions[bot]@users.noreply.github.com
