@@ -16,7 +16,7 @@
         "line": 9,
         "file": "parse.ts",
         "path": ".",
-        "url": "https://github.com/RealShadowNova/better-serialize/blob/58c0ab50513b3154ea257d1b1c213a7b38b911fc/src/lib/parse.ts#L9"
+        "url": "https://github.com/RealShadowNova/better-serialize/blob/313256be6ac13158099a87cc078cd20798a89b32/src/lib/parse.ts#L9"
       },
       "namespaceParentId": null,
       "comment": {
@@ -75,7 +75,7 @@
         "line": 9,
         "file": "stringify.ts",
         "path": ".",
-        "url": "https://github.com/RealShadowNova/better-serialize/blob/58c0ab50513b3154ea257d1b1c213a7b38b911fc/src/lib/stringify.ts#L9"
+        "url": "https://github.com/RealShadowNova/better-serialize/blob/313256be6ac13158099a87cc078cd20798a89b32/src/lib/stringify.ts#L9"
       },
       "namespaceParentId": null,
       "comment": {
@@ -137,7 +137,7 @@
         "line": 7,
         "file": "Serialize.ts",
         "path": ".",
-        "url": "https://github.com/RealShadowNova/better-serialize/blob/58c0ab50513b3154ea257d1b1c213a7b38b911fc/src/lib/Serialize.ts#L7"
+        "url": "https://github.com/RealShadowNova/better-serialize/blob/313256be6ac13158099a87cc078cd20798a89b32/src/lib/Serialize.ts#L7"
       },
       "namespaceParentId": null,
       "comment": {
@@ -160,7 +160,7 @@
             "line": 175,
             "file": "Serialize.ts",
             "path": ".",
-            "url": "https://github.com/RealShadowNova/better-serialize/blob/58c0ab50513b3154ea257d1b1c213a7b38b911fc/src/lib/Serialize.ts#L175"
+            "url": "https://github.com/RealShadowNova/better-serialize/blob/313256be6ac13158099a87cc078cd20798a89b32/src/lib/Serialize.ts#L175"
           },
           "namespaceParentId": 4,
           "comment": {
@@ -182,7 +182,7 @@
                 "line": 182,
                 "file": "Serialize.ts",
                 "path": ".",
-                "url": "https://github.com/RealShadowNova/better-serialize/blob/58c0ab50513b3154ea257d1b1c213a7b38b911fc/src/lib/Serialize.ts#L182"
+                "url": "https://github.com/RealShadowNova/better-serialize/blob/313256be6ac13158099a87cc078cd20798a89b32/src/lib/Serialize.ts#L182"
               },
               "comment": {
                 "description": null,
@@ -199,7 +199,7 @@
                 "line": 180,
                 "file": "Serialize.ts",
                 "path": ".",
-                "url": "https://github.com/RealShadowNova/better-serialize/blob/58c0ab50513b3154ea257d1b1c213a7b38b911fc/src/lib/Serialize.ts#L180"
+                "url": "https://github.com/RealShadowNova/better-serialize/blob/313256be6ac13158099a87cc078cd20798a89b32/src/lib/Serialize.ts#L180"
               },
               "comment": {
                 "description": null,
@@ -216,7 +216,7 @@
                 "line": 176,
                 "file": "Serialize.ts",
                 "path": ".",
-                "url": "https://github.com/RealShadowNova/better-serialize/blob/58c0ab50513b3154ea257d1b1c213a7b38b911fc/src/lib/Serialize.ts#L176"
+                "url": "https://github.com/RealShadowNova/better-serialize/blob/313256be6ac13158099a87cc078cd20798a89b32/src/lib/Serialize.ts#L176"
               },
               "comment": {
                 "description": null,
@@ -233,7 +233,7 @@
                 "line": 178,
                 "file": "Serialize.ts",
                 "path": ".",
-                "url": "https://github.com/RealShadowNova/better-serialize/blob/58c0ab50513b3154ea257d1b1c213a7b38b911fc/src/lib/Serialize.ts#L178"
+                "url": "https://github.com/RealShadowNova/better-serialize/blob/313256be6ac13158099a87cc078cd20798a89b32/src/lib/Serialize.ts#L178"
               },
               "comment": {
                 "description": null,
@@ -252,7 +252,7 @@
             "line": 189,
             "file": "Serialize.ts",
             "path": ".",
-            "url": "https://github.com/RealShadowNova/better-serialize/blob/58c0ab50513b3154ea257d1b1c213a7b38b911fc/src/lib/Serialize.ts#L189"
+            "url": "https://github.com/RealShadowNova/better-serialize/blob/313256be6ac13158099a87cc078cd20798a89b32/src/lib/Serialize.ts#L189"
           },
           "namespaceParentId": 4,
           "comment": {
@@ -274,7 +274,7 @@
                 "line": 190,
                 "file": "Serialize.ts",
                 "path": ".",
-                "url": "https://github.com/RealShadowNova/better-serialize/blob/58c0ab50513b3154ea257d1b1c213a7b38b911fc/src/lib/Serialize.ts#L190"
+                "url": "https://github.com/RealShadowNova/better-serialize/blob/313256be6ac13158099a87cc078cd20798a89b32/src/lib/Serialize.ts#L190"
               },
               "comment": {
                 "description": null,
@@ -291,7 +291,7 @@
                 "line": 192,
                 "file": "Serialize.ts",
                 "path": ".",
-                "url": "https://github.com/RealShadowNova/better-serialize/blob/58c0ab50513b3154ea257d1b1c213a7b38b911fc/src/lib/Serialize.ts#L192"
+                "url": "https://github.com/RealShadowNova/better-serialize/blob/313256be6ac13158099a87cc078cd20798a89b32/src/lib/Serialize.ts#L192"
               },
               "comment": {
                 "description": null,
@@ -308,7 +308,7 @@
                 "line": 194,
                 "file": "Serialize.ts",
                 "path": ".",
-                "url": "https://github.com/RealShadowNova/better-serialize/blob/58c0ab50513b3154ea257d1b1c213a7b38b911fc/src/lib/Serialize.ts#L194"
+                "url": "https://github.com/RealShadowNova/better-serialize/blob/313256be6ac13158099a87cc078cd20798a89b32/src/lib/Serialize.ts#L194"
               },
               "comment": {
                 "description": null,
@@ -325,7 +325,7 @@
                 "line": 196,
                 "file": "Serialize.ts",
                 "path": ".",
-                "url": "https://github.com/RealShadowNova/better-serialize/blob/58c0ab50513b3154ea257d1b1c213a7b38b911fc/src/lib/Serialize.ts#L196"
+                "url": "https://github.com/RealShadowNova/better-serialize/blob/313256be6ac13158099a87cc078cd20798a89b32/src/lib/Serialize.ts#L196"
               },
               "comment": {
                 "description": null,
@@ -342,7 +342,7 @@
                 "line": 198,
                 "file": "Serialize.ts",
                 "path": ".",
-                "url": "https://github.com/RealShadowNova/better-serialize/blob/58c0ab50513b3154ea257d1b1c213a7b38b911fc/src/lib/Serialize.ts#L198"
+                "url": "https://github.com/RealShadowNova/better-serialize/blob/313256be6ac13158099a87cc078cd20798a89b32/src/lib/Serialize.ts#L198"
               },
               "comment": {
                 "description": null,
@@ -359,7 +359,7 @@
                 "line": 200,
                 "file": "Serialize.ts",
                 "path": ".",
-                "url": "https://github.com/RealShadowNova/better-serialize/blob/58c0ab50513b3154ea257d1b1c213a7b38b911fc/src/lib/Serialize.ts#L200"
+                "url": "https://github.com/RealShadowNova/better-serialize/blob/313256be6ac13158099a87cc078cd20798a89b32/src/lib/Serialize.ts#L200"
               },
               "comment": {
                 "description": null,
@@ -376,7 +376,7 @@
                 "line": 202,
                 "file": "Serialize.ts",
                 "path": ".",
-                "url": "https://github.com/RealShadowNova/better-serialize/blob/58c0ab50513b3154ea257d1b1c213a7b38b911fc/src/lib/Serialize.ts#L202"
+                "url": "https://github.com/RealShadowNova/better-serialize/blob/313256be6ac13158099a87cc078cd20798a89b32/src/lib/Serialize.ts#L202"
               },
               "comment": {
                 "description": null,
@@ -393,7 +393,7 @@
                 "line": 204,
                 "file": "Serialize.ts",
                 "path": ".",
-                "url": "https://github.com/RealShadowNova/better-serialize/blob/58c0ab50513b3154ea257d1b1c213a7b38b911fc/src/lib/Serialize.ts#L204"
+                "url": "https://github.com/RealShadowNova/better-serialize/blob/313256be6ac13158099a87cc078cd20798a89b32/src/lib/Serialize.ts#L204"
               },
               "comment": {
                 "description": null,
@@ -410,7 +410,7 @@
                 "line": 206,
                 "file": "Serialize.ts",
                 "path": ".",
-                "url": "https://github.com/RealShadowNova/better-serialize/blob/58c0ab50513b3154ea257d1b1c213a7b38b911fc/src/lib/Serialize.ts#L206"
+                "url": "https://github.com/RealShadowNova/better-serialize/blob/313256be6ac13158099a87cc078cd20798a89b32/src/lib/Serialize.ts#L206"
               },
               "comment": {
                 "description": null,
@@ -427,7 +427,7 @@
                 "line": 208,
                 "file": "Serialize.ts",
                 "path": ".",
-                "url": "https://github.com/RealShadowNova/better-serialize/blob/58c0ab50513b3154ea257d1b1c213a7b38b911fc/src/lib/Serialize.ts#L208"
+                "url": "https://github.com/RealShadowNova/better-serialize/blob/313256be6ac13158099a87cc078cd20798a89b32/src/lib/Serialize.ts#L208"
               },
               "comment": {
                 "description": null,
@@ -444,7 +444,7 @@
                 "line": 210,
                 "file": "Serialize.ts",
                 "path": ".",
-                "url": "https://github.com/RealShadowNova/better-serialize/blob/58c0ab50513b3154ea257d1b1c213a7b38b911fc/src/lib/Serialize.ts#L210"
+                "url": "https://github.com/RealShadowNova/better-serialize/blob/313256be6ac13158099a87cc078cd20798a89b32/src/lib/Serialize.ts#L210"
               },
               "comment": {
                 "description": null,
@@ -461,7 +461,7 @@
                 "line": 212,
                 "file": "Serialize.ts",
                 "path": ".",
-                "url": "https://github.com/RealShadowNova/better-serialize/blob/58c0ab50513b3154ea257d1b1c213a7b38b911fc/src/lib/Serialize.ts#L212"
+                "url": "https://github.com/RealShadowNova/better-serialize/blob/313256be6ac13158099a87cc078cd20798a89b32/src/lib/Serialize.ts#L212"
               },
               "comment": {
                 "description": null,
@@ -482,7 +482,7 @@
             "line": 90,
             "file": "Serialize.ts",
             "path": ".",
-            "url": "https://github.com/RealShadowNova/better-serialize/blob/58c0ab50513b3154ea257d1b1c213a7b38b911fc/src/lib/Serialize.ts#L90"
+            "url": "https://github.com/RealShadowNova/better-serialize/blob/313256be6ac13158099a87cc078cd20798a89b32/src/lib/Serialize.ts#L90"
           },
           "namespaceParentId": 4,
           "comment": {
@@ -545,7 +545,7 @@
             "line": 14,
             "file": "Serialize.ts",
             "path": ".",
-            "url": "https://github.com/RealShadowNova/better-serialize/blob/58c0ab50513b3154ea257d1b1c213a7b38b911fc/src/lib/Serialize.ts#L14"
+            "url": "https://github.com/RealShadowNova/better-serialize/blob/313256be6ac13158099a87cc078cd20798a89b32/src/lib/Serialize.ts#L14"
           },
           "namespaceParentId": 4,
           "comment": {
@@ -610,7 +610,7 @@
             "line": 219,
             "file": "Serialize.ts",
             "path": ".",
-            "url": "https://github.com/RealShadowNova/better-serialize/blob/58c0ab50513b3154ea257d1b1c213a7b38b911fc/src/lib/Serialize.ts#L219"
+            "url": "https://github.com/RealShadowNova/better-serialize/blob/313256be6ac13158099a87cc078cd20798a89b32/src/lib/Serialize.ts#L219"
           },
           "namespaceParentId": 4,
           "comment": {
@@ -633,7 +633,7 @@
                 "line": 220,
                 "file": "Serialize.ts",
                 "path": ".",
-                "url": "https://github.com/RealShadowNova/better-serialize/blob/58c0ab50513b3154ea257d1b1c213a7b38b911fc/src/lib/Serialize.ts#L220"
+                "url": "https://github.com/RealShadowNova/better-serialize/blob/313256be6ac13158099a87cc078cd20798a89b32/src/lib/Serialize.ts#L220"
               },
               "comment": {
                 "description": null,
@@ -659,7 +659,7 @@
                 "line": 222,
                 "file": "Serialize.ts",
                 "path": ".",
-                "url": "https://github.com/RealShadowNova/better-serialize/blob/58c0ab50513b3154ea257d1b1c213a7b38b911fc/src/lib/Serialize.ts#L222"
+                "url": "https://github.com/RealShadowNova/better-serialize/blob/313256be6ac13158099a87cc078cd20798a89b32/src/lib/Serialize.ts#L222"
               },
               "comment": {
                 "description": null,
@@ -769,7 +769,7 @@
             "line": 237,
             "file": "Serialize.ts",
             "path": ".",
-            "url": "https://github.com/RealShadowNova/better-serialize/blob/58c0ab50513b3154ea257d1b1c213a7b38b911fc/src/lib/Serialize.ts#L237"
+            "url": "https://github.com/RealShadowNova/better-serialize/blob/313256be6ac13158099a87cc078cd20798a89b32/src/lib/Serialize.ts#L237"
           },
           "namespaceParentId": 4,
           "comment": {
@@ -792,7 +792,7 @@
                 "line": 240,
                 "file": "Serialize.ts",
                 "path": ".",
-                "url": "https://github.com/RealShadowNova/better-serialize/blob/58c0ab50513b3154ea257d1b1c213a7b38b911fc/src/lib/Serialize.ts#L240"
+                "url": "https://github.com/RealShadowNova/better-serialize/blob/313256be6ac13158099a87cc078cd20798a89b32/src/lib/Serialize.ts#L240"
               },
               "comment": {
                 "description": null,
@@ -814,7 +814,7 @@
                 "line": 238,
                 "file": "Serialize.ts",
                 "path": ".",
-                "url": "https://github.com/RealShadowNova/better-serialize/blob/58c0ab50513b3154ea257d1b1c213a7b38b911fc/src/lib/Serialize.ts#L238"
+                "url": "https://github.com/RealShadowNova/better-serialize/blob/313256be6ac13158099a87cc078cd20798a89b32/src/lib/Serialize.ts#L238"
               },
               "comment": {
                 "description": null,
