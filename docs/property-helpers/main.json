@@ -16,7 +16,7 @@
         "line": 12,
         "file": "deleteProperty.ts",
         "path": ".",
-        "url": "https://github.com/RealShadowNova/property-helpers/blob/26aae7da58ba3cfa6f999f979aa7fc92e706f61e/src/lib/deleteProperty.ts#L12"
+        "url": "https://github.com/RealShadowNova/property-helpers/blob/facdaecd669ee59c2cde5af5f0d533a19521ad5a/src/lib/deleteProperty.ts#L12"
       },
       "namespaceParentId": null,
       "comment": {
@@ -104,7 +104,7 @@
         "line": 13,
         "file": "getProperty.ts",
         "path": ".",
-        "url": "https://github.com/RealShadowNova/property-helpers/blob/26aae7da58ba3cfa6f999f979aa7fc92e706f61e/src/lib/getProperty.ts#L13"
+        "url": "https://github.com/RealShadowNova/property-helpers/blob/facdaecd669ee59c2cde5af5f0d533a19521ad5a/src/lib/getProperty.ts#L13"
       },
       "namespaceParentId": null,
       "comment": {
@@ -226,7 +226,7 @@
         "line": 10,
         "file": "hasProperty.ts",
         "path": ".",
-        "url": "https://github.com/RealShadowNova/property-helpers/blob/26aae7da58ba3cfa6f999f979aa7fc92e706f61e/src/lib/hasProperty.ts#L10"
+        "url": "https://github.com/RealShadowNova/property-helpers/blob/facdaecd669ee59c2cde5af5f0d533a19521ad5a/src/lib/hasProperty.ts#L10"
       },
       "namespaceParentId": null,
       "comment": {
@@ -303,7 +303,7 @@
         "line": 11,
         "file": "setProperty.ts",
         "path": ".",
-        "url": "https://github.com/RealShadowNova/property-helpers/blob/26aae7da58ba3cfa6f999f979aa7fc92e706f61e/src/lib/setProperty.ts#L11"
+        "url": "https://github.com/RealShadowNova/property-helpers/blob/facdaecd669ee59c2cde5af5f0d533a19521ad5a/src/lib/setProperty.ts#L11"
       },
       "namespaceParentId": null,
       "comment": {
@@ -411,7 +411,7 @@
         "line": 3,
         "file": "getProperty.ts",
         "path": ".",
-        "url": "https://github.com/RealShadowNova/property-helpers/blob/26aae7da58ba3cfa6f999f979aa7fc92e706f61e/src/lib/getProperty.ts#L3"
+        "url": "https://github.com/RealShadowNova/property-helpers/blob/facdaecd669ee59c2cde5af5f0d533a19521ad5a/src/lib/getProperty.ts#L3"
       },
       "namespaceParentId": null,
       "comment": {
